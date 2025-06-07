@@ -1,0 +1,68 @@
+name: Generate Markdown Docs
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [closed]
+
+jobs:
+  generate_docs:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true && github.base_ref == 'main') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate Markdown for Courses
+        run: node index.js courses 4000
+
+      - name: Create mdDocs/courses directory
+        run: mkdir -p mdDocs/courses
+
+      - name: Move Course Markdown files
+        run: |
+          if [ -d "dist" ] && [ "$(ls -A dist)" ]; then
+            echo "Moving course files from dist/ to mdDocs/courses/"
+            mv dist/* mdDocs/courses/
+          else
+            echo "dist/ directory is empty or does not exist after course generation. No files to move."
+          fi
+          # Optional: Clean up dist directory if it's confirmed to be temporary for each run
+            rm -rf dist
+
+      - name: Generate Markdown for Kits
+        run: node index.js kits 4000
+
+      - name: Create mdDocs/kits directory
+        run: mkdir -p mdDocs/kits
+
+      - name: Move Kit Markdown files
+        run: |
+          if [ -d "dist" ] && [ "$(ls -A dist)" ]; then
+            echo "Moving kit files from dist/ to mdDocs/kits/"
+            mv dist/* mdDocs/kits/
+          else
+            echo "dist/ directory is empty or does not exist after kit generation. No files to move."
+          fi
+          # Optional: Clean up dist directory if it's confirmed to be temporary for each run
+            rm -rf dist
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: Auto-generate and update markdown files"
+          file_pattern: "mdDocs/**/*.md"
+          commit_user_name: "sahilpanhotra"
+          commit_user_email: "sahilpanhotra@gmail.com"
+          commit_author: "Automated Commit <sahilpanhotra@gmail.com>"
+          branch: main
