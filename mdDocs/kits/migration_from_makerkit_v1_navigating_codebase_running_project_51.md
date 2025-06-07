@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\migration-from-makerkit-v1.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/migration-from-makerkit-v1.mdoc
 
 ---
 status: "published"
@@ -58,7 +58,7 @@ Lastly, you'll need to update the configuration files to match the new schemas. 
 Ready to get started? Let's dive in! 🏊‍♀️
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\navigating-codebase.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/navigating-codebase.mdoc
 
 ---
 status: "published"
@@ -198,7 +198,7 @@ So the user home page would be `/home/user` and the account home page would be `
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\running-project.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/running-project.mdoc
 
 ---
 status: "published"
@@ -335,7 +335,7 @@ When you're ready to deploy the project to production, follow the [checklist](..
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\technical-details.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/technical-details.mdoc
 
 ---
 status: "published"
@@ -413,7 +413,7 @@ The configuration is defined in the `apps/web/config` folder. Here you can find 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\update-nextjs15.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/update-nextjs15.mdoc
 
 ---
 status: "published"
@@ -552,7 +552,7 @@ Please head to our Discord server if you have any questions or need help with th
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\update-tailwindcss-v4.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/update-tailwindcss-v4.mdoc
 
 ---
 status: "published"

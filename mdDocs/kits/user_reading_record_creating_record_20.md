@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\how-to\contextual-data\user.mdoc
+FILE PATH: kits/next-supabase/how-to/contextual-data/user.mdoc
 
 ---
 status: "published"
@@ -111,7 +111,7 @@ This is a React hook and can only be used inside a React component.
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\data-fetching\reading-record.mdoc
+FILE PATH: kits/next-supabase/how-to/data-fetching/reading-record.mdoc
 
 ---
 status: "published"
@@ -257,7 +257,7 @@ function TaskComponent({ id }: { id: number }) {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\data-mutations\creating-record.mdoc
+FILE PATH: kits/next-supabase/how-to/data-mutations/creating-record.mdoc
 
 ---
 status: "published"
@@ -389,7 +389,7 @@ const onSubmit = (task: Task) => {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\database\generate-database-types.mdoc
+FILE PATH: kits/next-supabase/how-to/database/generate-database-types.mdoc
 
 ---
 status: "published"
@@ -409,7 +409,7 @@ Following a change in the schema, you need to do two things:
 That's it! Always remember to update your schema types after changing your database schema.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\database\resetting-local-database.mdoc
+FILE PATH: kits/next-supabase/how-to/database/resetting-local-database.mdoc
 
 ---
 status: "published"
@@ -432,7 +432,7 @@ The database is now in the same state as when you started your Supabase server.
 **Important**: users created during the session will be reset, which means your application may be in a conflicting state. Log out or delete the cookies to restart from scratch.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\database\seed-data.mdoc
+FILE PATH: kits/next-supabase/how-to/database/seed-data.mdoc
 
 ---
 status: "published"
@@ -464,7 +464,7 @@ The next database restarts will use the new data inserted.
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\introduction.mdoc
+FILE PATH: kits/next-supabase/how-to/introduction.mdoc
 
 ---
 status: "published"
@@ -492,7 +492,7 @@ The "How to" documentation of Makerkit Next.js Supabase is a collection of tutor
 This documentation is under development and will be updated regularly. If you have any questions, please contact me.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\payments\configuring-plans.mdoc
+FILE PATH: kits/next-supabase/how-to/payments/configuring-plans.mdoc
 
 ---
 status: "published"
@@ -625,7 +625,7 @@ You can also configure the following properties on each `plan`:
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\payments\stripe-webhooks-locally.mdoc
+FILE PATH: kits/next-supabase/how-to/payments/stripe-webhooks-locally.mdoc
 
 ---
 status: "published"
@@ -667,7 +667,7 @@ You can now test your webhooks locally when testing your Stripe integration with
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\payments\using-lemon-squeezy.mdoc
+FILE PATH: kits/next-supabase/how-to/payments/using-lemon-squeezy.mdoc
 
 ---
 status: "published"
@@ -757,7 +757,7 @@ subscriptions: {
 Please refer to the [complete Lemon Squeezy documentation](/docs/next-supabase/lemon-squeezy) for more details.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\server-actions\server-actions-csrf.mdoc
+FILE PATH: kits/next-supabase/how-to/server-actions/server-actions-csrf.mdoc
 
 ---
 status: "published"
@@ -863,7 +863,7 @@ export const createTaskAction = async (data: FormData) => {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\server-actions\server-actions-error-handling.mdoc
+FILE PATH: kits/next-supabase/how-to/server-actions/server-actions-error-handling.mdoc
 
 ---
 status: "published"
@@ -967,7 +967,7 @@ export default ImperativeServerAction;
 If you click on the button, you'll see the `alert` popup with the error message.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\server-actions\server-actions.mdoc
+FILE PATH: kits/next-supabase/how-to/server-actions/server-actions.mdoc
 
 ---
 status: "published"

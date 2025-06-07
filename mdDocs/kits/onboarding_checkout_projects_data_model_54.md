@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\recipes\onboarding-checkout.mdoc
+FILE PATH: kits/next-supabase-turbo/recipes/onboarding-checkout.mdoc
 
 ---
 status: "published"
@@ -923,7 +923,7 @@ Remember to style your components, handle errors gracefully, and test thoroughly
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\recipes\projects-data-model.mdoc
+FILE PATH: kits/next-supabase-turbo/recipes/projects-data-model.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\sdk\organization-sdk.mdoc
+FILE PATH: kits/next-supabase/sdk/organization-sdk.mdoc
 
 ---
 status: "published"
@@ -126,7 +126,7 @@ The `organization` namespace also includes a `subscription` namespace. This name
 We will show it in the next section.
 
 -----------------
-FILE PATH: kits\next-supabase\sdk\organization-subscription-sdk.mdoc
+FILE PATH: kits/next-supabase/sdk/organization-subscription-sdk.mdoc
 
 ---
 status: "published"
@@ -242,7 +242,7 @@ async function PageServerComponent() {
 
 
 -----------------
-FILE PATH: kits\next-supabase\sdk\sdk.mdoc
+FILE PATH: kits/next-supabase/sdk/sdk.mdoc
 
 ---
 status: "published"
@@ -327,7 +327,7 @@ export function useSdk() {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\sdk\user-sdk.mdoc
+FILE PATH: kits/next-supabase/sdk/user-sdk.mdoc
 
 ---
 status: "published"
@@ -430,7 +430,7 @@ interface UserData {
 It's very likely that you'll be adding more fields, so this interface may change.
 
 -----------------
-FILE PATH: kits\next-supabase\sdk.mdoc
+FILE PATH: kits/next-supabase/sdk.mdoc
 
 ---
 status: "published"
@@ -443,7 +443,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\testing\ci-tests.mdoc
+FILE PATH: kits/next-supabase/testing/ci-tests.mdoc
 
 ---
 status: "published"
@@ -509,7 +509,7 @@ npm run supabase:reset
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\testing\running-tests.mdoc
+FILE PATH: kits/next-supabase/testing/running-tests.mdoc
 
 ---
 status: "published"
@@ -591,7 +591,7 @@ As you may have noticed, this is the command to run in your CI environment.
 
 
 -----------------
-FILE PATH: kits\next-supabase\testing.mdoc
+FILE PATH: kits/next-supabase/testing.mdoc
 
 ---
 status: "published"
@@ -604,7 +604,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\api-routes-validation.mdoc
+FILE PATH: kits/next-supabase/tutorials/api-routes-validation.mdoc
 
 ---
 status: "published"
@@ -673,7 +673,7 @@ function getBodySchema() {
 I encourage you to never skip the validation step when writing your API endpoints.
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\api-routes.mdoc
+FILE PATH: kits/next-supabase/tutorials/api-routes.mdoc
 
 ---
 status: "published"
@@ -798,7 +798,7 @@ async function myFunction(params: {
 It's always important to add context to your logs: as you can see, we use the first parameter to add important information.
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\application-pages.mdoc
+FILE PATH: kits/next-supabase/tutorials/application-pages.mdoc
 
 ---
 status: "published"
@@ -954,7 +954,7 @@ export default withI18n(TaskPage);
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\authentication.mdoc
+FILE PATH: kits/next-supabase/tutorials/authentication.mdoc
 
 ---
 status: "published"
@@ -1059,7 +1059,7 @@ To access the InBucket instance, you can go to the following URL: [http://localh
 
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\database-schema.mdoc
+FILE PATH: kits/next-supabase/tutorials/database-schema.mdoc
 
 ---
 status: "published"

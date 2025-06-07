@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: courses\nextjs-turbo\data-fetching.mdoc
+FILE PATH: courses/nextjs-turbo/data-fetching.mdoc
 
 ---
 title: "Fetching and Mutating data in Makerkit Next.js Supabase Turbo"

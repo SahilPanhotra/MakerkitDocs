@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\payments\stripe-webhooks-locally.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/payments/stripe-webhooks-locally.mdoc
 
 ---
 status: "published"
@@ -41,7 +41,7 @@ You can now test your webhooks locally when testing your Stripe integration with
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\payments\using-lemon-squeezy.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/payments/using-lemon-squeezy.mdoc
 
 ---
 status: "published"
@@ -131,7 +131,7 @@ subscriptions: {
 Please refer to the [complete Lemon Squeezy documentation](/docs/next-supabase/lemon-squeezy) for more details.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\server-actions\server-actions-csrf.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/server-actions/server-actions-csrf.mdoc
 
 ---
 status: "published"
@@ -235,7 +235,7 @@ export const createTaskAction = async (data: FormData) => {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\server-actions\server-actions-error-handling.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/server-actions/server-actions-error-handling.mdoc
 
 ---
 status: "published"
@@ -339,7 +339,7 @@ export default ImperativeServerAction;
 If you click on the button, you'll see the `alert` popup with the error message.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\server-actions\server-actions.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/server-actions/server-actions.mdoc
 
 ---
 status: "published"
@@ -469,7 +469,7 @@ Remember: Makerkit protects by default every POST request with a CSRF token. Thi
 It's your job to send this along when you call a server action.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\setup\branding.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/setup/branding.mdoc
 
 ---
 status: "published"
@@ -514,7 +514,7 @@ site: {
 Please refer to the [Theming](theming) section to learn how to update the design of your application.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\setup\environment-variables-setup.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/setup/environment-variables-setup.mdoc
 
 ---
 status: "published"
@@ -551,7 +551,7 @@ Yes, Next.js automatically loads your environment variables. You can access them
 Next.js only loads environment variables that start with `NEXT_PUBLIC_` if you are trying to access them from your client-side. If you want to access a variable in your client code, you need to prefix it with `NEXT_PUBLIC_`. **Note**: never add secrets to your client-side code, therefore do not prefix them with `NEXT_PUBLIC_` if it's private data.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\setup\project-configuration.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/setup/project-configuration.mdoc
 
 ---
 status: "published"
@@ -717,7 +717,7 @@ Never add secrets to the configuration file, as it is exposed in the client-side
 Please refer to the Next.js official documentation on how to best store your secrets.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\setup\set-up-emails.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/setup/set-up-emails.mdoc
 
 ---
 status: "published"
@@ -769,7 +769,7 @@ InBucket is used by default during development. Instead, for production
 usage, you will need to set up a real SMTP service.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\setup\updating-favicon.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/setup/updating-favicon.mdoc
 
 ---
 status: "published"
@@ -811,7 +811,7 @@ Update the paths to match your new favicons.
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\setup\updating-fonts.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/setup/updating-fonts.mdoc
 
 ---
 status: "published"
@@ -891,7 +891,7 @@ import { Manrope as SansFont } from 'next/font/google';
 You can use two different fonts for the `--font-family-sans` and `--font-family-heading` variables. One is used an the main body font, the other as the heading font.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\setup\updating-logo.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/setup/updating-logo.mdoc
 
 ---
 status: "published"
@@ -928,7 +928,7 @@ The optimal sizes for the logs are:
 [Download the Makerkit Figma file from here](/assets/makerkit.fig) and use the logo from there.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\site\adding-marketing-pages.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/site/adding-marketing-pages.mdoc
 
 ---
 status: "published"

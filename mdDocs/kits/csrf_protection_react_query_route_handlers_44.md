@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\data-fetching\csrf-protection.mdoc
+FILE PATH: kits/next-supabase-turbo/data-fetching/csrf-protection.mdoc
 
 ---
 status: "published"
@@ -56,7 +56,7 @@ function MyComponent() {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\data-fetching\react-query.mdoc
+FILE PATH: kits/next-supabase-turbo/data-fetching/react-query.mdoc
 
 ---
 status: "published"
@@ -182,7 +182,7 @@ function CreateTaskForm() {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\data-fetching\route-handlers.mdoc
+FILE PATH: kits/next-supabase-turbo/data-fetching/route-handlers.mdoc
 
 ---
 status: "published"
@@ -376,7 +376,7 @@ As a secret environment variable, please do not add it to the `.env` file. Inste
 The only captcha provider supported is Cloudflare Turnstile.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\data-fetching\server-actions.mdoc
+FILE PATH: kits/next-supabase-turbo/data-fetching/server-actions.mdoc
 
 ---
 status: "published"
@@ -541,7 +541,7 @@ NB: you must pass the captcha token in the request body when calling the server 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\data-fetching\server-components.mdoc
+FILE PATH: kits/next-supabase-turbo/data-fetching/server-components.mdoc
 
 ---
 status: "published"
@@ -607,7 +607,7 @@ export default async function TasksPage() {
 As you can see, we are fetching data and rendering it in `TasksList`. All on the server.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\data-fetching\supabase-clients.mdoc
+FILE PATH: kits/next-supabase-turbo/data-fetching/supabase-clients.mdoc
 
 ---
 status: "published"
@@ -780,7 +780,7 @@ export default async function TasksPage() {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\data-fetching.mdoc
+FILE PATH: kits/next-supabase-turbo/data-fetching.mdoc
 
 ---
 status: "published"
@@ -819,7 +819,7 @@ In the section below, you'll find detailed information on each of these patterns
 - [Captcha Protection](data-fetching/captcha-protection)
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\dev-tools\environment-variables.mdoc
+FILE PATH: kits/next-supabase-turbo/dev-tools/environment-variables.mdoc
 
 ---
 status: "published"

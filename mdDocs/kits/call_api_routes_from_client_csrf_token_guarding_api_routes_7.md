@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\how-to\api\call-api-routes-from-client.mdoc
+FILE PATH: kits/next-fire/how-to/api/call-api-routes-from-client.mdoc
 
 ---
 status: "published"
@@ -190,7 +190,7 @@ function TaskForm() {
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\api\csrf-token.mdoc
+FILE PATH: kits/next-fire/how-to/api/csrf-token.mdoc
 
 ---
 status: "published"
@@ -255,7 +255,7 @@ export default withPipe(
 ```
 
 -----------------
-FILE PATH: kits\next-fire\how-to\api\guarding-api-routes.mdoc
+FILE PATH: kits/next-fire/how-to/api/guarding-api-routes.mdoc
 
 ---
 status: "published"
@@ -391,7 +391,7 @@ export default withPipe(
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\app\adding-app-pages.mdoc
+FILE PATH: kits/next-fire/how-to/app/adding-app-pages.mdoc
 
 ---
 status: "published"
@@ -450,7 +450,7 @@ Let's break down what's happening here:
 2. **RouteShell**: This component is a wrapper that will add the required layout to the page, including the navigation bar, the sidebar, the footer, etc. It will also initialize Firebase Firestore.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\app\guarding-pages.mdoc
+FILE PATH: kits/next-fire/how-to/app/guarding-pages.mdoc
 
 ---
 status: "published"
@@ -580,7 +580,7 @@ function canAccessPage(subscription: OrganizationSubscription) {
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\app\passing-data-server-to-client.mdoc
+FILE PATH: kits/next-fire/how-to/app/passing-data-server-to-client.mdoc
 
 ---
 status: "published"
@@ -651,7 +651,7 @@ export default Page;
 ```
 
 -----------------
-FILE PATH: kits\next-fire\how-to\app\updating-sidebar-menu.mdoc
+FILE PATH: kits/next-fire/how-to/app/updating-sidebar-menu.mdoc
 
 ---
 status: "published"
@@ -772,7 +772,7 @@ const NAVIGATION_CONFIG = {
 As you can see, we added a new menu entry to the `NAVIGATION_CONFIG.items` array. The change will be automatically reflected in the sidebar of your application.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\authentication\change-auth-strategy.mdoc
+FILE PATH: kits/next-fire/how-to/authentication/change-auth-strategy.mdoc
 
 ---
 status: "published"
@@ -887,7 +887,7 @@ With that said, the UI is not designed to support multiple authentication strate
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\authentication\require-email-verification.mdoc
+FILE PATH: kits/next-fire/how-to/authentication/require-email-verification.mdoc
 
 ---
 status: "published"
@@ -917,7 +917,7 @@ Feel free to add this variable to the chosen environment file (`.env.development
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\contextual-data\organization.mdoc
+FILE PATH: kits/next-fire/how-to/contextual-data/organization.mdoc
 
 ---
 status: "published"
@@ -980,7 +980,7 @@ This is a React hook and can only be used inside a React component.
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\contextual-data\user.mdoc
+FILE PATH: kits/next-fire/how-to/contextual-data/user.mdoc
 
 ---
 status: "published"

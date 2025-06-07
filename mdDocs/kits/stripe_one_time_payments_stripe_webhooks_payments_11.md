@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\payments\stripe-one-time-payments.mdoc
+FILE PATH: kits/next-fire/payments/stripe-one-time-payments.mdoc
 
 ---
 status: "published"
@@ -120,7 +120,7 @@ return stripe.checkout.sessions.create({
 
 
 -----------------
-FILE PATH: kits\next-fire\payments\stripe-webhooks.mdoc
+FILE PATH: kits/next-fire/payments/stripe-webhooks.mdoc
 
 ---
 status: "published"
@@ -292,7 +292,7 @@ export function buildOrganizationSubscription(
 ```
 
 -----------------
-FILE PATH: kits\next-fire\payments.mdoc
+FILE PATH: kits/next-fire/payments.mdoc
 
 ---
 status: "published"
@@ -314,7 +314,7 @@ By default, Makerkit uses Stripe to handle payments. However, you can also switc
 - [Lemon Squeezy](payments/lemon-squeezy): this is the guide to set up Lemon Squeezy instead of Stripe
 
 -----------------
-FILE PATH: kits\next-fire\plugins\ai-chatbot.mdoc
+FILE PATH: kits/next-fire/plugins/ai-chatbot.mdoc
 
 ---
 status: "published"
@@ -690,7 +690,7 @@ sure to provide a fallback URL that will allow your users to contact you in
 case the AI can't answer their question.
 
 -----------------
-FILE PATH: kits\next-fire\plugins\cookie-banner.mdoc
+FILE PATH: kits/next-fire/plugins/cookie-banner.mdoc
 
 ---
 status: "published"
@@ -842,7 +842,7 @@ git subtree pull --prefix plugins/cookie-banner git@github.com:makerkit/next-fir
 ```
 
 -----------------
-FILE PATH: kits\next-fire\plugins\feedback-popup.mdoc
+FILE PATH: kits/next-fire/plugins/feedback-popup.mdoc
 
 ---
 status: "published"
@@ -1060,7 +1060,7 @@ The emulator does not support creating signed URLs for the images. This
 means that we cannot display the uploaded images during development.
 
 -----------------
-FILE PATH: kits\next-fire\plugins.mdoc
+FILE PATH: kits/next-fire/plugins.mdoc
 
 ---
 status: "published"

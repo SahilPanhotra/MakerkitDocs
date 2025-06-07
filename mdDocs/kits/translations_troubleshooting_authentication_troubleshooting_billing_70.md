@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\translations.mdoc
+FILE PATH: kits/react-router-supabase-turbo/translations.mdoc
 
 ---
 status: "published"
@@ -23,7 +23,7 @@ Make your application multilingual:
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\troubleshooting\troubleshooting-authentication.mdoc
+FILE PATH: kits/react-router-supabase-turbo/troubleshooting/troubleshooting-authentication.mdoc
 
 ---
 status: "published"
@@ -53,7 +53,7 @@ Please [read Supabase's documentation](https://supabase.com/docs/guides/auth/soc
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\troubleshooting\troubleshooting-billing.mdoc
+FILE PATH: kits/react-router-supabase-turbo/troubleshooting/troubleshooting-billing.mdoc
 
 ---
 status: "published"
@@ -100,7 +100,7 @@ When opening a support ticket, please make sure to include:
 3. Any error messages you may have received
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\troubleshooting\troubleshooting-deployment.mdoc
+FILE PATH: kits/react-router-supabase-turbo/troubleshooting/troubleshooting-deployment.mdoc
 
 ---
 status: "published"
@@ -121,7 +121,7 @@ The kit is very defensive about incorrect environment variables, and will throw 
 If you are deploying to Vercel, [please follow this guide](going-to-production/vercel).
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\troubleshooting\troubleshooting-emails.mdoc
+FILE PATH: kits/react-router-supabase-turbo/troubleshooting/troubleshooting-emails.mdoc
 
 ---
 status: "published"
@@ -142,7 +142,7 @@ To troubleshoot emails issues in the React Router Supabase kit, please make sure
 If you have done all the above and still having issues, please open a Support Ticket in Discord.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\troubleshooting\troubleshooting-installation.mdoc
+FILE PATH: kits/react-router-supabase-turbo/troubleshooting/troubleshooting-installation.mdoc
 
 ---
 status: "published"
@@ -184,7 +184,7 @@ Please make sure you have installed Docker (or compatible software such as Colim
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\troubleshooting\troubleshooting-module-not-found.mdoc
+FILE PATH: kits/react-router-supabase-turbo/troubleshooting/troubleshooting-module-not-found.mdoc
 
 ---
 status: "published"
@@ -241,7 +241,7 @@ OneDrive can cause file system issues with Node.js projects. If you're using Win
 2. Or disable OneDrive sync for your development folder
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\troubleshooting.mdoc
+FILE PATH: kits/react-router-supabase-turbo/troubleshooting.mdoc
 
 ---
 status: "published"
@@ -268,7 +268,7 @@ Each section provides focused guidance for its specific domain.
 
 
 -----------------
-FILE PATH: kits\remix-fire\architecture\application-structure.mdoc
+FILE PATH: kits/remix-fire/architecture/application-structure.mdoc
 
 ---
 status: "published"
@@ -424,7 +424,7 @@ export default EventsPage;
 🎉 That's it! We have now built a nicely structured "events" domain.
 
 -----------------
-FILE PATH: kits\remix-fire\architecture\architecture.mdoc
+FILE PATH: kits/remix-fire/architecture/architecture.mdoc
 
 ---
 status: "published"
@@ -512,7 +512,7 @@ We use `eslint` to check that imports are flowing correctly through your applica
 
 
 -----------------
-FILE PATH: kits\remix-fire\architecture\data-model.mdoc
+FILE PATH: kits/remix-fire/architecture/data-model.mdoc
 
 ---
 status: "published"
@@ -644,7 +644,7 @@ parent (which saves us from rereading the document)
 
 
 -----------------
-FILE PATH: kits\remix-fire\authentication\app-check.mdoc
+FILE PATH: kits/remix-fire/authentication/app-check.mdoc
 
 ---
 status: "published"
@@ -705,7 +705,7 @@ AppCheck will not work in emulator mode, so you have two options to ensure it's 
 
 
 -----------------
-FILE PATH: kits\remix-fire\authentication\auth-flow.mdoc
+FILE PATH: kits/remix-fire/authentication/auth-flow.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\payments\stripe-configuration.mdoc
+FILE PATH: kits/remix-supabase/payments/stripe-configuration.mdoc
 
 ---
 status: "published"
@@ -244,7 +244,7 @@ The only required fields to get started are `Terms of Service` and
 `Privacy` URLs. You can add any URL at this stage. **However, remember to update these pages when you go live**.
 
 -----------------
-FILE PATH: kits\remix-supabase\payments\stripe-one-time-payments.mdoc
+FILE PATH: kits/remix-supabase/payments/stripe-one-time-payments.mdoc
 
 ---
 status: "published"
@@ -366,7 +366,7 @@ return stripe.checkout.sessions.create({
 
 
 -----------------
-FILE PATH: kits\remix-supabase\payments\stripe-webhooks.mdoc
+FILE PATH: kits/remix-supabase/payments/stripe-webhooks.mdoc
 
 ---
 status: "published"
@@ -551,7 +551,7 @@ function subscriptionMapper(
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\payments.mdoc
+FILE PATH: kits/remix-supabase/payments.mdoc
 
 ---
 status: "published"
@@ -564,7 +564,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\plugins\ai-chatbot.mdoc
+FILE PATH: kits/remix-supabase/plugins/ai-chatbot.mdoc
 
 ---
 status: "published"
@@ -879,7 +879,7 @@ sure to provide a fallback URL that will allow your users to contact you in
 case the AI can't answer their question.
 
 -----------------
-FILE PATH: kits\remix-supabase\plugins\ai-text-editor.mdoc
+FILE PATH: kits/remix-supabase/plugins/ai-text-editor.mdoc
 
 ---
 status: "published"

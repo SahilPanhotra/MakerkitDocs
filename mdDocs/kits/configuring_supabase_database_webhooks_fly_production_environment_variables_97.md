@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase-turbo\going-to-production\configuring-supabase-database-webhooks.mdoc
+FILE PATH: kits/remix-supabase-turbo/going-to-production/configuring-supabase-database-webhooks.mdoc
 
 ---
 status: "published"
@@ -62,7 +62,7 @@ Please make sure to add these webhooks to your Supabase instance.
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\going-to-production\fly.mdoc
+FILE PATH: kits/remix-supabase-turbo/going-to-production/fly.mdoc
 
 ---
 status: "published"
@@ -349,7 +349,7 @@ Please review the list of environment variables in the deployment command above 
 Ensure all necessary secrets and variables are properly set in your GitHub repository settings before running the deployment workflow.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\going-to-production\production-environment-variables.mdoc
+FILE PATH: kits/remix-supabase-turbo/going-to-production/production-environment-variables.mdoc
 
 ---
 status: "published"
@@ -407,7 +407,7 @@ The environment variables are crucial for the project to work correctly. If you 
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\going-to-production\vercel.mdoc
+FILE PATH: kits/remix-supabase-turbo/going-to-production/vercel.mdoc
 
 ---
 status: "published"
@@ -490,7 +490,7 @@ For more info refer to the [Vercel documentation](https://vercel.com/docs/monore
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\going-to-production.mdoc
+FILE PATH: kits/remix-supabase-turbo/going-to-production.mdoc
 
 ---
 status: "published"
@@ -522,7 +522,7 @@ Ready to launch? Here's everything you need to know about deploying your Makerki
 Time to ship your product! 🚀 Follow these guides to ensure a smooth deployment.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\clone-repository.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/clone-repository.mdoc
 
 ---
 status: "published"
@@ -657,7 +657,7 @@ Now, every time you pull updates from the upstream repository, the `pnpm i` comm
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\code-health.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/code-health.mdoc
 
 ---
 status: "published"
@@ -744,7 +744,7 @@ You could also add tests - but it'll slow down your commits. It's better to run 
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\common-commands.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/common-commands.mdoc
 
 ---
 status: "published"
@@ -897,7 +897,7 @@ This will format the project using Prettier.
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\conventions.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/conventions.mdoc
 
 ---
 status: "published"

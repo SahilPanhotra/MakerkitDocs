@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-native-supabase\installation\installation.mdoc
+FILE PATH: kits/react-native-supabase/installation/installation.mdoc
 
 ---
 status: "published"
@@ -11,7 +11,7 @@ collapsed: false
 ---
 
 -----------------
-FILE PATH: kits\react-native-supabase\installation\introduction.mdoc
+FILE PATH: kits/react-native-supabase/installation/introduction.mdoc
 
 ---
 status: "published"
@@ -77,7 +77,7 @@ This React Native Supabase SaaS Kit is designed to accelerate your SaaS developm
 
 
 -----------------
-FILE PATH: kits\react-native-supabase\installation\llms.mdoc
+FILE PATH: kits/react-native-supabase/installation/llms.mdoc
 
 ---
 status: "published"
@@ -196,7 +196,7 @@ When using `useQuery`, make sure to define the data fetching hook. Create two co
 
 
 -----------------
-FILE PATH: kits\react-native-supabase\installation\running-project.mdoc
+FILE PATH: kits/react-native-supabase/installation/running-project.mdoc
 
 ---
 status: "published"
@@ -241,7 +241,7 @@ pnpm run supabase:web:start
 This command initiates the local Supabase web server. This allows us to develop locally without having to deploy to Supabase.
 
 -----------------
-FILE PATH: kits\react-native-supabase\installation\updating-codebase.mdoc
+FILE PATH: kits/react-native-supabase/installation/updating-codebase.mdoc
 
 ---
 status: "published"
@@ -344,7 +344,7 @@ Once everything is working fine, don't forget to commit your changes with git co
 Of course - please make sure to replace COMMIT_MESSAGE and BRANCH_NAME with your actual commit message and branch name. 🚀
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\admin\adding-super-admin.mdoc
+FILE PATH: kits/react-router-supabase-turbo/admin/adding-super-admin.mdoc
 
 ---
 status: "published"
@@ -405,7 +405,7 @@ The Super Admin user will be required to use Multi-Factor Authentication (MFA) t
 Please navigate to the `/home/settings` page and enable MFA for the Super Admin user.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\admin.mdoc
+FILE PATH: kits/react-router-supabase-turbo/admin.mdoc
 
 ---
 status: "published"
@@ -466,7 +466,7 @@ As an admin, you can:
 - Monitor subscription status
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\analytics\analytics-and-events.mdoc
+FILE PATH: kits/react-router-supabase-turbo/analytics/analytics-and-events.mdoc
 
 ---
 status: "published"
@@ -639,7 +639,7 @@ Other use cases may include:
 By using the Analytics and App Events systems in Makerkit, you can easily track (or react to) user behavior and app-wide occurrences in your SaaS application. The centralized approach to event tracking provides a clean and maintainable solution for tracking analytics, while the flexibility of Custom Events allows you to extend the system to track any event that is important to your application.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\analytics\analytics-api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/analytics/analytics-api.mdoc
 
 ---
 status: "published"

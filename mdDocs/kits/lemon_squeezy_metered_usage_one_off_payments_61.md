@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\lemon-squeezy.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/lemon-squeezy.mdoc
 
 ---
 status: "published"
@@ -68,7 +68,7 @@ Please set the following webhook events in Lemon Squeezy:
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\metered-usage.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/metered-usage.mdoc
 
 ---
 status: "published"
@@ -286,7 +286,7 @@ async function reportUsageForApiRequests(
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\one-off-payments.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/one-off-payments.mdoc
 
 ---
 status: "published"
@@ -362,7 +362,7 @@ When this flags in set to `one-time`, Makerkit's plan's page will be looking for
 As mentioned - this is a best-effort implementation. You may need to customize the billing pages to fit your specific use case.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\overview.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/overview.mdoc
 
 ---
 status: "published"
@@ -427,7 +427,7 @@ Perfect - you can, but you need to customize the pages to display the correct da
 Depending on the service you use, you will need to set the environment variables accordingly. By default - the billing package uses Stripe. Alternatively, you can use Lemon Squeezy. In the future, we will also add Paddle.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\paddle.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/paddle.mdoc
 
 ---
 status: "published"
@@ -445,7 +445,7 @@ Stay tuned!
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\per-seat-billing.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/per-seat-billing.mdoc
 
 ---
 status: "published"
@@ -533,7 +533,7 @@ Please remember that the cost is set for UI purposes. **The billing provider wil
 This is done automatically for you. Makerkit will report the number of seats to your billing provider when subscribing, and when adding or removing members.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\stripe.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/stripe.mdoc
 
 ---
 status: "published"
@@ -628,7 +628,7 @@ You can [handle additional events](billing-webhooks) by adding the required hand
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing.mdoc
 
 ---
 status: "published"

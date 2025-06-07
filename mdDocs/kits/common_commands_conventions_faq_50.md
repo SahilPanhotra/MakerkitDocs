@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\common-commands.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/common-commands.mdoc
 
 ---
 status: "published"
@@ -184,7 +184,7 @@ pnpm run format:fix
 These commands will help you manage and maintain your project efficiently.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\conventions.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/conventions.mdoc
 
 ---
 status: "published"
@@ -235,7 +235,7 @@ Files located in `server` folders are intended for server-side code only. They s
 - Include the `server-only` package at the top of the file to ensure it is not accidentally imported in client-side code.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\faq.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/faq.mdoc
 
 ---
 status: "published"
@@ -317,7 +317,7 @@ Please [read the documentation for updating your Makerkit project](updating-code
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\functional-walkthrough.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/functional-walkthrough.mdoc
 
 ---
 status: "published"
@@ -604,7 +604,7 @@ This concludes the functional walkthrough of the Next.js Supabase Turbo Starter 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\introduction.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/introduction.mdoc
 
 ---
 status: "published"
@@ -694,7 +694,7 @@ This Next.js Supabase SaaS Kit is designed to accelerate your SaaS development w
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\llms.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/llms.mdoc
 
 ---
 status: "published"

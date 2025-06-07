@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics\custom-analytics-provider.mdoc
+FILE PATH: kits/next-supabase-turbo/analytics/custom-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -103,7 +103,7 @@ void analytics.trackEvent('Button Clicked', { buttonName: 'Submit' });
 That's it! You've successfully created a custom analytics provider in Makerkit. You can now integrate with any analytics service of your choice.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics\google-analytics-provider.mdoc
+FILE PATH: kits/next-supabase-turbo/analytics/google-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -174,7 +174,7 @@ NEXT_PUBLIC_GA_DISABLE_LOCALHOST_TRACKING=true
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics\posthog-analytics-provider.mdoc
+FILE PATH: kits/next-supabase-turbo/analytics/posthog-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -273,7 +273,7 @@ export const config = {
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics\umami-analytics-provider.mdoc
+FILE PATH: kits/next-supabase-turbo/analytics/umami-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -345,7 +345,7 @@ This is useful for testing your analytics setup locally.
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics.mdoc
+FILE PATH: kits/next-supabase-turbo/analytics.mdoc
 
 ---
 status: "published"
@@ -466,7 +466,7 @@ By leveraging Makerkit's Analytics API in conjunction with the App Events system
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\account-api.mdoc
+FILE PATH: kits/next-supabase-turbo/api/account-api.mdoc
 
 ---
 status: "published"
@@ -575,7 +575,7 @@ const customerId = await api.getCustomerId(accountId);
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\account-workspace-api.mdoc
+FILE PATH: kits/next-supabase-turbo/api/account-workspace-api.mdoc
 
 ---
 status: "published"
@@ -681,7 +681,7 @@ The `useTeamAccountWorkspace` hook returns the same data structure as the `loadT
 NB: the hooks **is not to be used** is Server Components, only in Client Components. Additionally, this is only available in the pages under `/home/[account]` layout.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\authentication-api.mdoc
+FILE PATH: kits/next-supabase-turbo/api/authentication-api.mdoc
 
 ---
 status: "published"
@@ -768,7 +768,7 @@ function MyComponent() {
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\otp-api.mdoc
+FILE PATH: kits/next-supabase-turbo/api/otp-api.mdoc
 
 ---
 status: "published"

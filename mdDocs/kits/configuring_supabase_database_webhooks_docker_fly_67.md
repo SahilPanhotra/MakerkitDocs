@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production\configuring-supabase-database-webhooks.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production/configuring-supabase-database-webhooks.mdoc
 
 ---
 status: "published"
@@ -62,7 +62,7 @@ Please make sure to add these webhooks to your Supabase instance.
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production\docker.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production/docker.mdoc
 
 ---
 status: "published"
@@ -194,7 +194,7 @@ You can now access the application at `http://<your-docker-host>:3000`.
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production\fly.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production/fly.mdoc
 
 ---
 status: "published"
@@ -479,7 +479,7 @@ Please review the list of environment variables in the deployment command above 
 Ensure all necessary secrets and variables are properly set in your GitHub repository settings before running the deployment workflow.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production\production-environment-variables.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production/production-environment-variables.mdoc
 
 ---
 status: "published"
@@ -537,7 +537,7 @@ The environment variables are crucial for the project to work correctly. If you 
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production\vercel.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production/vercel.mdoc
 
 ---
 status: "published"
@@ -637,7 +637,7 @@ For more info refer to the [Vercel documentation](https://vercel.com/docs/monore
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production\vps.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production/vps.mdoc
 
 ---
 status: "published"
@@ -791,7 +791,7 @@ Now that your application is running, you can start to configure the production 
 After doing this, you will have a production-ready application that is fully self-hosted!
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production.mdoc
 
 ---
 status: "published"
@@ -805,7 +805,7 @@ collapsed: true
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\clone-repository.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/clone-repository.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components\bordered-navigation-menu.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components/bordered-navigation-menu.mdoc
 
 ---
 status: "published"
@@ -89,7 +89,7 @@ You can further customize the appearance by passing additional classes through t
 These components provide a sleek, accessible way to create navigation menus in your React Router application, with built-in support for styling active states and internationalization.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components\card-button.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components/card-button.mdoc
 
 ---
 status: "published"
@@ -247,7 +247,7 @@ function MyCardButton() {
 These CardButton components provide a flexible and customizable way to create interactive card-like buttons in your React application, suitable for various use cases such as feature showcases, navigation elements, or clickable information cards.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components\cookie-banner.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components/cookie-banner.mdoc
 
 ---
 status: "published"
@@ -377,7 +377,7 @@ function App() {
 This cookie consent management system provides a user-friendly way to comply with cookie laws and regulations while maintaining a good user experience.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components\data-table.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components/data-table.mdoc
 
 ---
 status: "published"
@@ -450,7 +450,7 @@ The component uses the `Trans` component for internationalization. Ensure you ha
 The DataTable component provides a powerful and flexible solution for displaying tabular data in your React applications, with built-in support for common table features and easy integration with server-side data loading.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components\if.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components/if.mdoc
 
 ---
 status: "published"
@@ -549,7 +549,7 @@ The `If` component is fully typed - this allows for type-safe usage of the rende
 The `If` component provides a clean and efficient way to handle conditional rendering in React applications, improving code readability and maintainability.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components\loading-overlay.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components/loading-overlay.mdoc
 
 ---
 status: "published"
@@ -650,7 +650,7 @@ The LoadingOverlay component provides a simple yet effective way to indicate loa
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components\multi-step-forms.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components/multi-step-forms.mdoc
 
 ---
 status: "published"
@@ -996,7 +996,7 @@ The Multi-Step Form Component simplifies the creation of complex, multi-step for
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components\page.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components/page.mdoc
 
 ---
 status: "published"

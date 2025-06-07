@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\architecture.mdoc
+FILE PATH: kits/next-fire/architecture.mdoc
 
 ---
 status: "published"
@@ -80,7 +80,7 @@ We use `eslint` to check that imports are flowing correctly through your applica
 
 
 -----------------
-FILE PATH: kits\next-fire\authentication\api-guards.mdoc
+FILE PATH: kits/next-fire/authentication/api-guards.mdoc
 
 ---
 status: "published"
@@ -176,7 +176,7 @@ The `withAdmin` API guard will ensure the Firebase Admin is initialized before c
 
 
 -----------------
-FILE PATH: kits\next-fire\authentication\app-check.mdoc
+FILE PATH: kits/next-fire/authentication/app-check.mdoc
 
 ---
 status: "published"
@@ -236,7 +236,7 @@ AppCheck will not work in emulator mode, so you have two options to ensure it's 
 - or simply deploy your applications
 
 -----------------
-FILE PATH: kits\next-fire\authentication\auth-flow.mdoc
+FILE PATH: kits/next-fire/authentication/auth-flow.mdoc
 
 ---
 status: "published"
@@ -292,7 +292,7 @@ Because the Firebase Session cookies expire after 14 days, we need to keep the c
 To do so, when the user signs in, we also store a cookie with the expiration date. When the client SDK detects that the server-side session cookie expired, the user gets automatically signed out.
 
 -----------------
-FILE PATH: kits\next-fire\authentication\auth-hooks.mdoc
+FILE PATH: kits/next-fire/authentication/auth-hooks.mdoc
 
 ---
 status: "published"
@@ -338,7 +338,7 @@ const [sessionRequest, { loading, error }] = useCreateServerSideSession();
 ```
 
 -----------------
-FILE PATH: kits\next-fire\authentication\auth-overview.mdoc
+FILE PATH: kits/next-fire/authentication/auth-overview.mdoc
 
 ---
 status: "published"
@@ -469,7 +469,7 @@ documentation pages
 The above is the default configuration of the Makerkit's codebase, so if you're OK with that, simply keep using the same patterns as the base application.
 
 -----------------
-FILE PATH: kits\next-fire\authentication\auth-ssr.mdoc
+FILE PATH: kits/next-fire/authentication/auth-ssr.mdoc
 
 ---
 status: "published"
@@ -527,7 +527,7 @@ function ProfileAvatar() {
 
 
 -----------------
-FILE PATH: kits\next-fire\authentication\authentication-troubleshooting.mdoc
+FILE PATH: kits/next-fire/authentication/authentication-troubleshooting.mdoc
 
 ---
 status: "published"
@@ -569,7 +569,7 @@ SERVICE_ACCOUNT_PRIVATE_KEY=
 ```
 
 -----------------
-FILE PATH: kits\next-fire\authentication\email-link-authentication.mdoc
+FILE PATH: kits/next-fire/authentication/email-link-authentication.mdoc
 
 ---
 status: "published"
@@ -616,7 +616,7 @@ UI so that the result will look nice.
 
 
 -----------------
-FILE PATH: kits\next-fire\authentication\email-verification.mdoc
+FILE PATH: kits/next-fire/authentication/email-verification.mdoc
 
 ---
 status: "published"
@@ -646,7 +646,7 @@ That's pretty much it!
 NB: invited users are not required to verify their email address, since they are already verified by having received the invitation by email.
 
 -----------------
-FILE PATH: kits\next-fire\authentication\multi-factor-authentication.mdoc
+FILE PATH: kits/next-fire/authentication/multi-factor-authentication.mdoc
 
 ---
 status: "published"
@@ -680,7 +680,7 @@ After enabling MFA, users can set it up from the `Authentication` page at `/sett
 {% video src="/assets/images/posts/enabling-multi-factor-authentication.mp4" /%}
 
 -----------------
-FILE PATH: kits\next-fire\authentication\page-guards.mdoc
+FILE PATH: kits/next-fire/authentication/page-guards.mdoc
 
 ---
 status: "published"
@@ -789,7 +789,7 @@ This page guard will:
 - ensure the translations are loaded onto the page being rendered
 
 -----------------
-FILE PATH: kits\next-fire\authentication\setting-up-firebase-auth.mdoc
+FILE PATH: kits/next-fire/authentication/setting-up-firebase-auth.mdoc
 
 ---
 status: "published"

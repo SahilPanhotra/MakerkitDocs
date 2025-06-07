@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\data-fetching\custom-fetch.mdoc
+FILE PATH: kits/next-fire/data-fetching/custom-fetch.mdoc
 
 ---
 status: "published"
@@ -47,7 +47,7 @@ console.log(csrfToken) // token
 You will need to send a header `x-csrf-token` with the value returned by `getCsrfToken()`.
 
 -----------------
-FILE PATH: kits\next-fire\data-fetching\fetching-data-firestore.mdoc
+FILE PATH: kits/next-fire/data-fetching/fetching-data-firestore.mdoc
 
 ---
 status: "published"
@@ -275,7 +275,7 @@ const collectionRef = collection(
 
 
 -----------------
-FILE PATH: kits\next-fire\data-fetching\making-api-requests.mdoc
+FILE PATH: kits/next-fire/data-fetching/making-api-requests.mdoc
 
 ---
 status: "published"
@@ -338,7 +338,7 @@ function Component() {
 ```
 
 -----------------
-FILE PATH: kits\next-fire\data-fetching\reading-data-storage.mdoc
+FILE PATH: kits/next-fire/data-fetching/reading-data-storage.mdoc
 
 ---
 status: "published"
@@ -430,7 +430,7 @@ function MyImages() {
 
 
 -----------------
-FILE PATH: kits\next-fire\data-fetching\uploading-data-to-storage.mdoc
+FILE PATH: kits/next-fire/data-fetching/uploading-data-to-storage.mdoc
 
 ---
 status: "published"
@@ -534,7 +534,7 @@ match /organizations/{organizationId}/{fileName=**} {
 
 
 -----------------
-FILE PATH: kits\next-fire\data-fetching\writing-data-to-firestore.mdoc
+FILE PATH: kits/next-fire/data-fetching/writing-data-to-firestore.mdoc
 
 ---
 status: "published"
@@ -689,7 +689,7 @@ export default CreateTaskForm;
 
 
 -----------------
-FILE PATH: kits\next-fire\data-fetching.mdoc
+FILE PATH: kits/next-fire/data-fetching.mdoc
 
 ---
 status: "published"
@@ -711,7 +711,7 @@ In this section, you will learn everything you need to know about data fetching 
 - [Writing your own Fetch](data-fetching/writing-data-to-firestore): this is the guide to write your own fetch implementation
 
 -----------------
-FILE PATH: kits\next-fire\development\api-routes.mdoc
+FILE PATH: kits/next-fire/development/api-routes.mdoc
 
 ---
 status: "published"
@@ -925,7 +925,7 @@ export default function apiHandler() {
 
 
 -----------------
-FILE PATH: kits\next-fire\development\building-features.mdoc
+FILE PATH: kits/next-fire/development/building-features.mdoc
 
 ---
 status: "published"
@@ -1091,7 +1091,7 @@ export default function EventsContainer() {
 ```
 
 -----------------
-FILE PATH: kits\next-fire\development\code-style.mdoc
+FILE PATH: kits/next-fire/development/code-style.mdoc
 
 ---
 status: "published"

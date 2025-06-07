@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-fire\tutorials\tailwind-css.mdoc
+FILE PATH: kits/remix-fire/tutorials/tailwind-css.mdoc
 
 ---
 status: "published"
@@ -71,7 +71,7 @@ If you wish to only use one theme, you can tweak the configuration using the fol
 2. The default Tailwind media switcher is not supported since Makerkit uses its own system that allows users to choose the System theme (light or dark) or the theme defined by the application.
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\translations.mdoc
+FILE PATH: kits/remix-fire/tutorials/translations.mdoc
 
 ---
 status: "published"
@@ -115,7 +115,7 @@ DEFAULT_LOCALE=de
 
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\updating-latest-version.mdoc
+FILE PATH: kits/remix-fire/tutorials/updating-latest-version.mdoc
 
 ---
 status: "published"
@@ -143,7 +143,7 @@ If you have questions, please join our [Discord Community](https://discord.gg/Be
 
 
 -----------------
-FILE PATH: kits\remix-fire\utilities\hooks.mdoc
+FILE PATH: kits/remix-fire/utilities/hooks.mdoc
 
 ---
 status: "published"
@@ -234,7 +234,7 @@ function SignIn() {
 
 
 -----------------
-FILE PATH: kits\remix-supabase\admin\adding-admin-users.mdoc
+FILE PATH: kits/remix-supabase/admin/adding-admin-users.mdoc
 
 ---
 status: "published"
@@ -284,7 +284,7 @@ const ENFORCE_MFA = true;
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\admin\admin-overview.mdoc
+FILE PATH: kits/remix-supabase/admin/admin-overview.mdoc
 
 ---
 status: "published"
@@ -346,7 +346,7 @@ The View Members page allows you to view all the members of an organization. You
 {% img src="/assets/images/posts/admin-organization-members-page.webp" width="2868" height="1960" alt="Super Admin Organization Members Page" /%}
 
 -----------------
-FILE PATH: kits\remix-supabase\admin.mdoc
+FILE PATH: kits/remix-supabase/admin.mdoc
 
 ---
 status: "published"
@@ -359,7 +359,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\architecture\application-structure.mdoc
+FILE PATH: kits/remix-supabase/architecture/application-structure.mdoc
 
 ---
 status: "published"
@@ -519,7 +519,7 @@ export default EventsPage;
 🎉 That's it! We have now built a nicely structured "events" domain.
 
 -----------------
-FILE PATH: kits\remix-supabase\architecture\architecture.mdoc
+FILE PATH: kits/remix-supabase/architecture/architecture.mdoc
 
 ---
 status: "published"
@@ -584,7 +584,7 @@ The kit splits the routes into three separate layouts:
 
 
 -----------------
-FILE PATH: kits\remix-supabase\architecture\data-model.mdoc
+FILE PATH: kits/remix-supabase/architecture/data-model.mdoc
 
 ---
 status: "published"
@@ -739,7 +739,7 @@ insert into storage.buckets (id, name, PUBLIC)
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\architecture.mdoc
+FILE PATH: kits/remix-supabase/architecture.mdoc
 
 ---
 status: "published"
@@ -753,7 +753,7 @@ collapsed: true
 
 
 -----------------
-FILE PATH: kits\remix-supabase\authentication\auth-overview.mdoc
+FILE PATH: kits/remix-supabase/authentication/auth-overview.mdoc
 
 ---
 status: "published"
@@ -837,7 +837,7 @@ Supabase spins up an [InBucket](http://localhost:54324/) instance where all the 
 To access the InBucket instance, you can go to the following URL: [http://localhost:54324/](http://localhost:54324/). Save this URL, you will use it very often.
 
 -----------------
-FILE PATH: kits\remix-supabase\authentication\auth-setup.mdoc
+FILE PATH: kits/remix-supabase/authentication/auth-setup.mdoc
 
 ---
 status: "published"

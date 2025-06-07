@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\team-account-api.mdoc
+FILE PATH: kits/next-supabase-turbo/api/team-account-api.mdoc
 
 ---
 status: "published"
@@ -158,7 +158,7 @@ This method is used to get the invitation data from the invite token. It's used 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\user-workspace-api.mdoc
+FILE PATH: kits/next-supabase-turbo/api/user-workspace-api.mdoc
 
 ---
 status: "published"
@@ -260,7 +260,7 @@ NB: the hooks **is not to be used** is Server Components, only in Client Compone
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\api.mdoc
+FILE PATH: kits/next-supabase-turbo/api.mdoc
 
 ---
 status: "published"
@@ -282,7 +282,7 @@ The API services in Next.js Supabase Tubo allow you to interact with the entitie
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\billing-api.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/billing-api.mdoc
 
 ---
 status: "published"
@@ -462,7 +462,7 @@ quantity: z.number().min(1),
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\billing-schema.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/billing-schema.mdoc
 
 ---
 status: "published"

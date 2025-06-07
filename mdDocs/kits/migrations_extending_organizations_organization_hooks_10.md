@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\migrations.mdoc
+FILE PATH: kits/next-fire/migrations.mdoc
 
 ---
 status: "published"
@@ -165,7 +165,7 @@ If you have components using `headlessui`, please keep it in your project. Other
 This guide should help you migrate your project to the new version of the kit. If you have any questions, please get in touch with me.
 
 -----------------
-FILE PATH: kits\next-fire\organizations\extending-organizations.mdoc
+FILE PATH: kits/next-fire/organizations/extending-organizations.mdoc
 
 ---
 status: "published"
@@ -202,7 +202,7 @@ interface Organization {
 ```
 
 -----------------
-FILE PATH: kits\next-fire\organizations\organization-hooks.mdoc
+FILE PATH: kits/next-fire/organizations/organization-hooks.mdoc
 
 ---
 status: "published"
@@ -241,7 +241,7 @@ The kit has many more hooks that are used internally: they are not meant to be u
 All the hooks are available in the `~/lib/organizations/hooks` directory.
 
 -----------------
-FILE PATH: kits\next-fire\organizations\permissions.mdoc
+FILE PATH: kits/next-fire/organizations/permissions.mdoc
 
 ---
 status: "published"
@@ -296,7 +296,7 @@ Otherwise, you can use these functions throughout the application on both the cl
 
 
 -----------------
-FILE PATH: kits\next-fire\organizations\subscription-permissions.mdoc
+FILE PATH: kits/next-fire/organizations/subscription-permissions.mdoc
 
 ---
 status: "published"
@@ -487,7 +487,7 @@ additional permissions.
 
 
 -----------------
-FILE PATH: kits\next-fire\organizations.mdoc
+FILE PATH: kits/next-fire/organizations.mdoc
 
 ---
 status: "published"
@@ -530,7 +530,7 @@ For example, you may want to call them "Teams", or "Workspaces". In this case, w
 To do so, simply rename all "Organization" instances according to your preferred choice.
 
 -----------------
-FILE PATH: kits\next-fire\payments\disable-stripe.mdoc
+FILE PATH: kits/next-fire/payments/disable-stripe.mdoc
 
 ---
 status: "published"
@@ -583,7 +583,7 @@ const links = [
 You can re-add the page later when you are ready to enable payments.
 
 -----------------
-FILE PATH: kits\next-fire\payments\lemon-squeezy.mdoc
+FILE PATH: kits/next-fire/payments/lemon-squeezy.mdoc
 
 ---
 status: "published"
@@ -736,7 +736,7 @@ Additionally, remember to **set up the webhook in production mode as well**, poi
 Finally, **update all the environment variables** to the production values.
 
 -----------------
-FILE PATH: kits\next-fire\payments\stripe-configuration.mdoc
+FILE PATH: kits/next-fire/payments/stripe-configuration.mdoc
 
 ---
 status: "published"

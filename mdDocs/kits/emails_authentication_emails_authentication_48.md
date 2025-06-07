@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\emails.mdoc
+FILE PATH: kits/next-supabase-turbo/emails.mdoc
 
 ---
 status: "published"
@@ -26,7 +26,7 @@ Whether you're setting up transactional emails, authentication notifications, or
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\authentication-emails.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/authentication-emails.mdoc
 
 ---
 title: "Setting the Supabase Auth Email Templates in Production"
@@ -72,7 +72,7 @@ Now your emails from Supabase Auth will look great and match your brand! 🎉
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\authentication.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/authentication.mdoc
 
 ---
 status: "published"
@@ -148,7 +148,7 @@ If something is still not working, please open a support ticket with any useful 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\checklist.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/checklist.mdoc
 
 ---
 status: "published"
@@ -278,7 +278,7 @@ From your Supabase Studio, launch `select kit.cleanup_expired_nonces()` manually
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\cloudflare.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/cloudflare.mdoc
 
 ---
 status: "published"
@@ -429,7 +429,7 @@ pnpm --filter web run cf-typegen
 This command will generate the TypeScript types for the Cloudflare environment.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\docker.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/docker.mdoc
 
 ---
 status: "published"
@@ -559,7 +559,7 @@ You can now access the application at `http://<your-docker-host>:3000`.
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\production-environment-variables.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/production-environment-variables.mdoc
 
 ---
 status: "published"
@@ -627,7 +627,7 @@ The environment variables are crucial for the project to work correctly. If you 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\sherpa.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/sherpa.mdoc
 
 ---
 status: "published"

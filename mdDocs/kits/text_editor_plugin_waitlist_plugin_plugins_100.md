@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase-turbo\plugins\text-editor-plugin.mdoc
+FILE PATH: kits/remix-supabase-turbo/plugins/text-editor-plugin.mdoc
 
 ---
 status: "published"
@@ -95,7 +95,7 @@ You can assign the following props to the `TextEditor` component:
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\plugins\waitlist-plugin.mdoc
+FILE PATH: kits/remix-supabase-turbo/plugins/waitlist-plugin.mdoc
 
 ---
 status: "published"
@@ -364,7 +364,7 @@ Easy peasy! Now you have a waitlist for your app.
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\plugins.mdoc
+FILE PATH: kits/remix-supabase-turbo/plugins.mdoc
 
 ---
 status: "published"
@@ -390,7 +390,7 @@ Extend your application's functionality with our plugin system:
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\translations\adding-translations.mdoc
+FILE PATH: kits/remix-supabase-turbo/translations/adding-translations.mdoc
 
 ---
 status: "published"
@@ -445,7 +445,7 @@ export const defaultI18nNamespaces = [
 In the example above, the `chatbots` namespace is added to the `defaultI18nNamespaces` array. And that's it! You can now start adding translations to your new namespace.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\translations\language-selector.mdoc
+FILE PATH: kits/remix-supabase-turbo/translations/language-selector.mdoc
 
 ---
 status: "published"
@@ -469,7 +469,7 @@ It is already part of the Account settings when more than one language is define
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\translations\using-translations.mdoc
+FILE PATH: kits/remix-supabase-turbo/translations/using-translations.mdoc
 
 ---
 status: "published"
@@ -542,7 +542,7 @@ const MyComponent = () => {
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\translations.mdoc
+FILE PATH: kits/remix-supabase-turbo/translations.mdoc
 
 ---
 status: "published"
@@ -566,7 +566,7 @@ Make your application multilingual:
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\troubleshooting\troubleshooting-authentication.mdoc
+FILE PATH: kits/remix-supabase-turbo/troubleshooting/troubleshooting-authentication.mdoc
 
 ---
 status: "published"
@@ -596,7 +596,7 @@ Please [read Supabase's documentation](https://supabase.com/docs/guides/auth/soc
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\troubleshooting\troubleshooting-billing.mdoc
+FILE PATH: kits/remix-supabase-turbo/troubleshooting/troubleshooting-billing.mdoc
 
 ---
 status: "published"
@@ -643,7 +643,7 @@ When opening a support ticket, please make sure to include:
 3. Any error messages you may have received
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\troubleshooting\troubleshooting-deployment.mdoc
+FILE PATH: kits/remix-supabase-turbo/troubleshooting/troubleshooting-deployment.mdoc
 
 ---
 status: "published"
@@ -664,7 +664,7 @@ The kit is very defensive about incorrect environment variables, and will throw 
 If you are deploying to Vercel, [please follow this guide](going-to-production/vercel).
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\troubleshooting\troubleshooting-emails.mdoc
+FILE PATH: kits/remix-supabase-turbo/troubleshooting/troubleshooting-emails.mdoc
 
 ---
 status: "published"
@@ -685,7 +685,7 @@ To troubleshoot emails issues in the Remix Supabase kit, please make sure to:
 If you have done all the above and still having issues, please open a Support Ticket in Discord.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\troubleshooting\troubleshooting-installation.mdoc
+FILE PATH: kits/remix-supabase-turbo/troubleshooting/troubleshooting-installation.mdoc
 
 ---
 status: "published"
@@ -727,7 +727,7 @@ Please make sure you have installed Docker (or compatible software such as Colim
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\troubleshooting\troubleshooting-module-not-found.mdoc
+FILE PATH: kits/remix-supabase-turbo/troubleshooting/troubleshooting-module-not-found.mdoc
 
 ---
 status: "published"
@@ -784,7 +784,7 @@ OneDrive can cause file system issues with Node.js projects. If you're using Win
 2. Or disable OneDrive sync for your development folder
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\troubleshooting.mdoc
+FILE PATH: kits/remix-supabase-turbo/troubleshooting.mdoc
 
 ---
 status: "published"
@@ -811,7 +811,7 @@ Each section provides focused guidance for its specific domain.
 
 
 -----------------
-FILE PATH: kits\supamode\configuration\mock-data.mdoc
+FILE PATH: kits/supamode/configuration/mock-data.mdoc
 
 ---
 status: "published"
@@ -926,7 +926,7 @@ import { createSeedClient } from '@snaplet/seed';
 ```
 
 -----------------
-FILE PATH: kits\supamode\configuration\permissions.mdoc
+FILE PATH: kits/supamode/configuration/permissions.mdoc
 
 ---
 status: "published"

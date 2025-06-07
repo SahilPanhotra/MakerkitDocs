@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-lite\architecture.mdoc
+FILE PATH: kits/next-supabase-lite/architecture.mdoc
 
 ---
 status: "published"
@@ -13,7 +13,7 @@ collapsed: true
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\authentication\auth-overview.mdoc
+FILE PATH: kits/next-supabase-lite/authentication/auth-overview.mdoc
 
 ---
 status: "published"
@@ -100,7 +100,7 @@ Supabase spins up an [InBucket](http://localhost:54324/) instance where all the 
 To access the InBucket instance, you can go to the following URL: [http://localhost:54324/](http://localhost:54324/). Save this URL, you will use it very often.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\authentication\auth-setup.mdoc
+FILE PATH: kits/next-supabase-lite/authentication/auth-setup.mdoc
 
 ---
 status: "published"
@@ -154,7 +154,7 @@ This is optional, but recommended if you want to send emails from your own domai
 5. Tweak the `SMTP Settings` settings to your liking according to your provider's documentation.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\authentication.mdoc
+FILE PATH: kits/next-supabase-lite/authentication.mdoc
 
 ---
 status: "published"
@@ -167,7 +167,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\blog-and-docs\blog.mdoc
+FILE PATH: kits/next-supabase-lite/blog-and-docs/blog.mdoc
 
 ---
 status: "published"
@@ -220,7 +220,7 @@ Additionally, we included multiple components that you can use to add content to
 - `TweetEmbed`: Embed a tweet within your blog post
 
 -----------------
-FILE PATH: kits\next-supabase-lite\blog-and-docs\documentation.mdoc
+FILE PATH: kits/next-supabase-lite/blog-and-docs/documentation.mdoc
 
 ---
 status: "published"
@@ -315,7 +315,7 @@ Just like the blog post, you can use the following components to render the cont
 The navigation for the documentation is automatically generated based on the folder structure of the `content` folder. Furthermore, page links appear at the bottom of the page, so you can easily navigate to the previous or
 
 -----------------
-FILE PATH: kits\next-supabase-lite\blog-and-docs.mdoc
+FILE PATH: kits/next-supabase-lite/blog-and-docs.mdoc
 
 ---
 status: "published"
@@ -328,7 +328,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\configuration\configuration.mdoc
+FILE PATH: kits/next-supabase-lite/configuration/configuration.mdoc
 
 ---
 status: "published"
@@ -440,7 +440,7 @@ This file will not be committed (at least not the "secret" variable). So instead
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\configuration\environment-variables.mdoc
+FILE PATH: kits/next-supabase-lite/configuration/environment-variables.mdoc
 
 ---
 status: "published"
@@ -603,7 +603,7 @@ The SMTP password of your email provider. This is used by the email client to co
 The sender of your emails. This is used by the email client to send emails to your users. It is a public variable. Use the format `Sender Name <email@app.com>`.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\configuration.mdoc
+FILE PATH: kits/next-supabase-lite/configuration.mdoc
 
 ---
 status: "published"
@@ -617,7 +617,7 @@ collapsed: true
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\data-fetching\api-routes.mdoc
+FILE PATH: kits/next-supabase-lite/data-fetching/api-routes.mdoc
 
 ---
 status: "published"
@@ -743,7 +743,7 @@ function MyComponent() {
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\data-fetching\fetching-data-supabase.mdoc
+FILE PATH: kits/next-supabase-lite/data-fetching/fetching-data-supabase.mdoc
 
 ---
 status: "published"

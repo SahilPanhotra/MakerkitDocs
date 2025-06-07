@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\page.mdoc
+FILE PATH: kits/next-supabase-turbo/components/page.mdoc
 
 ---
 status: "published"
@@ -139,7 +139,7 @@ The Page component and its sub-components use Tailwind CSS classes for styling. 
 The Page component and its related components provide a flexible system for creating structured, responsive layouts in your React application, promoting consistency and ease of maintenance across your project.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\shadcn.mdoc
+FILE PATH: kits/next-supabase-turbo/components/shadcn.mdoc
 
 ---
 status: "published"

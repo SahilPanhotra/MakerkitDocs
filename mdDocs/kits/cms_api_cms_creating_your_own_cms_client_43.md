@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\content\cms-api.mdoc
+FILE PATH: kits/next-supabase-turbo/content/cms-api.mdoc
 
 ---
 status: "published"
@@ -130,7 +130,7 @@ async function TermsAndConditionsPage() {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\content\cms.mdoc
+FILE PATH: kits/next-supabase-turbo/content/cms.mdoc
 
 ---
 status: "published"
@@ -155,7 +155,7 @@ Local mode is the easiest way to get started since you need no setup. However, a
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\content\creating-your-own-cms-client.mdoc
+FILE PATH: kits/next-supabase-turbo/content/creating-your-own-cms-client.mdoc
 
 ---
 status: "published"
@@ -306,7 +306,7 @@ Of course, you can do the same using SDKs of your preferred CMS client, such as 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\content\keystatic.mdoc
+FILE PATH: kits/next-supabase-turbo/content/keystatic.mdoc
 
 ---
 status: "published"
@@ -396,7 +396,7 @@ Your app will now have a new route at `/keystatic` where you can manage your con
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\content\wordpress.mdoc
+FILE PATH: kits/next-supabase-turbo/content/wordpress.mdoc
 
 ---
 status: "published"
@@ -471,7 +471,7 @@ Please refer to `wp-content/themes/twentytwentyfour/functions.php` for an exampl
 To make the language filtering work, please add a tag with the language name to the post. For example, if you have a post in English, add the tag `en` to it, and if you have a post in German, add the tag `de` to it.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\content.mdoc
+FILE PATH: kits/next-supabase-turbo/content.mdoc
 
 ---
 status: "published"
@@ -487,7 +487,7 @@ Content in Next.js Supabase Turbo
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\customization\adding-shadcn-ui-components.mdoc
+FILE PATH: kits/next-supabase-turbo/customization/adding-shadcn-ui-components.mdoc
 
 ---
 status: "published"
@@ -530,7 +530,7 @@ import { Avatar } from '@kit/ui/avatar';
 **NB**: this is an example, you need to adjust the component name based on the component you are exporting.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\customization\fonts.mdoc
+FILE PATH: kits/next-supabase-turbo/customization/fonts.mdoc
 
 ---
 status: "published"
@@ -589,7 +589,7 @@ To set another font instead of Apple's system font, update the Tailwind variable
 Open `apps/web/styles/shadcn-ui.css.css` and replace `-apple-system` with the font you want to use.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\customization\layout-style.mdoc
+FILE PATH: kits/next-supabase-turbo/customization/layout-style.mdoc
 
 ---
 status: "published"
@@ -645,7 +645,7 @@ And here is `header` layout:
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\customization\logo.mdoc
+FILE PATH: kits/next-supabase-turbo/customization/logo.mdoc
 
 ---
 status: "published"
@@ -664,7 +664,7 @@ The logo image will be used across the application, including the auth page, the
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\customization\tailwind-css.mdoc
+FILE PATH: kits/next-supabase-turbo/customization/tailwind-css.mdoc
 
 ---
 status: "published"
@@ -744,7 +744,7 @@ For targeting both TSX and JSX files, update the `content` glob paths `{tsx|jsx}
 You will need to do the same in `apps/web/tailwind.config.ts`.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\customization\theme.mdoc
+FILE PATH: kits/next-supabase-turbo/customization/theme.mdoc
 
 ---
 status: "published"
@@ -777,7 +777,7 @@ To convert it to the `hsl` function, you need to convert the values to HSL and t
 You can use any AI tool for quickly converting the Shadcn UI CSS theme to the `hsl` function.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\customization.mdoc
+FILE PATH: kits/next-supabase-turbo/customization.mdoc
 
 ---
 status: "published"
@@ -838,7 +838,7 @@ Remember - you don't need to customize everything at once! Start with the essent
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\data-fetching\captcha-protection.mdoc
+FILE PATH: kits/next-supabase-turbo/data-fetching/captcha-protection.mdoc
 
 ---
 status: "published"

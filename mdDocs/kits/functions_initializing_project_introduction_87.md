@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\functions.mdoc
+FILE PATH: kits/remix-supabase/tutorials/functions.mdoc
 
 ---
 status: "published"
@@ -259,7 +259,7 @@ export async function GET() {
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\initializing-project.mdoc
+FILE PATH: kits/remix-supabase/tutorials/initializing-project.mdoc
 
 ---
 status: "published"
@@ -355,7 +355,7 @@ As updates are released almost daily, remember to pull updates often!
 Perfect! Now you can fire up your IDE and open the `tasks-app` project we just created.
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\introduction.mdoc
+FILE PATH: kits/remix-supabase/tutorials/introduction.mdoc
 
 ---
 status: "published"
@@ -399,7 +399,7 @@ advantageous but not strictly required. The codebase can also serve as a way to 
 If you have all the above installed, let's get started!
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\marketing-site-pages.mdoc
+FILE PATH: kits/remix-supabase/tutorials/marketing-site-pages.mdoc
 
 ---
 status: "published"
@@ -513,7 +513,7 @@ And then we update the menu:
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\onboarding-flow.mdoc
+FILE PATH: kits/remix-supabase/tutorials/onboarding-flow.mdoc
 
 ---
 status: "published"
@@ -562,7 +562,7 @@ Yes, you can follow this guide for [removing the onboarding flow and organizatio
 
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\project-configuration.mdoc
+FILE PATH: kits/remix-supabase/tutorials/project-configuration.mdoc
 
 ---
 status: "published"
@@ -741,7 +741,7 @@ export default configuration;
 Feel free to extend this configuration to your needs. For example, you could new properties to the `site` object to store your social media handles, or add new properties to the `paths` object to store the paths to your pages.
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\project-structure.mdoc
+FILE PATH: kits/remix-supabase/tutorials/project-structure.mdoc
 
 ---
 status: "published"
@@ -786,7 +786,7 @@ routes.
 Don't worry if this isn't clear yet! We'll explain where we place our files in the sections ahead.
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\routing.mdoc
+FILE PATH: kits/remix-supabase/tutorials/routing.mdoc
 
 ---
 status: "published"
@@ -952,7 +952,7 @@ You may need to restart your development server to see the changes, and/or refre
 {% /alert %}
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\running-project.mdoc
+FILE PATH: kits/remix-supabase/tutorials/running-project.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\how-to\troubleshooting\supabase-not-stopping.mdoc
+FILE PATH: kits/next-supabase/how-to/troubleshooting/supabase-not-stopping.mdoc
 
 ---
 status: "published"
@@ -28,7 +28,7 @@ docker kill $(docker ps -q)
 NB: this command will shut down **all running Docker containers**.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\troubleshooting\tables-not-found.mdoc
+FILE PATH: kits/next-supabase/how-to/troubleshooting/tables-not-found.mdoc
 
 ---
 status: "published"
@@ -87,7 +87,7 @@ Finished supabase db push.
 To verify that our database was pushed successfully, navigate to your project's dashboard and verify the tables were created.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\ui\dark-theme.mdoc
+FILE PATH: kits/next-supabase/how-to/ui/dark-theme.mdoc
 
 ---
 status: "published"
@@ -144,7 +144,7 @@ In the above, we flipped the `features.enableThemeSwitcher` flag to `false` and
 set the `theme` to `Themes.Light`.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\ui\theming.mdoc
+FILE PATH: kits/next-supabase/how-to/ui/theming.mdoc
 
 ---
 status: "published"
@@ -222,7 +222,7 @@ dark: {
 While ShadCN UI uses `lucide` as their icons library, Makerkit has historically used `heroicons`. We have configured ShadCN UI to use `heroicons` instead of `lucide` in all Makerkit projects, but for new components, you will need to use `lucide` instead if you don't want to make changes. As such, please install `lucide` as a dependency in your project.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to.mdoc
+FILE PATH: kits/next-supabase/how-to.mdoc
 
 ---
 status: "published"
@@ -235,7 +235,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\migrations\version-0.2.0.mdoc
+FILE PATH: kits/next-supabase/migrations/version-0.2.0.mdoc
 
 ---
 status: "published"
@@ -423,7 +423,7 @@ To fix this, I was able to search and replace all the occurrences of `(app)` wit
 
 
 -----------------
-FILE PATH: kits\next-supabase\migrations\version-0.3.0.mdoc
+FILE PATH: kits/next-supabase/migrations/version-0.3.0.mdoc
 
 ---
 status: "published"
@@ -589,7 +589,7 @@ If you have components using `headlessui`, please keep it in your project. Other
 This guide should help you migrate your project to the new version of the kit. If you have any questions, please get in touch with me.
 
 -----------------
-FILE PATH: kits\next-supabase\migrations.mdoc
+FILE PATH: kits/next-supabase/migrations.mdoc
 
 ---
 status: "published"
@@ -602,7 +602,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\organizations\organization-hooks.mdoc
+FILE PATH: kits/next-supabase/organizations/organization-hooks.mdoc
 
 ---
 status: "published"
@@ -641,7 +641,7 @@ The kit has many more hooks that are used internally: they are not meant to be u
 All the hooks are available in the `~/lib/organizations/hooks` directory.
 
 -----------------
-FILE PATH: kits\next-supabase\organizations\organizations-overview.mdoc
+FILE PATH: kits/next-supabase/organizations/organizations-overview.mdoc
 
 ---
 status: "published"
@@ -678,7 +678,7 @@ For example, you may want to call them "Teams", or "Workspaces". In this case, w
 To do so, simply rename all "Organization" instances according to your preferred choice.
 
 -----------------
-FILE PATH: kits\next-supabase\organizations\permissions.mdoc
+FILE PATH: kits/next-supabase/organizations/permissions.mdoc
 
 ---
 status: "published"
@@ -732,7 +732,7 @@ Otherwise, you can use these functions throughout the application on both the cl
 
 
 -----------------
-FILE PATH: kits\next-supabase\organizations\row-level-security.mdoc
+FILE PATH: kits/next-supabase/organizations/row-level-security.mdoc
 
 ---
 status: "published"

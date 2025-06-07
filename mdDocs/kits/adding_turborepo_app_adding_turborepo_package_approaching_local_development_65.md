@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\adding-turborepo-app.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/adding-turborepo-app.mdoc
 
 ---
 status: "published"
@@ -75,7 +75,7 @@ git subtree pull --prefix=apps/pdf-chat origin web-branch --squash
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\adding-turborepo-package.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/adding-turborepo-package.mdoc
 
 ---
 status: "published"
@@ -172,7 +172,7 @@ Et voilà! You have successfully added a new package to your Makerkit applicatio
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\approaching-local-development.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/approaching-local-development.mdoc
 
 ---
 status: "published"
@@ -197,7 +197,7 @@ Generally speaking, you will be doing the following:
 In 90% of cases, the above is what you will be doing. The remaining 10% is adding new (very specific) features, which is a bit more complex - and not relevant to Makerkit itself.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\database-functions.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/database-functions.mdoc
 
 ---
 status: "published"
@@ -305,7 +305,7 @@ This means that the subscription status is either `active` or `trialing`. In oth
 This is important because just checking if the subscription exists is not enough. You need to check if the subscription is active, as the status can vary (eg. `canceled`, `incomplete`, `incomplete_expired`, `past_due`, `unpaid`)
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\database-schema.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/database-schema.mdoc
 
 ---
 status: "published"
@@ -491,7 +491,7 @@ You can now use the new types in your application when using the Supabase client
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\database-webhooks.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/database-webhooks.mdoc
 
 ---
 status: "published"
@@ -570,7 +570,7 @@ type AccountChange = RecordChange<'accounts'>;
 Now, the `AccountChange` type can be used to type the `change` object in the `handleEvent` function and is typed to the `accounts` table.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\legal-pages.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/legal-pages.mdoc
 
 ---
 status: "published"
@@ -593,7 +593,7 @@ For obvious reasons, **these pages are empty and you need to fill in the content
 Do yourself a favor and do not use ChatGPT to generate these pages.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\marketing-pages.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/marketing-pages.mdoc
 
 ---
 status: "published"
@@ -660,7 +660,7 @@ CONTACT_EMAIL=
 In this variable, you need to set the email address where you want to receive the contact form submissions. The sender will be the same as the one configured in your [mailing configuration](../emails/email-configuration).
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\migrations.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/migrations.mdoc
 
 ---
 status: "published"
@@ -730,7 +730,7 @@ Whenever you want to apply changes to the database schema, you can use the same 
 4. Push the migration to the remote Supabase instance
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\seo.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/seo.mdoc
 
 ---
 status: "published"

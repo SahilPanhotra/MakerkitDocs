@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\how-to\setup\branding.mdoc
+FILE PATH: kits/next-supabase/how-to/setup/branding.mdoc
 
 ---
 status: "published"
@@ -44,7 +44,7 @@ site: {
 Please refer to the [Theming](theming) section to learn how to update the design of your application.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\setup\environment-variables-setup.mdoc
+FILE PATH: kits/next-supabase/how-to/setup/environment-variables-setup.mdoc
 
 ---
 status: "published"
@@ -81,7 +81,7 @@ Yes, Next.js automatically loads your environment variables. You can access them
 Next.js only loads environment variables that start with `NEXT_PUBLIC_` if you are trying to access them from your client-side. If you want to access a variable in your client code, you need to prefix it with `NEXT_PUBLIC_`. **Note**: never add secrets to your client-side code, therefore do not prefix them with `NEXT_PUBLIC_` if it's private data.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\setup\project-configuration.mdoc
+FILE PATH: kits/next-supabase/how-to/setup/project-configuration.mdoc
 
 ---
 status: "published"
@@ -245,7 +245,7 @@ Never add secrets to the configuration file, as it is exposed in the client-side
 Please refer to the Next.js official documentation on how to best store your secrets.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\setup\set-up-emails.mdoc
+FILE PATH: kits/next-supabase/how-to/setup/set-up-emails.mdoc
 
 ---
 status: "published"
@@ -286,7 +286,7 @@ Makerkit uses InBucket to allow you testing your emails without using a real
 SMTP service. You can access InBucket at [localhost:54324](http://localhost:54324)
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\setup\updating-favicon.mdoc
+FILE PATH: kits/next-supabase/how-to/setup/updating-favicon.mdoc
 
 ---
 status: "published"
@@ -328,7 +328,7 @@ Update the paths to match your new favicons.
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\setup\updating-fonts.mdoc
+FILE PATH: kits/next-supabase/how-to/setup/updating-fonts.mdoc
 
 ---
 status: "published"
@@ -408,7 +408,7 @@ import { Manrope as SansFont } from 'next/font/google';
 You can use two different fonts for the `--font-family-sans` and `--font-family-heading` variables. One is used an the main body font, the other as the heading font.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\setup\updating-logo.mdoc
+FILE PATH: kits/next-supabase/how-to/setup/updating-logo.mdoc
 
 ---
 status: "published"
@@ -445,7 +445,7 @@ The optimal sizes for the logs are:
 [Download the Makerkit Figma file from here](/assets/makerkit.fig) and use the logo from there.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\site\adding-marketing-pages.mdoc
+FILE PATH: kits/next-supabase/how-to/site/adding-marketing-pages.mdoc
 
 ---
 status: "published"
@@ -503,7 +503,7 @@ export default withI18n(AboutPage);
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\site\updating-navigation-menu.mdoc
+FILE PATH: kits/next-supabase/how-to/site/updating-navigation-menu.mdoc
 
 ---
 status: "published"
@@ -573,7 +573,7 @@ Then, add a new `NavigationMenuItem` component to the `NavigationMenu` component
 Et voilà! Your new menu entry is now available in the navigation menu.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\translations\adding-locales.mdoc
+FILE PATH: kits/next-supabase/how-to/translations/adding-locales.mdoc
 
 ---
 status: "published"
@@ -596,7 +596,7 @@ For example, to add a new language called `fr` (French), you would create a new 
 That's it! Now you can use the `hello` key in your application and it will be translated to `Bonjour` when the locale is set to `fr`.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\translations\adding-translation-file.mdoc
+FILE PATH: kits/next-supabase/how-to/translations/adding-translation-file.mdoc
 
 ---
 status: "published"
@@ -637,7 +637,7 @@ export const defaultI18nNamespaces = [
 Now, refresh the dev server and your new bundled will be picked up by the i18n module.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\translations\adding-translation.mdoc
+FILE PATH: kits/next-supabase/how-to/translations/adding-translation.mdoc
 
 ---
 status: "published"
@@ -691,7 +691,7 @@ const newTranslationString = t('common:new_translation_string');
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\translations\default-language.mdoc
+FILE PATH: kits/next-supabase/how-to/translations/default-language.mdoc
 
 ---
 status: "published"
@@ -714,7 +714,7 @@ DEFAULT_LOCALE=es
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\translations\detect-current-locale.mdoc
+FILE PATH: kits/next-supabase/how-to/translations/detect-current-locale.mdoc
 
 ---
 status: "published"
@@ -761,7 +761,7 @@ function getCurrentLocale() {
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\translations\language-switcher.mdoc
+FILE PATH: kits/next-supabase/how-to/translations/language-switcher.mdoc
 
 ---
 status: "published"
@@ -791,7 +791,7 @@ export const YourComponent = ({ children }) => {
 The language switcher will automatically display the current language and a list of available languages. When a user clicks on a language, the language will be updated in the user's profile and the page will be reloaded.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\troubleshooting\403-error-actions.mdoc
+FILE PATH: kits/next-supabase/how-to/troubleshooting/403-error-actions.mdoc
 
 ---
 status: "published"
@@ -815,7 +815,7 @@ To fix this error, check out these pages:
 If the CSRF Token is being sent but it's null/undefined, it's likely a bug. In that case, please open a support ticket in our Discord channel.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\troubleshooting\contentlayer-stuck.mdoc
+FILE PATH: kits/next-supabase/how-to/troubleshooting/contentlayer-stuck.mdoc
 
 ---
 status: "published"
@@ -836,7 +836,7 @@ npm i contentlayer@0.3.1 next-contentlayer@0.3.1
 If it keeps happening, please contact me and I'll help you out.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\troubleshooting\dynamic-server-usage-error.mdoc
+FILE PATH: kits/next-supabase/how-to/troubleshooting/dynamic-server-usage-error.mdoc
 
 ---
 status: "published"
@@ -861,7 +861,7 @@ export const dynamic = 'force-dynamic';
 If it keeps happening, try to see if it is happening in yet another layout and add the line there as well. Do it until the error goes away.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\troubleshooting\supabase-not-starting.mdoc
+FILE PATH: kits/next-supabase/how-to/troubleshooting/supabase-not-starting.mdoc
 
 ---
 status: "published"

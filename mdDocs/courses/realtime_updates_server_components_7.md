@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: courses\nextjs-turbo\realtime-updates.mdoc
+FILE PATH: courses/nextjs-turbo/realtime-updates.mdoc
 
 ---
 title: "Realtime Updates in Makerkit Next.js Supabase Turbo project"
@@ -386,7 +386,7 @@ By setting up Supabase Realtime and implementing polling for the customer's side
 
 
 -----------------
-FILE PATH: courses\nextjs-turbo\server-components.mdoc
+FILE PATH: courses/nextjs-turbo/server-components.mdoc
 
 ---
 title: "Fetching data with Server Components in Makerkit Next.js Supabase Turbo"

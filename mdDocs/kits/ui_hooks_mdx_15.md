@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\ui.mdoc
+FILE PATH: kits/next-fire/ui.mdoc
 
 ---
 status: "published"
@@ -23,7 +23,7 @@ Makerkit uses Shadcn UI and Tailwind CSS to build the UI of your SaaS - however 
 
 
 -----------------
-FILE PATH: kits\next-fire\utilities\hooks.mdoc
+FILE PATH: kits/next-fire/utilities/hooks.mdoc
 
 ---
 status: "published"
@@ -113,7 +113,7 @@ function SignIn() {
 
 
 -----------------
-FILE PATH: kits\next-fire\utilities\mdx.mdoc
+FILE PATH: kits/next-fire/utilities/mdx.mdoc
 
 ---
 status: "published"
@@ -206,7 +206,7 @@ that you can use in any MDX document.
 
 
 -----------------
-FILE PATH: kits\next-fire\utilities.mdoc
+FILE PATH: kits/next-fire/utilities.mdoc
 
 ---
 status: "published"
@@ -221,7 +221,7 @@ collapsed: true
 In this section,
 
 -----------------
-FILE PATH: kits\next-supabase\admin\adding-admin-users.mdoc
+FILE PATH: kits/next-supabase/admin/adding-admin-users.mdoc
 
 ---
 status: "published"
@@ -272,7 +272,7 @@ const ENFORCE_MFA = true;
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\admin\admin-overview.mdoc
+FILE PATH: kits/next-supabase/admin/admin-overview.mdoc
 
 ---
 status: "published"
@@ -335,7 +335,7 @@ The View Members page allows you to view all the members of an organization. You
 {% img src="/assets/images/posts/admin-organization-members-page.webp" width="2868" height="1960" alt="Super Admin Organization Members Page" /%}
 
 -----------------
-FILE PATH: kits\next-supabase\admin.mdoc
+FILE PATH: kits/next-supabase/admin.mdoc
 
 ---
 status: "published"
@@ -348,7 +348,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\architecture\application-structure.mdoc
+FILE PATH: kits/next-supabase/architecture/application-structure.mdoc
 
 ---
 status: "published"
@@ -514,7 +514,7 @@ export default EventsPage;
 🎉 That's it! We have now built a nicely structured "events" domain.
 
 -----------------
-FILE PATH: kits\next-supabase\architecture\architecture.mdoc
+FILE PATH: kits/next-supabase/architecture/architecture.mdoc
 
 ---
 status: "published"
@@ -620,7 +620,7 @@ Domain components are co-located together with their routes. This means that you
 For example, you find the authentication components at `/app/auth/components`.
 
 -----------------
-FILE PATH: kits\next-supabase\architecture\data-model.mdoc
+FILE PATH: kits/next-supabase/architecture/data-model.mdoc
 
 ---
 status: "published"
@@ -775,7 +775,7 @@ insert into storage.buckets (id, name, PUBLIC)
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\architecture.mdoc
+FILE PATH: kits/next-supabase/architecture.mdoc
 
 ---
 status: "published"
@@ -789,7 +789,7 @@ collapsed: true
 
 
 -----------------
-FILE PATH: kits\next-supabase\authentication\auth-overview.mdoc
+FILE PATH: kits/next-supabase/authentication/auth-overview.mdoc
 
 ---
 status: "published"

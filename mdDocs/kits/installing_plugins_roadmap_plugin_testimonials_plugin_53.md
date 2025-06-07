@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\plugins\installing-plugins.mdoc
+FILE PATH: kits/next-supabase-turbo/plugins/installing-plugins.mdoc
 
 ---
 status: "published"
@@ -31,7 +31,7 @@ Plugins use `git subtree` to pull in the plugin repository into the `plugins` di
 If you don't want to use git subtree, you can also manually clone a copy of the plugin repository, and then manually moving the folder from `packages/plugins` into your own repository.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\plugins\roadmap-plugin.mdoc
+FILE PATH: kits/next-supabase-turbo/plugins/roadmap-plugin.mdoc
 
 ---
 status: "published"
@@ -247,7 +247,7 @@ export default {
 The above is not required if you are using TailwindCSS v4.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\plugins\testimonials-plugin.mdoc
+FILE PATH: kits/next-supabase-turbo/plugins/testimonials-plugin.mdoc
 
 ---
 status: "published"
@@ -531,7 +531,7 @@ Done! You now have a fully functional Testimonial Collection plugin integrated w
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\plugins\waitlist-plugin.mdoc
+FILE PATH: kits/next-supabase-turbo/plugins/waitlist-plugin.mdoc
 
 ---
 status: "published"
@@ -815,7 +815,7 @@ The above is not required if you are using TailwindCSS v4.
 Easy peasy! Now you have a waitlist for your app.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\plugins.mdoc
+FILE PATH: kits/next-supabase-turbo/plugins.mdoc
 
 ---
 status: "published"
@@ -841,7 +841,7 @@ Extend your application's functionality with our plugin system:
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\recipes\drizzle-supabase.mdoc
+FILE PATH: kits/next-supabase-turbo/recipes/drizzle-supabase.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-lite\development\validating-api-input-zod.mdoc
+FILE PATH: kits/next-supabase-lite/development/validating-api-input-zod.mdoc
 
 ---
 status: "published"
@@ -134,7 +134,7 @@ check out [the Zod official documentation on GitHub](https://github.com/colinhac
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\development.mdoc
+FILE PATH: kits/next-supabase-lite/development.mdoc
 
 ---
 status: "published"
@@ -147,7 +147,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\getting-started\clone-repository.mdoc
+FILE PATH: kits/next-supabase-lite/getting-started/clone-repository.mdoc
 
 ---
 status: "published"
@@ -243,7 +243,7 @@ So let's jump on to the next step!
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\getting-started\introduction.mdoc
+FILE PATH: kits/next-supabase-lite/getting-started/introduction.mdoc
 
 ---
 status: "published"
@@ -320,7 +320,7 @@ MakerKit has plenty of resources for using both Next.js and Supabase - and if yo
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\getting-started\running-the-application.mdoc
+FILE PATH: kits/next-supabase-lite/getting-started/running-the-application.mdoc
 
 ---
 status: "published"
@@ -443,7 +443,7 @@ When signing up, Supabase sends an email confirmation to a testing account. You 
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\getting-started\technical-details.mdoc
+FILE PATH: kits/next-supabase-lite/getting-started/technical-details.mdoc
 
 ---
 status: "published"
@@ -531,7 +531,7 @@ your API routes.
 MakerKit uses Vercel's SWR for data fetching and mutations when used from the client-side, which is in very few places, as we mostly use Server Actions.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\getting-started.mdoc
+FILE PATH: kits/next-supabase-lite/getting-started.mdoc
 
 ---
 status: "published"
@@ -544,7 +544,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\going-to-production\going-to-production-overview.mdoc
+FILE PATH: kits/next-supabase-lite/going-to-production/going-to-production-overview.mdoc
 
 ---
 status: "published"
@@ -652,7 +652,7 @@ Some logging services that we recommend are:
 The above can be installed with a one-click install in the Vercel dashboard (if you are using Vercel).
 
 -----------------
-FILE PATH: kits\next-supabase-lite\going-to-production.mdoc
+FILE PATH: kits/next-supabase-lite/going-to-production.mdoc
 
 ---
 status: "published"
@@ -665,7 +665,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\api\api-routes-vs-server-actions.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/api/api-routes-vs-server-actions.mdoc
 
 ---
 status: "published"
@@ -698,7 +698,7 @@ They are particularly useful when you want to perform actions/mutations on the s
 Thanks to utilities such as `revalidatePath` and `revalidateTag`, you can also use Server Actions to invalidate the cache of a specific page or tag (used with `fetch`).
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\api\api-routes.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/api/api-routes.mdoc
 
 ---
 status: "published"
@@ -759,7 +759,7 @@ To add a CSRF token to your request, you can use the `useCsrfToken` React hook. 
 POST requests without a CSRF token will return a `403` error. This can be disabled in the middleware `src/middleware.ts`.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\api\call-api-routes-from-client.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/api/call-api-routes-from-client.mdoc
 
 ---
 status: "published"

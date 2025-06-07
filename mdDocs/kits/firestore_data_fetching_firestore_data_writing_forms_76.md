@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-fire\tutorials\firestore-data-fetching.mdoc
+FILE PATH: kits/remix-fire/tutorials/firestore-data-fetching.mdoc
 
 ---
 status: "published"
@@ -208,7 +208,7 @@ Since the component "TaskListItem" is pretty complex and requires more files, we
 
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\firestore-data-writing.mdoc
+FILE PATH: kits/remix-fire/tutorials/firestore-data-writing.mdoc
 
 ---
 status: "published"
@@ -478,7 +478,7 @@ function useTimeAgo() {
 ```
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\forms.mdoc
+FILE PATH: kits/remix-fire/tutorials/forms.mdoc
 
 ---
 status: "published"
@@ -572,7 +572,7 @@ export default CreateTaskForm;
 
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\initializing-project.mdoc
+FILE PATH: kits/remix-fire/tutorials/initializing-project.mdoc
 
 ---
 status: "published"
@@ -643,7 +643,7 @@ git pull upstream main --allow-unrelated-histories
 Perfect! Now you can fire up your IDE and open the `tasks-app` project we just created.
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\introduction.mdoc
+FILE PATH: kits/remix-fire/tutorials/introduction.mdoc
 
 ---
 status: "published"
@@ -677,7 +677,7 @@ Experience with React, TypeScript/JavaScript, and Firebase would be advantageous
 If you have all the above installed, I guess we can get started!
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\marketing-site-pages.mdoc
+FILE PATH: kits/remix-fire/tutorials/marketing-site-pages.mdoc
 
 ---
 status: "published"
@@ -743,7 +743,7 @@ And then we update the menu:
 
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\onboarding-flow.mdoc
+FILE PATH: kits/remix-fire/tutorials/onboarding-flow.mdoc
 
 ---
 status: "published"
@@ -791,7 +791,7 @@ No, **but you can skip it** by automatically submitting the form.
 Yes, you can follow this guide for [removing the onboarding flow and organizations](/recipes/removing-organizations).
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\project-configuration.mdoc
+FILE PATH: kits/remix-fire/tutorials/project-configuration.mdoc
 
 ---
 status: "published"
@@ -913,7 +913,7 @@ Feel free to extend this configuration to your needs. For example, you could new
 
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\project-structure.mdoc
+FILE PATH: kits/remix-fire/tutorials/project-structure.mdoc
 
 ---
 status: "published"
@@ -960,7 +960,7 @@ routes.
 Don't worry if this isn't clear yet! We'll explain where we place our files in the sections ahead.
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\running-project.mdoc
+FILE PATH: kits/remix-fire/tutorials/running-project.mdoc
 
 ---
 status: "published"

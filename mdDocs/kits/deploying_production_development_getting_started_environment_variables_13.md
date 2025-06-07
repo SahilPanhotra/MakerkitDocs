@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\tutorials\deploying-production.mdoc
+FILE PATH: kits/next-fire/tutorials/deploying-production.mdoc
 
 ---
 status: "published"
@@ -25,7 +25,7 @@ Generally, you will need to:
 8. **Deployment**: Finally, deploy your application to your hosting provider (Vercel, Firebase, Netlify, etc.): please follow the instructions provided by your hosting provider to deploy a Next.js application.
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\development-getting-started.mdoc
+FILE PATH: kits/next-fire/tutorials/development-getting-started.mdoc
 
 ---
 status: "published"
@@ -353,7 +353,7 @@ The result will be similar to the images below:
 {% img src="/assets/images/posts/sidebar-layout-link.webp" width="1280" height="984" /%}
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\environment-variables.mdoc
+FILE PATH: kits/next-fire/tutorials/environment-variables.mdoc
 
 ---
 status: "published"
@@ -413,7 +413,7 @@ STRIPE_WEBHOOK_SECRET=
 ```
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\firestore-data-fetching.mdoc
+FILE PATH: kits/next-fire/tutorials/firestore-data-fetching.mdoc
 
 ---
 status: "published"
@@ -602,7 +602,7 @@ The data above will automatically update when the `tasks` collection changes!
 
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\firestore-data-writing.mdoc
+FILE PATH: kits/next-fire/tutorials/firestore-data-writing.mdoc
 
 ---
 status: "published"
@@ -871,7 +871,7 @@ function useTimeAgo() {
 ```
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\forms.mdoc
+FILE PATH: kits/next-fire/tutorials/forms.mdoc
 
 ---
 status: "published"
@@ -1001,7 +1001,7 @@ export default CreateTaskForm;
 ```
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\functions.mdoc
+FILE PATH: kits/next-fire/tutorials/functions.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-fire\data-fetching\custom-fetch.mdoc
+FILE PATH: kits/remix-fire/data-fetching/custom-fetch.mdoc
 
 ---
 status: "published"
@@ -48,7 +48,7 @@ console.log(csrfToken) // token
 You will need to send a header `x-csrf-token` with the value returned by `getCsrfToken()`.
 
 -----------------
-FILE PATH: kits\remix-fire\data-fetching\fetching-data-firestore.mdoc
+FILE PATH: kits/remix-fire/data-fetching/fetching-data-firestore.mdoc
 
 ---
 status: "published"
@@ -276,7 +276,7 @@ const collectionRef = collection(
 
 
 -----------------
-FILE PATH: kits\remix-fire\data-fetching\making-api-requests.mdoc
+FILE PATH: kits/remix-fire/data-fetching/making-api-requests.mdoc
 
 ---
 status: "published"
@@ -389,7 +389,7 @@ function Component() {
 
 
 -----------------
-FILE PATH: kits\remix-fire\data-fetching\reading-data-storage.mdoc
+FILE PATH: kits/remix-fire/data-fetching/reading-data-storage.mdoc
 
 ---
 status: "published"
@@ -482,7 +482,7 @@ function MyImages() {
 
 
 -----------------
-FILE PATH: kits\remix-fire\data-fetching\uploading-data-to-storage.mdoc
+FILE PATH: kits/remix-fire/data-fetching/uploading-data-to-storage.mdoc
 
 ---
 status: "published"
@@ -587,7 +587,7 @@ match /organizations/{organizationId}/{fileName=**} {
 
 
 -----------------
-FILE PATH: kits\remix-fire\data-fetching\writing-data-to-firestore.mdoc
+FILE PATH: kits/remix-fire/data-fetching/writing-data-to-firestore.mdoc
 
 ---
 status: "published"
@@ -741,7 +741,7 @@ export default CreateTaskForm;
 
 
 -----------------
-FILE PATH: kits\remix-fire\development\code-style.mdoc
+FILE PATH: kits/remix-fire/development/code-style.mdoc
 
 ---
 status: "published"
@@ -776,7 +776,7 @@ npm run format
 
 
 -----------------
-FILE PATH: kits\remix-fire\development\commands.mdoc
+FILE PATH: kits/remix-fire/development/commands.mdoc
 
 ---
 status: "published"
@@ -895,7 +895,7 @@ npm run killports
 
 
 -----------------
-FILE PATH: kits\remix-fire\development\cors.mdoc
+FILE PATH: kits/remix-fire/development/cors.mdoc
 
 ---
 status: "published"
@@ -976,7 +976,7 @@ export function handler(
 ```
 
 -----------------
-FILE PATH: kits\remix-fire\development\develop-firebase-security-rules.mdoc
+FILE PATH: kits/remix-fire/development/develop-firebase-security-rules.mdoc
 
 ---
 status: "published"
@@ -1011,7 +1011,7 @@ To publish your Security rules, open your Firebase Admin Console and copy-paste 
 
 
 -----------------
-FILE PATH: kits\remix-fire\development\emails.mdoc
+FILE PATH: kits/remix-fire/development/emails.mdoc
 
 ---
 status: "published"
@@ -1155,7 +1155,7 @@ Alternatively, **Makerkit will generate these credentials for you**. Every time 
 
 
 -----------------
-FILE PATH: kits\remix-fire\development\encrypting-secrets.mdoc
+FILE PATH: kits/remix-fire/development/encrypting-secrets.mdoc
 
 ---
 status: "published"

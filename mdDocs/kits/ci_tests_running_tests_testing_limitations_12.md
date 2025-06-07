@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\testing\ci-tests.mdoc
+FILE PATH: kits/next-fire/testing/ci-tests.mdoc
 
 ---
 status: "published"
@@ -72,7 +72,7 @@ This command **will automatically run the Firebase emulators** and the `test.sh`
 When finished, the emulators will exit.
 
 -----------------
-FILE PATH: kits\next-fire\testing\running-tests.mdoc
+FILE PATH: kits/next-fire/testing/running-tests.mdoc
 
 ---
 status: "published"
@@ -174,7 +174,7 @@ it's worth it.
 
 
 -----------------
-FILE PATH: kits\next-fire\testing\testing-limitations.mdoc
+FILE PATH: kits/next-fire/testing/testing-limitations.mdoc
 
 ---
 status: "published"
@@ -199,7 +199,7 @@ Of course, some of the tests will work just fine, but not the ones related to ac
 This would be solved if we could reset the Firebase Firestore data programmatically between test runs, but as far as we know this is not yet possible.
 
 -----------------
-FILE PATH: kits\next-fire\testing.mdoc
+FILE PATH: kits/next-fire/testing.mdoc
 
 ---
 status: "published"
@@ -214,7 +214,7 @@ collapsed: true
 Makerkit provides E2E Tests using Cypress.
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\adding-blog-posts.mdoc
+FILE PATH: kits/next-fire/tutorials/adding-blog-posts.mdoc
 
 ---
 status: "published"
@@ -310,7 +310,7 @@ tags:
 
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\adding-documentation-pages.mdoc
+FILE PATH: kits/next-fire/tutorials/adding-documentation-pages.mdoc
 
 ---
 status: "published"
@@ -373,7 +373,7 @@ The `position` property defines the order in which the page is listed within
 the topic.
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\api-routes-validation.mdoc
+FILE PATH: kits/next-fire/tutorials/api-routes-validation.mdoc
 
 ---
 status: "published"
@@ -453,7 +453,7 @@ I encourage you to **never skip the validation step when writing your API endpoi
 
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\api-routes.mdoc
+FILE PATH: kits/next-fire/tutorials/api-routes.mdoc
 
 ---
 status: "published"
@@ -851,7 +851,7 @@ async function performAction() {
 It's always important to add context to your logs: as you can see, we use the first parameter to add important information.
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\application-pages.mdoc
+FILE PATH: kits/next-fire/tutorials/application-pages.mdoc
 
 ---
 status: "published"
@@ -970,7 +970,7 @@ Additionally, it will validate the current session:
 You can extend this function and add any additional validation you deem needed.
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\authentication.mdoc
+FILE PATH: kits/next-fire/tutorials/authentication.mdoc
 
 ---
 status: "published"

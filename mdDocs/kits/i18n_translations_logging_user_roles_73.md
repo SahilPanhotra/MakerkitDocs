@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-fire\development\i18n-translations.mdoc
+FILE PATH: kits/remix-fire/development/i18n-translations.mdoc
 
 ---
 status: "published"
@@ -72,7 +72,7 @@ It does not require any props, and it will automatically detect the available la
 If you want to customize the language switcher or use a different component, you can leverage the `useChangeLanguage` hook to change the language and store the selection as a cookie, which will then be used to set the default language.
 
 -----------------
-FILE PATH: kits\remix-fire\development\logging.mdoc
+FILE PATH: kits/remix-fire/development/logging.mdoc
 
 ---
 status: "published"
@@ -169,7 +169,7 @@ Vercel integrations](https://vercel.com/integrations#logging) for adding persist
 
 
 -----------------
-FILE PATH: kits\remix-fire\development\user-roles.mdoc
+FILE PATH: kits/remix-fire/development/user-roles.mdoc
 
 ---
 status: "published"
@@ -237,7 +237,7 @@ Learn more about [using user roles in your permissions system](/docs/permissions
 
 
 -----------------
-FILE PATH: kits\remix-fire\development\validating-api-input-zod.mdoc
+FILE PATH: kits/remix-fire/development/validating-api-input-zod.mdoc
 
 ---
 status: "published"
@@ -330,7 +330,7 @@ check out [the Zod official documentation on GitHub](https://github.com/colinhac
 
 
 -----------------
-FILE PATH: kits\remix-fire\getting-started\clone-repository.mdoc
+FILE PATH: kits/remix-fire/getting-started/clone-repository.mdoc
 
 ---
 status: "published"
@@ -411,7 +411,7 @@ So let's jump on to the next step!
 
 
 -----------------
-FILE PATH: kits\remix-fire\getting-started\coding-conventions.mdoc
+FILE PATH: kits/remix-fire/getting-started/coding-conventions.mdoc
 
 ---
 status: "published"
@@ -491,7 +491,7 @@ The boilerplate uses Custom React Hooks when:
 It makes the code more understandable and reusable.
 
 -----------------
-FILE PATH: kits\remix-fire\getting-started\introduction.mdoc
+FILE PATH: kits/remix-fire/getting-started/introduction.mdoc
 
 ---
 status: "published"
@@ -573,7 +573,7 @@ MakerKit has plenty of resources for using both Remix and Firebase - and if you'
 
 
 -----------------
-FILE PATH: kits\remix-fire\getting-started\running-the-application.mdoc
+FILE PATH: kits/remix-fire/getting-started/running-the-application.mdoc
 
 ---
 status: "published"
@@ -674,7 +674,7 @@ Of course, change `./your-directory` to your preferred path.
 
 
 -----------------
-FILE PATH: kits\remix-fire\getting-started\technical-details.mdoc
+FILE PATH: kits/remix-fire/getting-started/technical-details.mdoc
 
 ---
 status: "published"
@@ -775,7 +775,7 @@ your API routes.
 
 
 -----------------
-FILE PATH: kits\remix-fire\going-to-production\going-to-production-overview.mdoc
+FILE PATH: kits/remix-fire/going-to-production/going-to-production-overview.mdoc
 
 ---
 status: "published"

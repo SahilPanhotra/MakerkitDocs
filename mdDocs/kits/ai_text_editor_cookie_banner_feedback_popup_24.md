@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\plugins\ai-text-editor.mdoc
+FILE PATH: kits/next-supabase/plugins/ai-text-editor.mdoc
 
 ---
 status: "published"
@@ -270,7 +270,7 @@ export default withI18n(EditorPage);
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\plugins\cookie-banner.mdoc
+FILE PATH: kits/next-supabase/plugins/cookie-banner.mdoc
 
 ---
 status: "published"
@@ -407,7 +407,7 @@ git subtree pull --prefix plugins/cookie-banner git@github.com:makerkit/next-sup
 
 
 -----------------
-FILE PATH: kits\next-supabase\plugins\feedback-popup.mdoc
+FILE PATH: kits/next-supabase/plugins/feedback-popup.mdoc
 
 ---
 status: "published"
@@ -636,7 +636,7 @@ Finally, add the page to the sidebar by updating the `AdminSidebar` component:
 That's it! You should now be able to access the admin pages at `/admin/feedback` and `/admin/feedback/[id]`.
 
 -----------------
-FILE PATH: kits\next-supabase\plugins.mdoc
+FILE PATH: kits/next-supabase/plugins.mdoc
 
 ---
 status: "published"
@@ -649,7 +649,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\sdk\data-loader.mdoc
+FILE PATH: kits/next-supabase/sdk/data-loader.mdoc
 
 ---
 status: "published"

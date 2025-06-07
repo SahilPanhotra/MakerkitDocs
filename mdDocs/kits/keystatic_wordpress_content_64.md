@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\content\keystatic.mdoc
+FILE PATH: kits/react-router-supabase-turbo/content/keystatic.mdoc
 
 ---
 status: "published"
@@ -58,7 +58,7 @@ VITE_KEYSTATIC_CONTENT_PATH=data/content
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\content\wordpress.mdoc
+FILE PATH: kits/react-router-supabase-turbo/content/wordpress.mdoc
 
 ---
 status: "published"
@@ -133,7 +133,7 @@ Please refer to `wp-content/themes/twentytwentyfour/functions.php` for an exampl
 To make the language filtering work, please add a tag with the language name to the post. For example, if you have a post in English, add the tag `en` to it, and if you have a post in German, add the tag `de` to it.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\content.mdoc
+FILE PATH: kits/react-router-supabase-turbo/content.mdoc
 
 ---
 status: "published"
@@ -149,7 +149,7 @@ Content in React Router Supabase Turbo
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\customization\adding-shadcn-ui-components.mdoc
+FILE PATH: kits/react-router-supabase-turbo/customization/adding-shadcn-ui-components.mdoc
 
 ---
 status: "published"
@@ -204,7 +204,7 @@ import { Avatar } from '@kit/ui/avatar';
 **NB**: this is an example, you need to adjust the component name based on the component you are exporting.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\customization\fonts.mdoc
+FILE PATH: kits/react-router-supabase-turbo/customization/fonts.mdoc
 
 ---
 status: "published"
@@ -231,7 +231,7 @@ The fonts are defined at `apps/web/styles/shadcn-ui.css`:
 Please change them to your preferred fonts.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\customization\layout-style.mdoc
+FILE PATH: kits/react-router-supabase-turbo/customization/layout-style.mdoc
 
 ---
 status: "published"
@@ -262,7 +262,7 @@ And here is `header` layout:
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\customization\logo.mdoc
+FILE PATH: kits/react-router-supabase-turbo/customization/logo.mdoc
 
 ---
 status: "published"
@@ -281,7 +281,7 @@ You can either use an SVG component, or drop an image. As long as it's rendered 
 The logo image will be used across the application, including the auth page, the site header, the site footer, and the app sidebar (when team accounts are disabled).
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\customization\theme.mdoc
+FILE PATH: kits/react-router-supabase-turbo/customization/theme.mdoc
 
 ---
 status: "published"
@@ -298,7 +298,7 @@ You can find the default theme inside the application at `apps/web/styles/global
 If you want to override the default style, either define your own colors or pick a theme from the [Shadcn Themes page](https://ui.shadcn.com/themes), and copy/paste the theme into this file.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\customization.mdoc
+FILE PATH: kits/react-router-supabase-turbo/customization.mdoc
 
 ---
 status: "published"
@@ -359,7 +359,7 @@ Remember - you don't need to customize everything at once! Start with the essent
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\data-fetching\actions.mdoc
+FILE PATH: kits/react-router-supabase-turbo/data-fetching/actions.mdoc
 
 ---
 title: "Using Actions in React Router Supabase Turbo"
@@ -662,7 +662,7 @@ export const deletePersonalAccountAction = async ({
 By following these patterns, you'll be able to create robust, type-safe server actions in your Makerkit application.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\data-fetching\loaders.mdoc
+FILE PATH: kits/react-router-supabase-turbo/data-fetching/loaders.mdoc
 
 ---
 title: "Using Loaders in React Router Supabase Turbo"
@@ -1016,7 +1016,7 @@ export default function TeamHomePage(props: Route.ComponentProps) {
 By following these patterns, you'll be able to build robust, type-safe data fetching in your Makerkit application with React Router's powerful loader system.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\data-fetching\supabase-clients.mdoc
+FILE PATH: kits/react-router-supabase-turbo/data-fetching/supabase-clients.mdoc
 
 ---
 title: "Using the Supabase Clients in React Router Supabase Turbo"
@@ -1095,7 +1095,7 @@ export async function loader(args: LoaderFunctionArgs) {
 NB: only use this client when you need to perform admin operations, such as bypassing row-level security. Do not use this client for regular operations.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\data-fetching.mdoc
+FILE PATH: kits/react-router-supabase-turbo/data-fetching.mdoc
 
 ---
 status: "published"
@@ -1124,7 +1124,7 @@ Common patterns for loading data include:
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development\adding-pages.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development/adding-pages.mdoc
 
 ---
 status: "published"

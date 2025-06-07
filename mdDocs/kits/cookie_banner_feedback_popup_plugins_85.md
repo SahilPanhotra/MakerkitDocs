@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\plugins\cookie-banner.mdoc
+FILE PATH: kits/remix-supabase/plugins/cookie-banner.mdoc
 
 ---
 status: "published"
@@ -163,7 +163,7 @@ git subtree pull --prefix plugins/cookie-banner git@github.com:makerkit/next-sup
 
 
 -----------------
-FILE PATH: kits\remix-supabase\plugins\feedback-popup.mdoc
+FILE PATH: kits/remix-supabase/plugins/feedback-popup.mdoc
 
 ---
 status: "published"
@@ -397,7 +397,7 @@ Finally, add the page to the sidebar by updating the `AdminSidebar` component:
 That's it! You should now be able to access the admin pages at `/admin/feedback` and `/admin/feedback/[id]`.
 
 -----------------
-FILE PATH: kits\remix-supabase\plugins.mdoc
+FILE PATH: kits/remix-supabase/plugins.mdoc
 
 ---
 status: "published"
@@ -410,7 +410,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\sdk\data-loader.mdoc
+FILE PATH: kits/remix-supabase/sdk/data-loader.mdoc
 
 ---
 status: "published"
@@ -829,7 +829,7 @@ function Component() {
 The TypeScript types are also updated accordingly - so you can be sure that the data you're fetching is the data you're expecting.
 
 -----------------
-FILE PATH: kits\remix-supabase\sdk\organization-sdk.mdoc
+FILE PATH: kits/remix-supabase/sdk/organization-sdk.mdoc
 
 ---
 status: "published"
@@ -959,7 +959,7 @@ The `organization` namespace also includes a `subscription` namespace. This name
 We will show it in the next section.
 
 -----------------
-FILE PATH: kits\remix-supabase\sdk\organization-subscription-sdk.mdoc
+FILE PATH: kits/remix-supabase/sdk/organization-subscription-sdk.mdoc
 
 ---
 status: "published"
