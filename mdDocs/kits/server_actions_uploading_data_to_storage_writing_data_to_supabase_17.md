@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\data-fetching\server-actions.mdoc
+FILE PATH: kits/next-supabase/data-fetching/server-actions.mdoc
 
 ---
 status: "published"
@@ -150,7 +150,7 @@ export default TaskForm;
 To learn more about server actions, we have a simple tutorial that you can follow: [Introduction to Next.js Server Actions](/blog/tutorials/nextjs-server-actions)
 
 -----------------
-FILE PATH: kits\next-supabase\data-fetching\uploading-data-to-storage.mdoc
+FILE PATH: kits/next-supabase/data-fetching/uploading-data-to-storage.mdoc
 
 ---
 status: "published"
@@ -220,7 +220,7 @@ const updateProfile = useUpdateProfile();
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\data-fetching\writing-data-to-supabase.mdoc
+FILE PATH: kits/next-supabase/data-fetching/writing-data-to-supabase.mdoc
 
 ---
 status: "published"
@@ -519,7 +519,7 @@ function getDefaultDueDate() {
 
 
 -----------------
-FILE PATH: kits\next-supabase\data-fetching.mdoc
+FILE PATH: kits/next-supabase/data-fetching.mdoc
 
 ---
 status: "published"
@@ -532,7 +532,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\development\code-style.mdoc
+FILE PATH: kits/next-supabase/development/code-style.mdoc
 
 ---
 status: "published"
@@ -567,7 +567,7 @@ npm run format
 
 
 -----------------
-FILE PATH: kits\next-supabase\development\commands.mdoc
+FILE PATH: kits/next-supabase/development/commands.mdoc
 
 ---
 status: "published"
@@ -707,7 +707,7 @@ npm run stripe:listen
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\development\cors.mdoc
+FILE PATH: kits/next-supabase/development/cors.mdoc
 
 ---
 status: "published"
@@ -780,7 +780,7 @@ export async function GET(request: NextRequest) {
 
 
 -----------------
-FILE PATH: kits\next-supabase\development\emails.mdoc
+FILE PATH: kits/next-supabase/development/emails.mdoc
 
 ---
 status: "published"
@@ -943,7 +943,7 @@ If not set, Makerkit will automatically create an account for you on-the-fly and
 
 
 -----------------
-FILE PATH: kits\next-supabase\development\encrypting-secrets.mdoc
+FILE PATH: kits/next-supabase/development/encrypting-secrets.mdoc
 
 ---
 status: "published"
@@ -962,7 +962,7 @@ There are two ways to encrypt your data in Supabase:
 
 
 -----------------
-FILE PATH: kits\next-supabase\development\i18n-translations.mdoc
+FILE PATH: kits/next-supabase/development/i18n-translations.mdoc
 
 ---
 status: "published"
@@ -1045,7 +1045,7 @@ It does not require any props, and it will automatically detect the available la
 
 
 -----------------
-FILE PATH: kits\next-supabase\development\logging.mdoc
+FILE PATH: kits/next-supabase/development/logging.mdoc
 
 ---
 status: "published"

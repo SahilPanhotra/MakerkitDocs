@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\tutorials\translations.mdoc
+FILE PATH: kits/next-supabase/tutorials/translations.mdoc
 
 ---
 status: "published"
@@ -95,7 +95,7 @@ function SiteLayout(props: React.PropsWithChildren) {
 
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\updating-latest-version.mdoc
+FILE PATH: kits/next-supabase/tutorials/updating-latest-version.mdoc
 
 ---
 status: "published"
@@ -122,7 +122,7 @@ Unfortunately, you may need to resolve eventual conflicts.
 If you have questions, please join our [Discord Community](https://discord.gg/BeJSyQJ6jP), even if you have not purchased any kit. We chat and help each other build products.
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials.mdoc
+FILE PATH: kits/next-supabase/tutorials.mdoc
 
 ---
 status: "published"
@@ -135,7 +135,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\ui\shadcn.mdoc
+FILE PATH: kits/next-supabase/ui/shadcn.mdoc
 
 ---
 status: "published"
@@ -213,7 +213,7 @@ While ShadCN UI uses `lucide` as their icons library, Makerkit has historically 
 
 
 -----------------
-FILE PATH: kits\next-supabase\ui\tailwindcss.mdoc
+FILE PATH: kits/next-supabase/ui/tailwindcss.mdoc
 
 ---
 status: "published"
@@ -374,7 +374,7 @@ export const PrimaryButton = () => {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\ui\themes.mdoc
+FILE PATH: kits/next-supabase/ui/themes.mdoc
 
 ---
 status: "published"
@@ -414,7 +414,7 @@ const configuration = {
 This will prevent the theme toggle from appearing in the application.
 
 -----------------
-FILE PATH: kits\next-supabase\ui.mdoc
+FILE PATH: kits/next-supabase/ui.mdoc
 
 ---
 status: "published"
@@ -427,7 +427,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\admin\adding-admin-users.mdoc
+FILE PATH: kits/next-supabase-lite/admin/adding-admin-users.mdoc
 
 ---
 status: "published"
@@ -477,7 +477,7 @@ const ENFORCE_MFA = true;
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-lite\admin\admin-overview.mdoc
+FILE PATH: kits/next-supabase-lite/admin/admin-overview.mdoc
 
 ---
 status: "published"
@@ -539,7 +539,7 @@ The View Members page allows you to view all the members of an organization. You
 {% img src="/assets/images/posts/admin-organization-members-page.webp" width="2868" height="1960" alt="Super Admin Organization Members Page" /%}
 
 -----------------
-FILE PATH: kits\next-supabase-lite\admin.mdoc
+FILE PATH: kits/next-supabase-lite/admin.mdoc
 
 ---
 status: "published"
@@ -552,7 +552,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\architecture\application-structure.mdoc
+FILE PATH: kits/next-supabase-lite/architecture/application-structure.mdoc
 
 ---
 status: "published"
@@ -716,7 +716,7 @@ export default EventsPage;
 🎉 That's it! We have now built a nicely structured "events" domain.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\architecture\architecture.mdoc
+FILE PATH: kits/next-supabase-lite/architecture/architecture.mdoc
 
 ---
 status: "published"
@@ -823,7 +823,7 @@ We use `eslint` to check that imports are flowing correctly through your applica
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\architecture\data-model.mdoc
+FILE PATH: kits/next-supabase-lite/architecture/data-model.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\how-to.mdoc
+FILE PATH: kits/remix-supabase/how-to.mdoc
 
 ---
 status: "published"
@@ -12,7 +12,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\migrations\version-0.6.0.mdoc
+FILE PATH: kits/remix-supabase/migrations/version-0.6.0.mdoc
 
 ---
 status: "published"
@@ -178,7 +178,7 @@ If you have components using `headlessui`, please keep it in your project. Other
 This guide should help you migrate your project to the new version of the kit. If you have any questions, please get in touch with me.
 
 -----------------
-FILE PATH: kits\remix-supabase\migrations.mdoc
+FILE PATH: kits/remix-supabase/migrations.mdoc
 
 ---
 status: "published"
@@ -191,7 +191,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\organizations\extending-organizations.mdoc
+FILE PATH: kits/remix-supabase/organizations/extending-organizations.mdoc
 
 ---
 status: "published"
@@ -228,7 +228,7 @@ interface Organization {
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\organizations\organizations-overview.mdoc
+FILE PATH: kits/remix-supabase/organizations/organizations-overview.mdoc
 
 ---
 status: "published"
@@ -271,7 +271,7 @@ For example, you may want to call them "Teams", or "Workspaces". In this case, w
 To do so, simply rename all "Organization" instances according to your preferred choice.
 
 -----------------
-FILE PATH: kits\remix-supabase\organizations\permissions.mdoc
+FILE PATH: kits/remix-supabase/organizations/permissions.mdoc
 
 ---
 status: "published"
@@ -326,7 +326,7 @@ Otherwise, you can use these functions throughout the application on both the cl
 
 
 -----------------
-FILE PATH: kits\remix-supabase\organizations\row-level-security.mdoc
+FILE PATH: kits/remix-supabase/organizations/row-level-security.mdoc
 
 ---
 status: "published"
@@ -680,7 +680,7 @@ $$ language plpgsql security definer search_path = public;
 This function will throw an error if it's called from the client. You can then call this function from the server using a service role key and ensure that the user has enough quota to create a task server-side before calling this function.
 
 -----------------
-FILE PATH: kits\remix-supabase\organizations\subscription-permissions.mdoc
+FILE PATH: kits/remix-supabase/organizations/subscription-permissions.mdoc
 
 ---
 status: "published"
@@ -780,7 +780,7 @@ export default async function action({ request }) {
 
 
 -----------------
-FILE PATH: kits\remix-supabase\organizations.mdoc
+FILE PATH: kits/remix-supabase/organizations.mdoc
 
 ---
 status: "published"
@@ -793,7 +793,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\payments\lemon-squeezy.mdoc
+FILE PATH: kits/remix-supabase/payments/lemon-squeezy.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\data-table.mdoc
+FILE PATH: kits/next-supabase-turbo/components/data-table.mdoc
 
 ---
 status: "published"
@@ -111,7 +111,7 @@ The component uses the `Trans` component for internationalization. Ensure you ha
 The DataTable component provides a powerful and flexible solution for displaying tabular data in your React applications, with built-in support for common table features and easy integration with server-side data loading.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\empty-state.mdoc
+FILE PATH: kits/next-supabase-turbo/components/empty-state.mdoc
 
 ---
 status: "published"
@@ -210,7 +210,7 @@ You can customize the appearance of each component by passing a `className` prop
 This `EmptyState` component provides a clean, consistent way to handle empty states in your application. Its modular design allows for easy customization while maintaining a cohesive look and feel across different use cases.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\if.mdoc
+FILE PATH: kits/next-supabase-turbo/components/if.mdoc
 
 ---
 status: "published"
@@ -309,7 +309,7 @@ The `If` component is fully typed - This allows for type-safe usage of the rende
 The `If` component provides a clean and efficient way to handle conditional rendering in React applications, improving code readability and maintainability.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\loading-overlay.mdoc
+FILE PATH: kits/next-supabase-turbo/components/loading-overlay.mdoc
 
 ---
 status: "published"
@@ -411,7 +411,7 @@ The LoadingOverlay component provides a simple yet effective way to indicate loa
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\marketing-components.mdoc
+FILE PATH: kits/next-supabase-turbo/components/marketing-components.mdoc
 
 ---
 status: "published"
@@ -982,7 +982,7 @@ The component uses Tailwind CSS for styling. The container is flexbox-based and 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\multi-step-forms.mdoc
+FILE PATH: kits/next-supabase-turbo/components/multi-step-forms.mdoc
 
 ---
 status: "published"

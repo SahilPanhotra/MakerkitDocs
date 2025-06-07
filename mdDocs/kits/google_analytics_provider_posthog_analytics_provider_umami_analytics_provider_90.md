@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase-turbo\analytics\google-analytics-provider.mdoc
+FILE PATH: kits/remix-supabase-turbo/analytics/google-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -63,7 +63,7 @@ VITE_GA_DISABLE_LOCALHOST_TRACKING=true
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\analytics\posthog-analytics-provider.mdoc
+FILE PATH: kits/remix-supabase-turbo/analytics/posthog-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -124,7 +124,7 @@ VITE_POSTHOG_INGESTION_URL=your-ingestion-url
 Please make sure to proxy the `/ingest` endpoint to the PostHog server. Remix doesn't have a built-in proxying mechanism, so you will need to add it.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\analytics\umami-analytics-provider.mdoc
+FILE PATH: kits/remix-supabase-turbo/analytics/umami-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -183,7 +183,7 @@ The `VITE_UMAMI_HOST` is the URL of your Umami instance. Since Umami can be self
 The `VITE_UMAMI_WEBSITE_ID` is the ID of your website in your Umami instance. This is a required field to track events in your website.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\analytics.mdoc
+FILE PATH: kits/remix-supabase-turbo/analytics.mdoc
 
 ---
 status: "published"
@@ -304,7 +304,7 @@ By leveraging Makerkit's Analytics API in conjunction with the App Events system
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\api\account-api.mdoc
+FILE PATH: kits/remix-supabase-turbo/api/account-api.mdoc
 
 ---
 status: "published"
@@ -397,7 +397,7 @@ const customerId = await api.getCustomerId(accountId);
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\api\authentication-api.mdoc
+FILE PATH: kits/remix-supabase-turbo/api/authentication-api.mdoc
 
 ---
 status: "published"
@@ -437,7 +437,7 @@ export async function loader(args: LoaderFunctionArgs) {
 If the user needs MFA and is not yet verified, the `redirect` function will redirect the user to the MFA verification page. This is why it is important to check the `redirectTo` property in the response.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\api\team-account-api.mdoc
+FILE PATH: kits/remix-supabase-turbo/api/team-account-api.mdoc
 
 ---
 status: "published"
@@ -572,7 +572,7 @@ This method is used to get the invitation data from the invite token. It's used 
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\api.mdoc
+FILE PATH: kits/remix-supabase-turbo/api.mdoc
 
 ---
 status: "published"
@@ -594,7 +594,7 @@ The API services in Remix Supabase Tubo allow you to interact with the entities 
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\billing\billing-api.mdoc
+FILE PATH: kits/remix-supabase-turbo/billing/billing-api.mdoc
 
 ---
 status: "published"
@@ -751,7 +751,7 @@ quantity: z.number().min(1),
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\billing\billing-schema.mdoc
+FILE PATH: kits/remix-supabase-turbo/billing/billing-schema.mdoc
 
 ---
 status: "published"

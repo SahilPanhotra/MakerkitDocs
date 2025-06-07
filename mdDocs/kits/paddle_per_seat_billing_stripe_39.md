@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\paddle.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/paddle.mdoc
 
 ---
 status: "published"
@@ -17,7 +17,7 @@ Stay tuned!
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\per-seat-billing.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/per-seat-billing.mdoc
 
 ---
 status: "published"
@@ -115,7 +115,7 @@ Please remember that the cost is set for UI purposes. **The billing provider wil
 This is done automatically for you. Makerkit will report the number of seats to your billing provider when subscribing, and when adding or removing members.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\stripe.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/stripe.mdoc
 
 ---
 status: "published"
@@ -237,7 +237,7 @@ Of course - you also must set a trial period for the plan you want to offer a fr
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing.mdoc
+FILE PATH: kits/next-supabase-turbo/billing.mdoc
 
 ---
 status: "published"
@@ -306,7 +306,7 @@ Depending on the service you use, you will need to set the environment variables
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\app-breadcrumbs.mdoc
+FILE PATH: kits/next-supabase-turbo/components/app-breadcrumbs.mdoc
 
 ---
 status: "published"
@@ -394,7 +394,7 @@ This component relies on several other components and utilities:
 This component provides a flexible and easy-to-use solution for adding breadcrumb navigation to your Next.js application. It's particularly useful for sites with deep hierarchical structures or those requiring dynamic breadcrumb generation.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\bordered-navigation-menu.mdoc
+FILE PATH: kits/next-supabase-turbo/components/bordered-navigation-menu.mdoc
 
 ---
 status: "published"
@@ -484,7 +484,7 @@ You can further customize the appearance by passing additional classes through t
 These components provide a sleek, accessible way to create navigation menus in your Next.js application, with built-in support for styling active states and internationalization.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\card-button.mdoc
+FILE PATH: kits/next-supabase-turbo/components/card-button.mdoc
 
 ---
 status: "published"
@@ -644,7 +644,7 @@ function MyCardButton() {
 These CardButton components provide a flexible and customizable way to create interactive card-like buttons in your React application, suitable for various use cases such as feature showcases, navigation elements, or clickable information cards.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\coming-soon.mdoc
+FILE PATH: kits/next-supabase-turbo/components/coming-soon.mdoc
 
 ---
 status: "published"
@@ -765,7 +765,7 @@ export default withI18n(SiteLayout);
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\cookie-banner.mdoc
+FILE PATH: kits/next-supabase-turbo/components/cookie-banner.mdoc
 
 ---
 status: "published"

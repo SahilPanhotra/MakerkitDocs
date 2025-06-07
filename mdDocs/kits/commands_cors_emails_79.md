@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\development\commands.mdoc
+FILE PATH: kits/remix-supabase/development/commands.mdoc
 
 ---
 status: "published"
@@ -157,7 +157,7 @@ npm run killports
 
 
 -----------------
-FILE PATH: kits\remix-supabase\development\cors.mdoc
+FILE PATH: kits/remix-supabase/development/cors.mdoc
 
 ---
 status: "published"
@@ -222,7 +222,7 @@ export default apiHandler;
 
 
 -----------------
-FILE PATH: kits\remix-supabase\development\emails.mdoc
+FILE PATH: kits/remix-supabase/development/emails.mdoc
 
 ---
 status: "published"
@@ -382,7 +382,7 @@ If not set, Makerkit will automatically create an account for you on-the-fly and
 
 
 -----------------
-FILE PATH: kits\remix-supabase\development\encrypting-secrets.mdoc
+FILE PATH: kits/remix-supabase/development/encrypting-secrets.mdoc
 
 ---
 status: "published"
@@ -402,7 +402,7 @@ There are two ways to encrypt your data in Supabase:
 
 
 -----------------
-FILE PATH: kits\remix-supabase\development\i18n-translations.mdoc
+FILE PATH: kits/remix-supabase/development/i18n-translations.mdoc
 
 ---
 status: "published"
@@ -476,7 +476,7 @@ If you want to customize the language switcher or use a different component, you
 
 
 -----------------
-FILE PATH: kits\remix-supabase\development\logging.mdoc
+FILE PATH: kits/remix-supabase/development/logging.mdoc
 
 ---
 status: "published"
@@ -571,7 +571,7 @@ Vercel integrations](https://vercel.com/integrations#logging) for adding persist
 
 
 -----------------
-FILE PATH: kits\remix-supabase\development\user-roles.mdoc
+FILE PATH: kits/remix-supabase/development/user-roles.mdoc
 
 ---
 status: "published"
@@ -642,7 +642,7 @@ Learn more about [using user roles in your permissions system](/docs/permissions
 The role is stored in the database as a column in the `memberships` tabel.
 
 -----------------
-FILE PATH: kits\remix-supabase\development\validating-api-input-zod.mdoc
+FILE PATH: kits/remix-supabase/development/validating-api-input-zod.mdoc
 
 ---
 status: "published"
@@ -733,7 +733,7 @@ check out [the Zod official documentation on GitHub](https://github.com/colinhac
 
 
 -----------------
-FILE PATH: kits\remix-supabase\development.mdoc
+FILE PATH: kits/remix-supabase/development.mdoc
 
 ---
 status: "published"
@@ -746,7 +746,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\getting-started\clone-repository.mdoc
+FILE PATH: kits/remix-supabase/getting-started/clone-repository.mdoc
 
 ---
 status: "published"
@@ -832,7 +832,7 @@ So let's jump on to the next step!
 
 
 -----------------
-FILE PATH: kits\remix-supabase\getting-started\introduction.mdoc
+FILE PATH: kits/remix-supabase/getting-started/introduction.mdoc
 
 ---
 status: "published"
@@ -915,7 +915,7 @@ MakerKit has plenty of resources for using both Remix and Supabase - and if you'
 
 
 -----------------
-FILE PATH: kits\remix-supabase\getting-started\navigating-codebase.mdoc
+FILE PATH: kits/remix-supabase/getting-started/navigating-codebase.mdoc
 
 ---
 status: "published"

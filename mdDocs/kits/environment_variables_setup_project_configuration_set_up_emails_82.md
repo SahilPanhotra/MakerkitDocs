@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\how-to\setup\environment-variables-setup.mdoc
+FILE PATH: kits/remix-supabase/how-to/setup/environment-variables-setup.mdoc
 
 ---
 status: "published"
@@ -56,7 +56,7 @@ No - or better - only during development. Which means that you need to set them 
 
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\setup\project-configuration.mdoc
+FILE PATH: kits/remix-supabase/how-to/setup/project-configuration.mdoc
 
 ---
 status: "published"
@@ -237,7 +237,7 @@ Please refer to the Remix official documentation on how to best store your
 secrets.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\setup\set-up-emails.mdoc
+FILE PATH: kits/remix-supabase/how-to/setup/set-up-emails.mdoc
 
 ---
 status: "published"
@@ -278,7 +278,7 @@ Makerkit uses InBucket to test emails locally without the need for an SMTP
 service. You can access InBucket at [localhost:54324](https://localhost:54324).
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\setup\updating-favicon.mdoc
+FILE PATH: kits/remix-supabase/how-to/setup/updating-favicon.mdoc
 
 ---
 status: "published"
@@ -340,7 +340,7 @@ Update the paths to match your new favicons.
 
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\setup\updating-fonts.mdoc
+FILE PATH: kits/remix-supabase/how-to/setup/updating-fonts.mdoc
 
 ---
 status: "published"
@@ -387,7 +387,7 @@ The above uses Inter, but you can update with the value set in the Tailwind conf
 NB: the font loaded in the CSS file **must match the font name in the Tailwind config file**.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\setup\updating-logo.mdoc
+FILE PATH: kits/remix-supabase/how-to/setup/updating-logo.mdoc
 
 ---
 status: "published"
@@ -424,7 +424,7 @@ The optimal sizes for the logs are:
 [Download the Makerkit Figma file from here](/assets/makerkit.fig) and use the logo from there.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\site\adding-marketing-pages.mdoc
+FILE PATH: kits/remix-supabase/how-to/site/adding-marketing-pages.mdoc
 
 ---
 status: "published"
@@ -467,7 +467,7 @@ If you don't want to use the site layout, create a new group inside `app/routes`
 
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\site\updating-navigation-menu.mdoc
+FILE PATH: kits/remix-supabase/how-to/site/updating-navigation-menu.mdoc
 
 ---
 status: "published"
@@ -537,7 +537,7 @@ Then, add a new `NavigationMenuItem` component to the `NavigationMenu` component
 Et voilà! Your new menu entry is now available in the navigation menu.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\translations\adding-locales.mdoc
+FILE PATH: kits/remix-supabase/how-to/translations/adding-locales.mdoc
 
 ---
 status: "published"
@@ -560,7 +560,7 @@ For example, to add a new language called `fr` (French), you would create a new 
 That's it! Now you can use the `hello` key in your application and it will be translated to `Bonjour` when the locale is set to `fr`.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\translations\adding-translation-file.mdoc
+FILE PATH: kits/remix-supabase/how-to/translations/adding-translation-file.mdoc
 
 ---
 status: "published"
@@ -606,7 +606,7 @@ const i18Config = {
 Now, refresh the dev server and your new bundled will be picked up by the i18n module.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\translations\adding-translation.mdoc
+FILE PATH: kits/remix-supabase/how-to/translations/adding-translation.mdoc
 
 ---
 status: "published"
@@ -660,7 +660,7 @@ const newTranslationString = t('common:new_translation_string');
 
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\translations\default-language.mdoc
+FILE PATH: kits/remix-supabase/how-to/translations/default-language.mdoc
 
 ---
 status: "published"
@@ -685,7 +685,7 @@ DEFAULT_LOCALE=es
 Make sure to set this environment variable in your hosting provider as well for your production application.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\translations\language-switcher.mdoc
+FILE PATH: kits/remix-supabase/how-to/translations/language-switcher.mdoc
 
 ---
 status: "published"
@@ -715,7 +715,7 @@ export const YourComponent = ({ children }) => {
 The language switcher will automatically display the current language and a list of available languages. When a user clicks on a language, the language will be updated in the user's profile and the page will be reloaded.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\troubleshooting\contentlayer-stuck.mdoc
+FILE PATH: kits/remix-supabase/how-to/troubleshooting/contentlayer-stuck.mdoc
 
 ---
 status: "published"
@@ -736,7 +736,7 @@ npm i contentlayer@0.3.1 next-contentlayer@0.3.1
 If it keeps happening, please contact me and I'll help you out.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\troubleshooting\supabase-not-starting.mdoc
+FILE PATH: kits/remix-supabase/how-to/troubleshooting/supabase-not-starting.mdoc
 
 ---
 status: "published"
@@ -785,7 +785,7 @@ npm run supabase:stop
 If you run this command from a different project, it will not stop the Supabase instance running in your current project. So make sure you are in the right directory before running this command.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\troubleshooting\supabase-not-stopping.mdoc
+FILE PATH: kits/remix-supabase/how-to/troubleshooting/supabase-not-stopping.mdoc
 
 ---
 status: "published"
@@ -814,7 +814,7 @@ docker kill $(docker ps -q)
 NB: this command will shut down **all running Docker containers**.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\troubleshooting\tables-not-found.mdoc
+FILE PATH: kits/remix-supabase/how-to/troubleshooting/tables-not-found.mdoc
 
 ---
 status: "published"
@@ -873,7 +873,7 @@ Finished supabase db push.
 To verify that our database was pushed successfully, navigate to your project's dashboard and verify the tables were created.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\ui\dark-theme.mdoc
+FILE PATH: kits/remix-supabase/how-to/ui/dark-theme.mdoc
 
 ---
 status: "published"
@@ -929,7 +929,7 @@ To disable the dark theme and only use the light theme - you need to edit the fo
 In the above, we flipped the `enableThemeSwitcher` to `false` and set the `theme` to `Themes.Light`.
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\ui\theming.mdoc
+FILE PATH: kits/remix-supabase/how-to/ui/theming.mdoc
 
 ---
 status: "published"

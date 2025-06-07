@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components\multi-step-forms.mdoc
+FILE PATH: kits/remix-supabase-turbo/components/multi-step-forms.mdoc
 
 ---
 status: "published"
@@ -345,7 +345,7 @@ The Multi-Step Form Component simplifies the creation of complex, multi-step for
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components\page.mdoc
+FILE PATH: kits/remix-supabase-turbo/components/page.mdoc
 
 ---
 status: "published"
@@ -485,7 +485,7 @@ The Page component and its sub-components use Tailwind CSS classes for styling. 
 The Page component and its related components provide a flexible system for creating structured, responsive layouts in your React application, promoting consistency and ease of maintenance across your project.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components\stepper.mdoc
+FILE PATH: kits/remix-supabase-turbo/components/stepper.mdoc
 
 ---
 status: "published"
@@ -598,7 +598,7 @@ This will render a numbered stepper with three steps, where "Personal Info" is t
 The Stepper component provides a flexible and visually appealing way to guide users through multi-step processes in your application. Its support for different variants and easy customization makes it adaptable to various design requirements.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components.mdoc
+FILE PATH: kits/remix-supabase-turbo/components.mdoc
 
 ---
 status: "published"
@@ -614,7 +614,7 @@ Components in Remix Supabase Turbo
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\configuration\application-configuration.mdoc
+FILE PATH: kits/remix-supabase-turbo/configuration/application-configuration.mdoc
 
 ---
 status: "published"
@@ -653,7 +653,7 @@ VITE_PRODUCT_NAME="My wonderful AI App"
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\configuration\authentication-configuration.mdoc
+FILE PATH: kits/remix-supabase-turbo/configuration/authentication-configuration.mdoc
 
 ---
 status: "published"
@@ -718,7 +718,7 @@ The above will enforce the following rules:
 To enforce MFA for RLS (Row Level Security) you need to customize the RLS policies as per [the Supabase documentation](https://supabase.com/blog/mfa-auth-via-rls).
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\configuration\environment-variables.mdoc
+FILE PATH: kits/remix-supabase-turbo/configuration/environment-variables.mdoc
 
 ---
 status: "published"
@@ -924,7 +924,7 @@ This email will receive the submissions from the contact form.
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\configuration\feature-flags-configuration.mdoc
+FILE PATH: kits/remix-supabase-turbo/configuration/feature-flags-configuration.mdoc
 
 ---
 status: "published"
@@ -1007,7 +1007,7 @@ VITE_LANGUAGE_PRIORITY=
 It is unlikely that both `VITE_ENABLE_PERSONAL_ACCOUNT_BILLING` and `VITE_ENABLE_TEAM_ACCOUNTS_BILLING` would both be enabled at once. In most cases, you want to enable it for users or team accounts.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\configuration\paths-configuration.mdoc
+FILE PATH: kits/remix-supabase-turbo/configuration/paths-configuration.mdoc
 
 ---
 status: "published"
@@ -1051,7 +1051,7 @@ const pathsConfig = PathsSchema.parse({
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\configuration\personal-account-sidebar-configuration.mdoc
+FILE PATH: kits/remix-supabase-turbo/configuration/personal-account-sidebar-configuration.mdoc
 
 ---
 status: "published"

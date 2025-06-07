@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\tutorials\initializing-project.mdoc
+FILE PATH: kits/next-fire/tutorials/initializing-project.mdoc
 
 ---
 status: "published"
@@ -69,7 +69,7 @@ git pull upstream main --allow-unrelated-histories
 Perfect! Now you can fire up your IDE and open the `tasks-app` project we just created.
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\introduction.mdoc
+FILE PATH: kits/next-fire/tutorials/introduction.mdoc
 
 ---
 status: "published"
@@ -103,7 +103,7 @@ Experience with React, TypeScript/JavaScript, and Firebase would be advantageous
 If you have all the above installed, I guess we can get started!
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\marketing-site-pages.mdoc
+FILE PATH: kits/next-fire/tutorials/marketing-site-pages.mdoc
 
 ---
 status: "published"
@@ -204,7 +204,7 @@ And then we update the menu:
 
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\onboarding-flow.mdoc
+FILE PATH: kits/next-fire/tutorials/onboarding-flow.mdoc
 
 ---
 status: "published"
@@ -252,7 +252,7 @@ No, **but you can skip it** by automatically submitting the form.
 Yes, you can follow this guide for [removing the onboarding flow and organizations](/recipes/removing-organizations).
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\project-configuration.mdoc
+FILE PATH: kits/next-fire/tutorials/project-configuration.mdoc
 
 ---
 status: "published"
@@ -369,7 +369,7 @@ Feel free to extend this configuration to your needs. For example, you could new
 
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\project-structure.mdoc
+FILE PATH: kits/next-fire/tutorials/project-structure.mdoc
 
 ---
 status: "published"
@@ -414,7 +414,7 @@ Let's take a deeper look at the structure we see above:
 Don't worry if this isn't clear yet! We'll explain where we place our files in the sections ahead.
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\running-project.mdoc
+FILE PATH: kits/next-fire/tutorials/running-project.mdoc
 
 ---
 status: "published"
@@ -501,7 +501,7 @@ STRIPE_WEBHOOK_SECRET=<KEY>
 The webhook printed should not change, so you may only need to do this the first time.
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\translations.mdoc
+FILE PATH: kits/next-fire/tutorials/translations.mdoc
 
 ---
 status: "published"
@@ -570,7 +570,7 @@ NB: The language selector is not added to the application by default; you will n
 
 
 -----------------
-FILE PATH: kits\next-fire\tutorials\updating-latest-version.mdoc
+FILE PATH: kits/next-fire/tutorials/updating-latest-version.mdoc
 
 ---
 status: "published"
@@ -596,7 +596,7 @@ Unfortunately, you may need to resolve eventual conflicts.
 If you have questions, please join our [Discord Community](https://discord.gg/BeJSyQJ6jP), even if you have not purchased any kit. We chat and help each other build products.
 
 -----------------
-FILE PATH: kits\next-fire\tutorials.mdoc
+FILE PATH: kits/next-fire/tutorials.mdoc
 
 ---
 status: "published"
@@ -609,7 +609,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-fire\ui\shadcn.mdoc
+FILE PATH: kits/next-fire/ui/shadcn.mdoc
 
 ---
 status: "published"
@@ -687,7 +687,7 @@ While ShadCN UI uses `lucide` as their icons library, Makerkit has historically 
 
 
 -----------------
-FILE PATH: kits\next-fire\ui\tailwindcss.mdoc
+FILE PATH: kits/next-fire/ui/tailwindcss.mdoc
 
 ---
 status: "published"
@@ -847,7 +847,7 @@ export const PrimaryButton = () => {
 ```
 
 -----------------
-FILE PATH: kits\next-fire\ui\themes.mdoc
+FILE PATH: kits/next-fire/ui/themes.mdoc
 
 ---
 status: "published"

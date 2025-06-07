@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\supabase-data-fetching.mdoc
+FILE PATH: kits/remix-supabase/tutorials/supabase-data-fetching.mdoc
 
 ---
 status: "published"
@@ -117,7 +117,7 @@ export function getTask(client: Client, id: number) {
 We now have all the queries we need to fetch tasks from Supabase, both as a paginated list and as a single task. In the next section, we will learn how to use these queries from the React Server Components.
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\supabase-data-writing.mdoc
+FILE PATH: kits/remix-supabase/tutorials/supabase-data-writing.mdoc
 
 ---
 status: "published"
@@ -193,7 +193,7 @@ export function deleteTask(
 
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\tailwind-css.mdoc
+FILE PATH: kits/remix-supabase/tutorials/tailwind-css.mdoc
 
 ---
 status: "published"
@@ -279,7 +279,7 @@ plugins: [
 2. The default Tailwind media switcher is not supported since Makerkit uses its own system that allows users to choose the System theme (light or dark) or the theme defined by the application.
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\task-detail.mdoc
+FILE PATH: kits/remix-supabase/tutorials/task-detail.mdoc
 
 ---
 status: "published"
@@ -599,7 +599,7 @@ Perfect, our Tasks App is now complete! 🎉
 In the next steps, we take a look at some things you should now while keeping working on your app.
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\tasks-page.mdoc
+FILE PATH: kits/remix-supabase/tutorials/tasks-page.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\authentication.mdoc
+FILE PATH: kits/remix-supabase/authentication.mdoc
 
 ---
 status: "published"
@@ -12,7 +12,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\blog-and-docs\blog.mdoc
+FILE PATH: kits/remix-supabase/blog-and-docs/blog.mdoc
 
 ---
 status: "published"
@@ -68,7 +68,7 @@ Additionally, we included multiple components that you can use to add content to
 - `TweetEmbed`: Embed a tweet within your blog post
 
 -----------------
-FILE PATH: kits\remix-supabase\blog-and-docs\documentation.mdoc
+FILE PATH: kits/remix-supabase/blog-and-docs/documentation.mdoc
 
 ---
 status: "published"
@@ -165,7 +165,7 @@ Just like the blog post, you can use the following components to render the cont
 The navigation for the documentation is automatically generated based on the folder structure of the `content` folder. Furthermore, page links appear at the bottom of the page, so you can easily navigate to the previous or
 
 -----------------
-FILE PATH: kits\remix-supabase\blog-and-docs.mdoc
+FILE PATH: kits/remix-supabase/blog-and-docs.mdoc
 
 ---
 status: "published"
@@ -178,7 +178,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\configuration\configuration.mdoc
+FILE PATH: kits/remix-supabase/configuration/configuration.mdoc
 
 ---
 status: "published"
@@ -352,7 +352,7 @@ This file will not be committed (at least not the "secret" variable). So instead
 
 
 -----------------
-FILE PATH: kits\remix-supabase\configuration\environment-variables.mdoc
+FILE PATH: kits/remix-supabase/configuration/environment-variables.mdoc
 
 ---
 status: "published"
@@ -474,7 +474,7 @@ The SMTP password of your email provider. This is used by the email client to co
 The sender of your emails. This is used by the email client to send emails to your users. It is a public variable. Use the format `Sender Name <email@app.com>`.
 
 -----------------
-FILE PATH: kits\remix-supabase\configuration\feature-flags.mdoc
+FILE PATH: kits/remix-supabase/configuration/feature-flags.mdoc
 
 ---
 status: "published"
@@ -527,7 +527,7 @@ ENABLE_ORGANIZATION_DELETION=true
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\configuration.mdoc
+FILE PATH: kits/remix-supabase/configuration.mdoc
 
 ---
 status: "published"
@@ -541,7 +541,7 @@ collapsed: true
 
 
 -----------------
-FILE PATH: kits\remix-supabase\data-fetching\fetching-data-supabase.mdoc
+FILE PATH: kits/remix-supabase/data-fetching/fetching-data-supabase.mdoc
 
 ---
 status: "published"
@@ -675,7 +675,7 @@ When you want to ensure your data is rendered on the server, you should ensure y
 When the data is only fetched on the client, you can use `useQuery` to fetch the data and re-fetch the stale queries.
 
 -----------------
-FILE PATH: kits\remix-supabase\data-fetching\making-api-requests.mdoc
+FILE PATH: kits/remix-supabase/data-fetching/making-api-requests.mdoc
 
 ---
 status: "published"
@@ -716,7 +716,7 @@ At this point, you have various options for how to use this loader function.
 You can use a `fetch` call to make the request, or you can use one of the Remix data-fetching utilities, such as `useFetcher`.
 
 -----------------
-FILE PATH: kits\remix-supabase\data-fetching\uploading-data-to-storage.mdoc
+FILE PATH: kits/remix-supabase/data-fetching/uploading-data-to-storage.mdoc
 
 ---
 status: "published"
@@ -780,7 +780,7 @@ const updateProfilePhoto = useUploadUserProfilePhotoMutation();
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\data-fetching\writing-data-to-supabase.mdoc
+FILE PATH: kits/remix-supabase/data-fetching/writing-data-to-supabase.mdoc
 
 ---
 status: "published"
@@ -925,7 +925,7 @@ function getDefaultDueDate() {
 
 
 -----------------
-FILE PATH: kits\remix-supabase\data-fetching.mdoc
+FILE PATH: kits/remix-supabase/data-fetching.mdoc
 
 ---
 status: "published"
@@ -938,7 +938,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\development\code-style.mdoc
+FILE PATH: kits/remix-supabase/development/code-style.mdoc
 
 ---
 status: "published"

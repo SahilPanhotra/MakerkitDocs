@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\site\updating-navigation-menu.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/site/updating-navigation-menu.mdoc
 
 ---
 status: "published"
@@ -69,7 +69,7 @@ Then, add a new `NavigationMenuItem` component to the `NavigationMenu` component
 Et voilà! Your new menu entry is now available in the navigation menu.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\troubleshooting\403-error-actions.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/troubleshooting/403-error-actions.mdoc
 
 ---
 status: "published"
@@ -93,7 +93,7 @@ To fix this error, check out these pages:
 If the CSRF Token is being sent but it's null/undefined, it's likely a bug. In that case, please open a support ticket in our Discord channel.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\troubleshooting\contentlayer-stuck.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/troubleshooting/contentlayer-stuck.mdoc
 
 ---
 status: "published"
@@ -114,7 +114,7 @@ npm i contentlayer@0.3.1 next-contentlayer@0.3.1
 If it keeps happening, please contact me and I'll help you out.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\troubleshooting\dynamic-server-usage-error.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/troubleshooting/dynamic-server-usage-error.mdoc
 
 ---
 status: "published"
@@ -139,7 +139,7 @@ export const dynamic = 'force-dynamic';
 If it keeps happening, try to see if it is happening in yet another layout and add the line there as well. Do it until the error goes away.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\troubleshooting\supabase-not-starting.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/troubleshooting/supabase-not-starting.mdoc
 
 ---
 status: "published"
@@ -188,7 +188,7 @@ npm run supabase:stop
 If you run this command from a different project, it will not stop the Supabase instance running in your current project. So make sure you are in the right directory before running this command.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\troubleshooting\supabase-not-stopping.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/troubleshooting/supabase-not-stopping.mdoc
 
 ---
 status: "published"
@@ -217,7 +217,7 @@ docker kill $(docker ps -q)
 NB: this command will shut down **all running Docker containers**.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\troubleshooting\tables-not-found.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/troubleshooting/tables-not-found.mdoc
 
 ---
 status: "published"
@@ -276,7 +276,7 @@ Finished supabase db push.
 To verify that our database was pushed successfully, navigate to your project's dashboard and verify the tables were created.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\ui\dark-theme.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/ui/dark-theme.mdoc
 
 ---
 status: "published"
@@ -333,7 +333,7 @@ In the above, we flipped the `features.enableThemeSwitcher` flag to `false` and
 set the `theme` to `Themes.Light`.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\ui\theming.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/ui/theming.mdoc
 
 ---
 status: "published"
@@ -410,7 +410,7 @@ dark: {
 While ShadCN UI uses `lucide` as their icons library, Makerkit has historically used `heroicons`. We have configured ShadCN UI to use `heroicons` instead of `lucide` in all Makerkit projects, but for new components, you will need to use `lucide` instead if you don't want to make changes. As such, please install `lucide` as a dependency in your project.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to.mdoc
+FILE PATH: kits/next-supabase-lite/how-to.mdoc
 
 ---
 status: "published"
@@ -423,7 +423,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\migrations\version-0.1.0.mdoc
+FILE PATH: kits/next-supabase-lite/migrations/version-0.1.0.mdoc
 
 ---
 status: "published"
@@ -589,7 +589,7 @@ If you have components using `headlessui`, please keep it in your project. Other
 This guide should help you migrate your project to the new version of the kit. If you have any questions, please get in touch with me.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\migrations.mdoc
+FILE PATH: kits/next-supabase-lite/migrations.mdoc
 
 ---
 status: "published"
@@ -602,7 +602,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\organizations.mdoc
+FILE PATH: kits/next-supabase-lite/organizations.mdoc
 
 ---
 status: "published"
@@ -615,7 +615,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\payments\stripe-configuration.mdoc
+FILE PATH: kits/next-supabase-lite/payments/stripe-configuration.mdoc
 
 ---
 status: "published"

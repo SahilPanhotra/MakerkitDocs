@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: courses\nextjs-turbo\payments-billing.mdoc
+FILE PATH: courses/nextjs-turbo/payments-billing.mdoc
 
 ---
 title: "Payments and Billing in Makerkit Next.js Supabase Turbo"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-lite\payments\stripe-one-time-payments.mdoc
+FILE PATH: kits/next-supabase-lite/payments/stripe-one-time-payments.mdoc
 
 ---
 status: "published"
@@ -121,7 +121,7 @@ return stripe.checkout.sessions.create({
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\payments\stripe-webhooks.mdoc
+FILE PATH: kits/next-supabase-lite/payments/stripe-webhooks.mdoc
 
 ---
 status: "published"
@@ -306,7 +306,7 @@ function subscriptionMapper(
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-lite\payments.mdoc
+FILE PATH: kits/next-supabase-lite/payments.mdoc
 
 ---
 status: "published"
@@ -319,7 +319,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\plugins.mdoc
+FILE PATH: kits/next-supabase-lite/plugins.mdoc
 
 ---
 status: "published"
@@ -332,7 +332,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\sdk.mdoc
+FILE PATH: kits/next-supabase-lite/sdk.mdoc
 
 ---
 status: "published"
@@ -345,7 +345,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\testing\ci-tests.mdoc
+FILE PATH: kits/next-supabase-lite/testing/ci-tests.mdoc
 
 ---
 status: "published"
@@ -411,7 +411,7 @@ npm run supabase:reset
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-lite\testing\running-tests.mdoc
+FILE PATH: kits/next-supabase-lite/testing/running-tests.mdoc
 
 ---
 status: "published"
@@ -514,7 +514,7 @@ it's worth it.
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\testing.mdoc
+FILE PATH: kits/next-supabase-lite/testing.mdoc
 
 ---
 status: "published"
@@ -527,7 +527,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\tutorials.mdoc
+FILE PATH: kits/next-supabase-lite/tutorials.mdoc
 
 ---
 status: "published"
@@ -540,7 +540,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\ui\shadcn.mdoc
+FILE PATH: kits/next-supabase-lite/ui/shadcn.mdoc
 
 ---
 status: "published"
@@ -619,7 +619,7 @@ While ShadCN UI uses `lucide` as their icons library, Makerkit has historically 
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\ui\tailwindcss.mdoc
+FILE PATH: kits/next-supabase-lite/ui/tailwindcss.mdoc
 
 ---
 status: "published"
@@ -780,7 +780,7 @@ export const PrimaryButton = () => {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-lite\ui\themes.mdoc
+FILE PATH: kits/next-supabase-lite/ui/themes.mdoc
 
 ---
 status: "published"
@@ -820,7 +820,7 @@ const configuration = {
 This will prevent the theme toggle from appearing in the application.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\ui.mdoc
+FILE PATH: kits/next-supabase-lite/ui.mdoc
 
 ---
 status: "published"
@@ -833,7 +833,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\admin\adding-super-admin.mdoc
+FILE PATH: kits/next-supabase-turbo/admin/adding-super-admin.mdoc
 
 ---
 status: "published"
@@ -906,7 +906,7 @@ Starting from version `2.5.0`, the Super Admin user will be required to use Mult
 Please navigate to the `/home/settings` page and enable MFA for the Super Admin user.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\admin.mdoc
+FILE PATH: kits/next-supabase-turbo/admin.mdoc
 
 ---
 status: "published"
@@ -969,7 +969,7 @@ As an admin, you can:
 - Monitor subscription status
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics\analytics-and-events.mdoc
+FILE PATH: kits/next-supabase-turbo/analytics/analytics-and-events.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\api\user-workspace-api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/api/user-workspace-api.mdoc
 
 ---
 status: "published"
@@ -32,7 +32,7 @@ This data is only available in the `/home/(user)` layout.
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/api.mdoc
 
 ---
 status: "published"
@@ -54,7 +54,7 @@ The API services in React Router Supabase Tubo allow you to interact with the en
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\billing-api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/billing-api.mdoc
 
 ---
 status: "published"
@@ -211,7 +211,7 @@ quantity: z.number().min(1),
 ```
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\billing-schema.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/billing-schema.mdoc
 
 ---
 status: "published"
@@ -623,7 +623,7 @@ You can also provide a custom button label for the plan. This is done by adding 
 As usual, strings can either be a translation key or a string. If it's a translation key, it will be translated using the `i18n` library.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\billing-webhooks.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/billing-webhooks.mdoc
 
 ---
 status: "published"
@@ -692,7 +692,7 @@ You can find the list of events and their data in the [Stripe documentation](htt
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\billing\credit-based-billing.mdoc
+FILE PATH: kits/react-router-supabase-turbo/billing/credit-based-billing.mdoc
 
 ---
 status: "published"

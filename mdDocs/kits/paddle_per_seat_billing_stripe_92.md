@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase-turbo\billing\paddle.mdoc
+FILE PATH: kits/remix-supabase-turbo/billing/paddle.mdoc
 
 ---
 status: "published"
@@ -17,7 +17,7 @@ Stay tuned!
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\billing\per-seat-billing.mdoc
+FILE PATH: kits/remix-supabase-turbo/billing/per-seat-billing.mdoc
 
 ---
 status: "published"
@@ -105,7 +105,7 @@ Please remember that the cost is set for UI purposes. **The billing provider wil
 This is done automatically for you. Makerkit will report the number of seats to your billing provider when subscribing, and when adding or removing members.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\billing\stripe.mdoc
+FILE PATH: kits/remix-supabase-turbo/billing/stripe.mdoc
 
 ---
 status: "published"
@@ -200,7 +200,7 @@ You can [handle additional events](billing-webhooks) by adding the required hand
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\billing.mdoc
+FILE PATH: kits/remix-supabase-turbo/billing.mdoc
 
 ---
 status: "published"
@@ -268,7 +268,7 @@ Depending on the service you use, you will need to set the environment variables
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components\bordered-navigation-menu.mdoc
+FILE PATH: kits/remix-supabase-turbo/components/bordered-navigation-menu.mdoc
 
 ---
 status: "published"
@@ -358,7 +358,7 @@ You can further customize the appearance by passing additional classes through t
 These components provide a sleek, accessible way to create navigation menus in your Remix application, with built-in support for styling active states and internationalization.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components\card-button.mdoc
+FILE PATH: kits/remix-supabase-turbo/components/card-button.mdoc
 
 ---
 status: "published"
@@ -516,7 +516,7 @@ function MyCardButton() {
 These CardButton components provide a flexible and customizable way to create interactive card-like buttons in your React application, suitable for various use cases such as feature showcases, navigation elements, or clickable information cards.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components\cookie-banner.mdoc
+FILE PATH: kits/remix-supabase-turbo/components/cookie-banner.mdoc
 
 ---
 status: "published"
@@ -646,7 +646,7 @@ function App() {
 This cookie consent management system provides a user-friendly way to comply with cookie laws and regulations while maintaining a good user experience.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components\data-table.mdoc
+FILE PATH: kits/remix-supabase-turbo/components/data-table.mdoc
 
 ---
 status: "published"
@@ -761,7 +761,7 @@ The component uses the `Trans` component for internationalization. Ensure you ha
 The DataTable component provides a powerful and flexible solution for displaying tabular data in your React applications, with built-in support for common table features and easy integration with server-side data loading.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components\if.mdoc
+FILE PATH: kits/remix-supabase-turbo/components/if.mdoc
 
 ---
 status: "published"
@@ -860,7 +860,7 @@ The `If` component is fully typed - this allows for type-safe usage of the rende
 The `If` component provides a clean and efficient way to handle conditional rendering in React applications, improving code readability and maintainability.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\components\loading-overlay.mdoc
+FILE PATH: kits/remix-supabase-turbo/components/loading-overlay.mdoc
 
 ---
 status: "published"

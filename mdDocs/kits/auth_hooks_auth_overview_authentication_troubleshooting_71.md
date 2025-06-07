@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-fire\authentication\auth-hooks.mdoc
+FILE PATH: kits/remix-fire/authentication/auth-hooks.mdoc
 
 ---
 status: "published"
@@ -46,7 +46,7 @@ const [sessionRequest, { loading, error }] = useCreateServerSideSession();
 ```
 
 -----------------
-FILE PATH: kits\remix-fire\authentication\auth-overview.mdoc
+FILE PATH: kits/remix-fire/authentication/auth-overview.mdoc
 
 ---
 status: "published"
@@ -166,7 +166,7 @@ Many websites use persistent sessions in different ways:
 - and a lot more
 
 -----------------
-FILE PATH: kits\remix-fire\authentication\authentication-troubleshooting.mdoc
+FILE PATH: kits/remix-fire/authentication/authentication-troubleshooting.mdoc
 
 ---
 status: "published"
@@ -210,7 +210,7 @@ SERVICE_ACCOUNT_PRIVATE_KEY=
 ```
 
 -----------------
-FILE PATH: kits\remix-fire\authentication\email-link-authentication.mdoc
+FILE PATH: kits/remix-fire/authentication/email-link-authentication.mdoc
 
 ---
 status: "published"
@@ -258,7 +258,7 @@ UI so that the result will look nice.
 
 
 -----------------
-FILE PATH: kits\remix-fire\authentication\email-verification.mdoc
+FILE PATH: kits/remix-fire/authentication/email-verification.mdoc
 
 ---
 status: "published"
@@ -289,7 +289,7 @@ That's pretty much it!
 NB: invited users are not required to verify their email address, since they are already verified by having received the invitation by email.
 
 -----------------
-FILE PATH: kits\remix-fire\authentication\multi-factor-authentication.mdoc
+FILE PATH: kits/remix-fire/authentication/multi-factor-authentication.mdoc
 
 ---
 status: "published"
@@ -324,7 +324,7 @@ After enabling MFA, users can set it up from the `Authentication` page at `/sett
 {% video src="/assets/images/posts/enabling-multi-factor-authentication.mp4" /%}
 
 -----------------
-FILE PATH: kits\remix-fire\authentication\setting-up-firebase-auth.mdoc
+FILE PATH: kits/remix-fire/authentication/setting-up-firebase-auth.mdoc
 
 ---
 status: "published"
@@ -366,7 +366,7 @@ We have already configured MakerKit to work with:
 
 
 -----------------
-FILE PATH: kits\remix-fire\authentication\third-party-auth-providers.mdoc
+FILE PATH: kits/remix-fire/authentication/third-party-auth-providers.mdoc
 
 ---
 status: "published"
@@ -484,7 +484,7 @@ as described above.
 
 
 -----------------
-FILE PATH: kits\remix-fire\configuration\configuration.mdoc
+FILE PATH: kits/remix-fire/configuration/configuration.mdoc
 
 ---
 status: "published"
@@ -739,7 +739,7 @@ the plans that you are going to create in the Stripe Dashboard.
 
 
 -----------------
-FILE PATH: kits\remix-fire\configuration\firebase-functions.mdoc
+FILE PATH: kits/remix-fire/configuration/firebase-functions.mdoc
 
 ---
 status: "published"
@@ -843,7 +843,7 @@ functions
 ```
 
 -----------------
-FILE PATH: kits\remix-fire\configuration\setting-up-firebase.mdoc
+FILE PATH: kits/remix-fire/configuration/setting-up-firebase.mdoc
 
 ---
 status: "published"

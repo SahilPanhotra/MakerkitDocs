@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\faq.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/faq.mdoc
 
 ---
 status: "published"
@@ -50,7 +50,7 @@ This kit is a simple Remix application. You can use any React package you want. 
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\functional-walkthrough.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/functional-walkthrough.mdoc
 
 ---
 status: "published"
@@ -327,7 +327,7 @@ Additionally, they can perform the following actions:
 This concludes the functional walkthrough of the Remix Supabase Turbo Starter Kit. You should now have a good understanding of the features of the kit and how to use it. If you have any questions, feel free to reach out to us. We're here to help!
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\introduction.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/introduction.mdoc
 
 ---
 status: "published"
@@ -376,7 +376,7 @@ This documentation teaches you how to configure, run and deploy the kit. This do
 If you need help with Remix, Supabase, Turbo, etc., please refer to their respective documentation. We will provide links to the official documentation where necessary. For anything strictly related to the kit, you can refer to this documentation.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\migration-from-makerkit-v1.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/migration-from-makerkit-v1.mdoc
 
 ---
 status: "published"
@@ -437,7 +437,7 @@ For example, if you were importing a button from `~/core/ui/Button`, you will no
 You will need to update the configuration files to match the new schemas. The configuration is now split across various files at `apps/web/config`. Most notably, you will need to update the billing schema, which is now much more versatile (and a bit more complex).
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\navigating-codebase.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/navigating-codebase.mdoc
 
 ---
 status: "published"
@@ -576,7 +576,7 @@ So the user home page would be `/home/user` and the account home page would be `
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\running-project.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/running-project.mdoc
 
 ---
 status: "published"

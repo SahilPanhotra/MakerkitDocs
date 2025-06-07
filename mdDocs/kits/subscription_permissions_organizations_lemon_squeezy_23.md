@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\organizations\subscription-permissions.mdoc
+FILE PATH: kits/next-supabase/organizations/subscription-permissions.mdoc
 
 ---
 status: "published"
@@ -166,7 +166,7 @@ export default GatedPage;
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\organizations.mdoc
+FILE PATH: kits/next-supabase/organizations.mdoc
 
 ---
 status: "published"
@@ -179,7 +179,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\payments\lemon-squeezy.mdoc
+FILE PATH: kits/next-supabase/payments/lemon-squeezy.mdoc
 
 ---
 status: "published"
@@ -329,7 +329,7 @@ Once you're ready to go to production, you can switch your Lemon Squeezy store t
 Additionally, remember to set up the webhook in production mode as well, pointing to your production URL.
 
 -----------------
-FILE PATH: kits\next-supabase\payments\stripe-configuration.mdoc
+FILE PATH: kits/next-supabase/payments/stripe-configuration.mdoc
 
 ---
 status: "published"
@@ -574,7 +574,7 @@ For a technical deep-dive, we recommend reading our blog post where we [build th
 
 
 -----------------
-FILE PATH: kits\next-supabase\payments\stripe-one-time-payments.mdoc
+FILE PATH: kits/next-supabase/payments/stripe-one-time-payments.mdoc
 
 ---
 status: "published"
@@ -695,7 +695,7 @@ return stripe.checkout.sessions.create({
 
 
 -----------------
-FILE PATH: kits\next-supabase\payments\stripe-webhooks.mdoc
+FILE PATH: kits/next-supabase/payments/stripe-webhooks.mdoc
 
 ---
 status: "published"
@@ -880,7 +880,7 @@ function subscriptionMapper(
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\payments.mdoc
+FILE PATH: kits/next-supabase/payments.mdoc
 
 ---
 status: "published"
@@ -893,7 +893,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\plugins\ai-chatbot.mdoc
+FILE PATH: kits/next-supabase/plugins/ai-chatbot.mdoc
 
 ---
 status: "published"

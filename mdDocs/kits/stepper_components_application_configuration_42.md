@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\components\stepper.mdoc
+FILE PATH: kits/next-supabase-turbo/components/stepper.mdoc
 
 ---
 status: "published"
@@ -114,7 +114,7 @@ This will render a numbered stepper with three steps, where "Personal Info" is t
 The Stepper component provides a flexible and visually appealing way to guide users through multi-step processes in your application. Its support for different variants and easy customization makes it adaptable to various design requirements.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\components.mdoc
+FILE PATH: kits/next-supabase-turbo/components.mdoc
 
 ---
 status: "published"
@@ -130,7 +130,7 @@ Components in Next.js Supabase Turbo
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\configuration\application-configuration.mdoc
+FILE PATH: kits/next-supabase-turbo/configuration/application-configuration.mdoc
 
 ---
 status: "published"
@@ -168,7 +168,7 @@ NEXT_PUBLIC_PRODUCT_NAME="My wonderful AI App"
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\configuration\authentication-configuration.mdoc
+FILE PATH: kits/next-supabase-turbo/configuration/authentication-configuration.mdoc
 
 ---
 status: "published"
@@ -308,7 +308,7 @@ This is off by default.
 To enforce MFA for RLS (Row Level Security) you need to customize the RLS policies as per [the Supabase documentation](https://supabase.com/blog/mfa-auth-via-rls).
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\configuration\environment-variables.mdoc
+FILE PATH: kits/next-supabase-turbo/configuration/environment-variables.mdoc
 
 ---
 status: "published"
@@ -825,7 +825,7 @@ WORDPRESS_API_URL=https://your-wordpress-site.com/wp-json
    - Rotate keys regularly
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\configuration\feature-flags-configuration.mdoc
+FILE PATH: kits/next-supabase-turbo/configuration/feature-flags-configuration.mdoc
 
 ---
 status: "published"
@@ -927,7 +927,7 @@ It is unlikely that both `NEXT_PUBLIC_ENABLE_PERSONAL_ACCOUNT_BILLING` and `NEXT
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\configuration\paths-configuration.mdoc
+FILE PATH: kits/next-supabase-turbo/configuration/paths-configuration.mdoc
 
 ---
 status: "published"
@@ -968,7 +968,7 @@ const pathsConfig = PathsSchema.parse({
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\configuration\personal-account-sidebar-configuration.mdoc
+FILE PATH: kits/next-supabase-turbo/configuration/personal-account-sidebar-configuration.mdoc
 
 ---
 status: "published"
@@ -1121,7 +1121,7 @@ NB: please update to the latest version to use the latest features and optimizat
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\configuration\team-account-sidebar-configuration.mdoc
+FILE PATH: kits/next-supabase-turbo/configuration/team-account-sidebar-configuration.mdoc
 
 ---
 status: "published"
@@ -1249,7 +1249,7 @@ const routes = [
 NB: please update to the latest version to use the latest features and optimizations.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\configuration.mdoc
+FILE PATH: kits/next-supabase-turbo/configuration.mdoc
 
 ---
 status: "published"

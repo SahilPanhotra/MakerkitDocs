@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\authentication\third-party-auth-providers.mdoc
+FILE PATH: kits/next-fire/authentication/third-party-auth-providers.mdoc
 
 ---
 status: "published"
@@ -115,7 +115,7 @@ as described above.
 
 
 -----------------
-FILE PATH: kits\next-fire\authentication.mdoc
+FILE PATH: kits/next-fire/authentication.mdoc
 
 ---
 status: "published"
@@ -145,7 +145,7 @@ In this section, you will learn everything you need to know about the authentica
 - [Troubleshooting](authentication/auth-troubleshooting): this is the guide to troubleshoot authentication issues
 
 -----------------
-FILE PATH: kits\next-fire\blog-and-docs\blog.mdoc
+FILE PATH: kits/next-fire/blog-and-docs/blog.mdoc
 
 ---
 status: "published"
@@ -268,7 +268,7 @@ For each tag, MakerKit generates a page with every blog post associated, which y
 
 
 -----------------
-FILE PATH: kits\next-fire\blog-and-docs\documentation.mdoc
+FILE PATH: kits/next-fire/blog-and-docs/documentation.mdoc
 
 ---
 status: "published"
@@ -332,7 +332,7 @@ the topic.
 
 
 -----------------
-FILE PATH: kits\next-fire\blog-and-docs\search.mdoc
+FILE PATH: kits/next-fire/blog-and-docs/search.mdoc
 
 ---
 status: "published"
@@ -416,7 +416,7 @@ so you may have some room before having to migrate.
 
 
 -----------------
-FILE PATH: kits\next-fire\blog-and-docs.mdoc
+FILE PATH: kits/next-fire/blog-and-docs.mdoc
 
 ---
 status: "published"
@@ -441,7 +441,7 @@ Thanks to MDX, we can augment the built-in components with richer styling and mo
 
 
 -----------------
-FILE PATH: kits\next-fire\configuration\feature-flags.mdoc
+FILE PATH: kits/next-fire/configuration/feature-flags.mdoc
 
 ---
 status: "published"
@@ -493,7 +493,7 @@ NEXT_PUBLIC_ENABLE_ORGANIZATION_DELETION=true
 ```
 
 -----------------
-FILE PATH: kits\next-fire\configuration\firebase-functions.mdoc
+FILE PATH: kits/next-fire/configuration/firebase-functions.mdoc
 
 ---
 status: "published"
@@ -595,7 +595,7 @@ functions
 ```
 
 -----------------
-FILE PATH: kits\next-fire\configuration\setting-up-firebase.mdoc
+FILE PATH: kits/next-fire/configuration/setting-up-firebase.mdoc
 
 ---
 status: "published"
@@ -808,7 +808,7 @@ You can do so by logging in to the Firebase Console and pasting the rules from t
 You don't need to do this right away, but you will need to do it before you deploy your application to production.
 
 -----------------
-FILE PATH: kits\next-fire\configuration.mdoc
+FILE PATH: kits/next-fire/configuration.mdoc
 
 ---
 status: "published"

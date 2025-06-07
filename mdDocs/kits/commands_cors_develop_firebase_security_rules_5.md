@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\development\commands.mdoc
+FILE PATH: kits/next-fire/development/commands.mdoc
 
 ---
 status: "published"
@@ -170,7 +170,7 @@ npm run killports
 
 
 -----------------
-FILE PATH: kits\next-fire\development\cors.mdoc
+FILE PATH: kits/next-fire/development/cors.mdoc
 
 ---
 status: "published"
@@ -239,7 +239,7 @@ export function handler(
 ```
 
 -----------------
-FILE PATH: kits\next-fire\development\develop-firebase-security-rules.mdoc
+FILE PATH: kits/next-fire/development/develop-firebase-security-rules.mdoc
 
 ---
 status: "published"
@@ -273,7 +273,7 @@ To publish your Security rules, open your Firebase Admin Console and copy-paste 
 
 
 -----------------
-FILE PATH: kits\next-fire\development\emails.mdoc
+FILE PATH: kits/next-fire/development/emails.mdoc
 
 ---
 status: "published"
@@ -441,7 +441,7 @@ If not set, Makerkit will automatically create an account for you on-the-fly and
 
 
 -----------------
-FILE PATH: kits\next-fire\development\encrypting-secrets.mdoc
+FILE PATH: kits/next-fire/development/encrypting-secrets.mdoc
 
 ---
 status: "published"
@@ -477,7 +477,7 @@ function getApiKey(id: string) {
 
 
 -----------------
-FILE PATH: kits\next-fire\development\i18n-translations.mdoc
+FILE PATH: kits/next-fire/development/i18n-translations.mdoc
 
 ---
 status: "published"
@@ -596,7 +596,7 @@ The `editor` namespace will be added to the default ones specified in  `DEFAULT_
 
 
 -----------------
-FILE PATH: kits\next-fire\development\logging.mdoc
+FILE PATH: kits/next-fire/development/logging.mdoc
 
 ---
 status: "published"
@@ -695,7 +695,7 @@ Vercel integrations](https://vercel.com/integrations#logging) for adding persist
 
 
 -----------------
-FILE PATH: kits\next-fire\development\user-roles.mdoc
+FILE PATH: kits/next-fire/development/user-roles.mdoc
 
 ---
 status: "published"
@@ -763,7 +763,7 @@ Learn more about [using user roles in your permissions system](/docs/permissions
 
 
 -----------------
-FILE PATH: kits\next-fire\development\validating-api-input-zod.mdoc
+FILE PATH: kits/next-fire/development/validating-api-input-zod.mdoc
 
 ---
 status: "published"
@@ -869,7 +869,7 @@ check out [the Zod official documentation on GitHub](https://github.com/colinhac
 
 
 -----------------
-FILE PATH: kits\next-fire\development.mdoc
+FILE PATH: kits/next-fire/development.mdoc
 
 ---
 status: "published"
@@ -894,7 +894,7 @@ In this section, you will learn everything you need to know about common develop
 - [I18n](development/i18n-translations): this is the guide to set up i18n and translations
 
 -----------------
-FILE PATH: kits\next-fire\getting-started\clone-repository.mdoc
+FILE PATH: kits/next-fire/getting-started/clone-repository.mdoc
 
 ---
 status: "published"
@@ -979,7 +979,7 @@ So let's jump on to the next step!
 
 
 -----------------
-FILE PATH: kits\next-fire\getting-started\coding-conventions.mdoc
+FILE PATH: kits/next-fire/getting-started/coding-conventions.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\security.mdoc
+FILE PATH: kits/next-supabase-turbo/security.mdoc
 
 ---
 status: "published"
@@ -12,7 +12,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\translations\adding-translations.mdoc
+FILE PATH: kits/next-supabase-turbo/translations/adding-translations.mdoc
 
 ---
 status: "published"
@@ -80,7 +80,7 @@ export const defaultI18nNamespaces = [
 In the example above, the `chatbots` namespace is added to the `defaultI18nNamespaces` array. And that's it! You can now start adding translations to your new namespace.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\translations\language-selector.mdoc
+FILE PATH: kits/next-supabase-turbo/translations/language-selector.mdoc
 
 ---
 status: "published"
@@ -104,7 +104,7 @@ It is already part of the Account settings when more than one language is define
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\translations\using-translations.mdoc
+FILE PATH: kits/next-supabase-turbo/translations/using-translations.mdoc
 
 ---
 status: "published"
@@ -195,7 +195,7 @@ const MyComponent = () => {
 By following these steps, you can easily add translations to your Next.js Supabase project. This approach ensures that your application is accessible to a global audience, providing a better user experience for all users.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\translations.mdoc
+FILE PATH: kits/next-supabase-turbo/translations.mdoc
 
 ---
 status: "published"
@@ -219,7 +219,7 @@ Make your application multilingual:
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\troubleshooting\troubleshooting-authentication.mdoc
+FILE PATH: kits/next-supabase-turbo/troubleshooting/troubleshooting-authentication.mdoc
 
 ---
 status: "published"
@@ -248,7 +248,7 @@ Please [read Supabase's documentation](https://supabase.com/docs/guides/auth/soc
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\troubleshooting\troubleshooting-billing.mdoc
+FILE PATH: kits/next-supabase-turbo/troubleshooting/troubleshooting-billing.mdoc
 
 ---
 status: "published"
@@ -295,7 +295,7 @@ When opening a support ticket, please make sure to include:
 3. Any error messages you may have received
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\troubleshooting\troubleshooting-deployment.mdoc
+FILE PATH: kits/next-supabase-turbo/troubleshooting/troubleshooting-deployment.mdoc
 
 ---
 status: "published"
@@ -314,7 +314,7 @@ The kit is very defensive about incorrect environment variables, and will throw 
 If you are deploying to Vercel, [please follow this guide](../going-to-production/vercel).
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\troubleshooting\troubleshooting-emails.mdoc
+FILE PATH: kits/next-supabase-turbo/troubleshooting/troubleshooting-emails.mdoc
 
 ---
 status: "published"
@@ -335,7 +335,7 @@ To troubleshoot emails issues in the Next.js Supabase kit, please make sure to:
 If you have done all the above and still having issues, please open a Support Ticket in Discord.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\troubleshooting\troubleshooting-installation.mdoc
+FILE PATH: kits/next-supabase-turbo/troubleshooting/troubleshooting-installation.mdoc
 
 ---
 status: "published"
@@ -377,7 +377,7 @@ Please make sure you have installed Docker (or compatible software such as Colim
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\troubleshooting\troubleshooting-module-not-found.mdoc
+FILE PATH: kits/next-supabase-turbo/troubleshooting/troubleshooting-module-not-found.mdoc
 
 ---
 status: "published"
@@ -443,7 +443,7 @@ pnpm add my-package --filter web
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\troubleshooting.mdoc
+FILE PATH: kits/next-supabase-turbo/troubleshooting.mdoc
 
 ---
 status: "published"
@@ -470,7 +470,7 @@ Each section provides focused guidance for its specific domain.
 
 
 -----------------
-FILE PATH: kits\react-native-supabase\development\database.mdoc
+FILE PATH: kits/react-native-supabase/development/database.mdoc
 
 ---
 status: "published"
@@ -513,7 +513,7 @@ From here on, you can add more tables to the schema, and link them to the
 `accounts` table using the `account_id` field to reference the user's account.
 
 -----------------
-FILE PATH: kits\react-native-supabase\development\development.mdoc
+FILE PATH: kits/react-native-supabase/development/development.mdoc
 
 ---
 status: "published"
@@ -527,7 +527,7 @@ collapsed: false
 
 
 -----------------
-FILE PATH: kits\react-native-supabase\development\react-query.mdoc
+FILE PATH: kits/react-native-supabase/development/react-query.mdoc
 
 ---
 status: "published"
@@ -639,7 +639,7 @@ function CreateTaskForm() {
 ```
 
 -----------------
-FILE PATH: kits\react-native-supabase\development\supabase-client.mdoc
+FILE PATH: kits/react-native-supabase/development/supabase-client.mdoc
 
 ---
 status: "published"
@@ -671,7 +671,7 @@ export default function Home() {
 ```
 
 -----------------
-FILE PATH: kits\react-native-supabase\installation\clone-repository.mdoc
+FILE PATH: kits/react-native-supabase/installation/clone-repository.mdoc
 
 ---
 status: "published"
@@ -803,7 +803,7 @@ Now, every time you pull updates from the upstream repository, the `pnpm i` comm
 
 
 -----------------
-FILE PATH: kits\react-native-supabase\installation\common-commands.mdoc
+FILE PATH: kits/react-native-supabase/installation/common-commands.mdoc
 
 ---
 status: "published"

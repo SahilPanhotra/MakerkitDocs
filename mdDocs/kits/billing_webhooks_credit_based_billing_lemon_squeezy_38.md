@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\billing-webhooks.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/billing-webhooks.mdoc
 
 ---
 status: "published"
@@ -80,7 +80,7 @@ You can find the list of events and their data in the [Stripe documentation](htt
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\credit-based-billing.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/credit-based-billing.mdoc
 
 ---
 status: "published"
@@ -374,7 +374,7 @@ The `credits` table has a column named `tokens_quota` that stores the number of 
 In the `onInvoicePaid` event handler, we get the variant ID from the invoice line items and update the `credits` table with the new credits.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\lemon-squeezy.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/lemon-squeezy.mdoc
 
 ---
 status: "published"
@@ -447,7 +447,7 @@ Please set the following webhook events in Lemon Squeezy:
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\metered-usage.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/metered-usage.mdoc
 
 ---
 status: "published"
@@ -681,7 +681,7 @@ async function reportUsageForApiRequests(
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\one-off-payments.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/one-off-payments.mdoc
 
 ---
 status: "published"
@@ -761,7 +761,7 @@ When this flags in set to `one-time`, Makerkit's plan's page will be looking for
 As mentioned - this is a best-effort implementation. You may need to customize the billing pages to fit your specific use case.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\billing\overview.mdoc
+FILE PATH: kits/next-supabase-turbo/billing/overview.mdoc
 
 ---
 status: "published"

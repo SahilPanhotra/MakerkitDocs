@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\code-health.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/code-health.mdoc
 
 ---
 status: "published"
@@ -86,7 +86,7 @@ You could also add tests - but it'll slow down your commits. It's better to run 
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\common-commands.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/common-commands.mdoc
 
 ---
 status: "published"
@@ -237,7 +237,7 @@ This will format the project using Prettier.
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\conventions.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/conventions.mdoc
 
 ---
 status: "published"
@@ -285,7 +285,7 @@ The files localed in `server` folders are to be assumed as server-side code. The
 For example, you will find the server code related to a part of the app at `_lib/server` folder.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\faq.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/faq.mdoc
 
 ---
 status: "published"
@@ -335,7 +335,7 @@ This kit is a simple React Router application. You can use any React package you
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\functional-walkthrough.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/functional-walkthrough.mdoc
 
 ---
 status: "published"
@@ -610,7 +610,7 @@ Additionally, they can perform the following actions:
 This concludes the functional walkthrough of the React Router Supabase Turbo Starter Kit. You should now have a good understanding of the features of the kit and how to use it. If you have any questions, feel free to reach out to us. We're here to help!
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\introduction.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/introduction.mdoc
 
 ---
 status: "published"
@@ -659,7 +659,7 @@ This documentation teaches you how to configure, run and deploy the kit. This do
 If you need help with React Router, Supabase, Turbo, etc., please refer to their respective documentation. We will provide links to the official documentation where necessary. For anything strictly related to the kit, you can refer to this documentation.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\migration-from-remix.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/migration-from-remix.mdoc
 
 ---
 status: "published"

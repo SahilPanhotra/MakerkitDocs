@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\supabase.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/supabase.mdoc
 
 ---
 status: "published"
@@ -214,7 +214,7 @@ However, I am writing it here as a reminder to do it before you go live with you
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\vercel.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/vercel.mdoc
 
 ---
 status: "published"
@@ -317,7 +317,7 @@ For more info refer to the [Vercel documentation](https://vercel.com/docs/monore
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production\vps.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production/vps.mdoc
 
 ---
 status: "published"
@@ -471,7 +471,7 @@ Now that your application is running, you can start to configure the production 
 After doing this, you will have a production-ready application that is fully self-hosted!
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\going-to-production.mdoc
+FILE PATH: kits/next-supabase-turbo/going-to-production.mdoc
 
 ---
 status: "published"
@@ -503,7 +503,7 @@ Ready to launch? Here's everything you need to know about deploying your Makerki
 Time to ship your product! 🚀 Follow these guides to ensure a smooth deployment.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\clone-repository.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/clone-repository.mdoc
 
 ---
 status: "published"
@@ -695,7 +695,7 @@ Now, every time you pull updates from the upstream repository, the `pnpm i` comm
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\code-health.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/code-health.mdoc
 
 ---
 status: "published"

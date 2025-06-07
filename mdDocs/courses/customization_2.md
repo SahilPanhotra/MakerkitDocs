@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: courses\nextjs-turbo\customization.mdoc
+FILE PATH: courses/nextjs-turbo/customization.mdoc
 
 ---
 title: "How to customize your Makerkit Next.js Supabase Turbo project"

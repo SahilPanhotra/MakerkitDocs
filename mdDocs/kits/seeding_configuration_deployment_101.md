@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\supamode\configuration\seeding.mdoc
+FILE PATH: kits/supamode/configuration/seeding.mdoc
 
 ---
 status: "published"
@@ -731,7 +731,7 @@ const createHolidayContent = Permission.createDataPermission({
 Remember: A well-designed permission seed is the foundation of a secure, scalable application. Take time to model your organization's actual workflows and access patterns before implementing!
 
 -----------------
-FILE PATH: kits\supamode\configuration.mdoc
+FILE PATH: kits/supamode/configuration.mdoc
 
 ---
 status: "published"
@@ -746,7 +746,7 @@ collapsible: false
 
 
 -----------------
-FILE PATH: kits\supamode\deployment.mdoc
+FILE PATH: kits/supamode/deployment.mdoc
 
 ---
 status: "published"
@@ -761,7 +761,7 @@ collapsible: false
 
 
 -----------------
-FILE PATH: kits\supamode\development.mdoc
+FILE PATH: kits/supamode/development.mdoc
 
 ---
 status: "published"
@@ -776,7 +776,7 @@ collapsible: false
 
 
 -----------------
-FILE PATH: kits\supamode\features.mdoc
+FILE PATH: kits/supamode/features.mdoc
 
 ---
 status: "published"
@@ -791,7 +791,7 @@ collapsible: false
 
 
 -----------------
-FILE PATH: kits\supamode\installation\clone-repository.mdoc
+FILE PATH: kits/supamode/installation/clone-repository.mdoc
 
 ---
 status: "published"
@@ -924,7 +924,7 @@ Now, every time you pull updates from the upstream repository, the `pnpm i` comm
 
 
 -----------------
-FILE PATH: kits\supamode\installation\common-commands.mdoc
+FILE PATH: kits/supamode/installation/common-commands.mdoc
 
 ---
 status: "published"
@@ -1065,7 +1065,7 @@ This will format the project using Prettier.
 
 
 -----------------
-FILE PATH: kits\supamode\installation\introduction.mdoc
+FILE PATH: kits/supamode/installation/introduction.mdoc
 
 ---
 status: "published"
@@ -1087,7 +1087,7 @@ Supamode is built with the following key features:
 - **Extensible**: Add your own custom views and features by modifying the code. The API provided by Supamode allows you to extend the functionality of the app to suit your needs.
 
 -----------------
-FILE PATH: kits\supamode\installation\running-project.mdoc
+FILE PATH: kits/supamode/installation/running-project.mdoc
 
 ---
 status: "published"
@@ -1135,7 +1135,7 @@ pnpm run supabase:web:start
 This command will start the Supabase web server. Please make sure no other Supabase instance is running on your machine, as it will conflict with the one started by this command.
 
 -----------------
-FILE PATH: kits\supamode\installation\technical-details.mdoc
+FILE PATH: kits/supamode/installation/technical-details.mdoc
 
 ---
 status: "published"
@@ -1157,7 +1157,7 @@ The application is an SPA using React, backed by a Hono API.
 
 
 -----------------
-FILE PATH: kits\supamode\installation\updating-codebase.mdoc
+FILE PATH: kits/supamode/installation/updating-codebase.mdoc
 
 ---
 status: "published"
@@ -1220,7 +1220,7 @@ Now the types will reflect the changes from the `upstream` repository and your p
 
 
 -----------------
-FILE PATH: kits\supamode\installation.mdoc
+FILE PATH: kits/supamode/installation.mdoc
 
 ---
 status: "published"

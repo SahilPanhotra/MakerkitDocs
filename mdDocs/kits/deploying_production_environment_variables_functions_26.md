@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\tutorials\deploying-production.mdoc
+FILE PATH: kits/next-supabase/tutorials/deploying-production.mdoc
 
 ---
 status: "published"
@@ -25,7 +25,7 @@ Before deploying to production or any remote server, you need to [follow all the
 8. **Deployment**: Finally, deploy your application to your hosting provider (Vercel, Firebase, Netlify, etc.): please follow the instructions provided by your hosting provider to deploy a Next.js application.
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\environment-variables.mdoc
+FILE PATH: kits/next-supabase/tutorials/environment-variables.mdoc
 
 ---
 status: "published"
@@ -46,7 +46,7 @@ The starter project comes with two different environment variables files:
 
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\functions.mdoc
+FILE PATH: kits/next-supabase/tutorials/functions.mdoc
 
 ---
 status: "published"
@@ -329,7 +329,7 @@ export async function GET() {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\initializing-project.mdoc
+FILE PATH: kits/next-supabase/tutorials/initializing-project.mdoc
 
 ---
 status: "published"
@@ -423,7 +423,7 @@ NB: as updates are released almost daily, remember to pull updates often!
 Perfect! Now you can fire up your IDE and open the `tasks-app` project we just created.
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\introduction.mdoc
+FILE PATH: kits/next-supabase/tutorials/introduction.mdoc
 
 ---
 status: "published"
@@ -467,7 +467,7 @@ advantageous but not strictly required. The codebase can also serve as a way to 
 If you have all the above installed, let's get started!
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\marketing-site-pages.mdoc
+FILE PATH: kits/next-supabase/tutorials/marketing-site-pages.mdoc
 
 ---
 status: "published"
@@ -573,7 +573,7 @@ And then we update the menu:
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\onboarding-flow.mdoc
+FILE PATH: kits/next-supabase/tutorials/onboarding-flow.mdoc
 
 ---
 status: "published"
@@ -627,7 +627,7 @@ Yes, you can follow this guide for [removing the onboarding flow and organizatio
 Alternatively - you can use the Lite Kit - which doesn't have an onboarding flow and organizations.
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\project-configuration.mdoc
+FILE PATH: kits/next-supabase/tutorials/project-configuration.mdoc
 
 ---
 status: "published"
@@ -796,7 +796,7 @@ Feel free to extend this configuration to your needs. For example, you could new
 
 
 -----------------
-FILE PATH: kits\next-supabase\tutorials\routing.mdoc
+FILE PATH: kits/next-supabase/tutorials/routing.mdoc
 
 ---
 status: "published"

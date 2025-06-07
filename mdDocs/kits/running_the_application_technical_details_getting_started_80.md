@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\getting-started\running-the-application.mdoc
+FILE PATH: kits/remix-supabase/getting-started/running-the-application.mdoc
 
 ---
 status: "published"
@@ -151,7 +151,7 @@ When signing up, Supabase sends an email confirmation to a testing account. You 
 
 
 -----------------
-FILE PATH: kits\remix-supabase\getting-started\technical-details.mdoc
+FILE PATH: kits/remix-supabase/getting-started/technical-details.mdoc
 
 ---
 status: "published"
@@ -255,7 +255,7 @@ MakerKit uses Tanstack's React Query to coordinate data fetching and caching.
 
 
 -----------------
-FILE PATH: kits\remix-supabase\getting-started.mdoc
+FILE PATH: kits/remix-supabase/getting-started.mdoc
 
 ---
 status: "published"
@@ -268,7 +268,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\going-to-production\going-to-production-overview.mdoc
+FILE PATH: kits/remix-supabase/going-to-production/going-to-production-overview.mdoc
 
 ---
 status: "published"
@@ -372,7 +372,7 @@ Some logging services that we recommend are:
 The above can be installed with a one-click install in the Vercel dashboard (if you are using Vercel).
 
 -----------------
-FILE PATH: kits\remix-supabase\going-to-production.mdoc
+FILE PATH: kits/remix-supabase/going-to-production.mdoc
 
 ---
 status: "published"
@@ -385,7 +385,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\api\api-routes.mdoc
+FILE PATH: kits/remix-supabase/how-to/api/api-routes.mdoc
 
 ---
 status: "published"
@@ -439,7 +439,7 @@ export async function loader(args: LoaderFunctionArgs) {
 
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\api\call-api-routes-from-client.mdoc
+FILE PATH: kits/remix-supabase/how-to/api/call-api-routes-from-client.mdoc
 
 ---
 status: "published"
@@ -629,7 +629,7 @@ function TaskForm() {
 
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\app\adding-app-pages.mdoc
+FILE PATH: kits/remix-supabase/how-to/app/adding-app-pages.mdoc
 
 ---
 status: "published"
@@ -740,7 +740,7 @@ You can omit these components if you don't need them.
 
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\app\guarding-pages.mdoc
+FILE PATH: kits/remix-supabase/how-to/app/guarding-pages.mdoc
 
 ---
 status: "published"
@@ -815,7 +815,7 @@ function isSubscriptionActive(status: string | undefined) {
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\how-to\app\updating-sidebar-menu.mdoc
+FILE PATH: kits/remix-supabase/how-to/app/updating-sidebar-menu.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\legal-pages.mdoc
+FILE PATH: kits/next-supabase-turbo/development/legal-pages.mdoc
 
 ---
 status: "published"
@@ -56,7 +56,7 @@ export async function MyPage() {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\loading-data-from-database.mdoc
+FILE PATH: kits/next-supabase-turbo/development/loading-data-from-database.mdoc
 
 ---
 status: "published"
@@ -291,7 +291,7 @@ In this snippet, we define the `TasksTable` component that renders the tasks in 
 We also define the `useGetColumns` hook that returns the columns for the table. We use the `useTranslation` hook from the `react-i18next` package to translate the column headers.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\marketing-pages.mdoc
+FILE PATH: kits/next-supabase-turbo/development/marketing-pages.mdoc
 
 ---
 status: "published"
@@ -354,7 +354,7 @@ CONTACT_EMAIL=
 In this variable, you need to set the email address where you want to receive the contact form submissions. The sender will be the same as the one configured in your [mailing configuration](../emails/email-configuration).
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\migrations.mdoc
+FILE PATH: kits/next-supabase-turbo/development/migrations.mdoc
 
 ---
 status: "published"
@@ -450,7 +450,7 @@ Whenever you want to apply changes to the database schema, you can use the same 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\permissions-and-roles.mdoc
+FILE PATH: kits/next-supabase-turbo/development/permissions-and-roles.mdoc
 
 ---
 status: "published"
@@ -693,7 +693,7 @@ Easy as that!
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\seo.mdoc
+FILE PATH: kits/next-supabase-turbo/development/seo.mdoc
 
 ---
 status: "published"

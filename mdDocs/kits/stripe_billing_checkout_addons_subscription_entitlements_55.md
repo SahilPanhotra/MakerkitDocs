@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\recipes\stripe-billing-checkout-addons.mdoc
+FILE PATH: kits/next-supabase-turbo/recipes/stripe-billing-checkout-addons.mdoc
 
 ---
 status: "published"
@@ -805,7 +805,7 @@ Remember, while adding addons to the checkout process is now straightforward, ma
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\recipes\subscription-entitlements.mdoc
+FILE PATH: kits/next-supabase-turbo/recipes/subscription-entitlements.mdoc
 
 ---
 status: "published"

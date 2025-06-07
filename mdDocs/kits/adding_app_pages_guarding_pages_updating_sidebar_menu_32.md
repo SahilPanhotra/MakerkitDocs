@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\app\adding-app-pages.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/app/adding-app-pages.mdoc
 
 ---
 status: "published"
@@ -83,7 +83,7 @@ Layout-wise, we added the following components:
 You can omit these components if you don't need them.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\app\guarding-pages.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/app/guarding-pages.mdoc
 
 ---
 status: "published"
@@ -127,7 +127,7 @@ function isSubscriptionActive(status: string | undefined) {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\app\updating-sidebar-menu.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/app/updating-sidebar-menu.mdoc
 
 ---
 status: "published"
@@ -248,7 +248,7 @@ const NAVIGATION_CONFIG = {
 As you can see, we added a new menu entry to the `NAVIGATION_CONFIG.items` array. The change will be automatically reflected in the sidebar of your application.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\authentication\change-auth-strategy.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/authentication/change-auth-strategy.mdoc
 
 ---
 status: "published"
@@ -362,7 +362,7 @@ With that said, the UI is not designed to support multiple authentication strate
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\authentication\setup-oauth.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/authentication/setup-oauth.mdoc
 
 ---
 status: "published"
@@ -421,7 +421,7 @@ Most of the setup is done in two places:
 To know more about how to setup an oAuth provider, please read the [Supabase documentation](https://supabase.io/docs/guides/auth#third-party-logins).
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\contextual-data\user.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/contextual-data/user.mdoc
 
 ---
 status: "published"
@@ -521,7 +521,7 @@ This is a React hook and can only be used inside a React component.
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\data-fetching\reading-record.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/data-fetching/reading-record.mdoc
 
 ---
 status: "published"
@@ -668,7 +668,7 @@ function TaskComponent({ id }: { id: number }) {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\data-mutations\creating-record.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/data-mutations/creating-record.mdoc
 
 ---
 status: "published"
@@ -796,7 +796,7 @@ const onSubmit = (task: Task) => {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\database\generate-database-types.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/database/generate-database-types.mdoc
 
 ---
 status: "published"
@@ -816,7 +816,7 @@ Following a change in the schema, you need to do two things:
 That's it! Always remember to update your schema types after changing your database schema.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\database\resetting-local-database.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/database/resetting-local-database.mdoc
 
 ---
 status: "published"
@@ -839,7 +839,7 @@ The database is now in the same state as when you started your Supabase server.
 **Important**: users created during the session will be reset, which means your application may be in a conflicting state. Log out or delete the cookies to restart from scratch.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\database\seed-data.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/database/seed-data.mdoc
 
 ---
 status: "published"
@@ -871,7 +871,7 @@ The next database restarts will use the new data inserted.
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\introduction.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/introduction.mdoc
 
 ---
 status: "published"
@@ -901,7 +901,7 @@ The "How to" documentation of Makerkit Next.js Supabase Lite is a collection of 
 This documentation is under development and will be updated regularly. If you have any questions, please contact me.
 
 -----------------
-FILE PATH: kits\next-supabase-lite\how-to\payments\configuring-plans.mdoc
+FILE PATH: kits/next-supabase-lite/how-to/payments/configuring-plans.mdoc
 
 ---
 status: "published"

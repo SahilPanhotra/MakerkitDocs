@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: courses\nextjs-turbo\database.mdoc
+FILE PATH: courses/nextjs-turbo/database.mdoc
 
 ---
 title: "Setting up your Supabase Database - Schema and Migrations"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\development.mdoc
+FILE PATH: kits/react-router-supabase-turbo/development.mdoc
 
 ---
 status: "published"
@@ -37,7 +37,7 @@ Your roadmap to building with Makerkit. Here's what you need to know about devel
 Ready to start building? Pick a topic above and dive in! 🚀
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\emails\authentication-emails.mdoc
+FILE PATH: kits/react-router-supabase-turbo/emails/authentication-emails.mdoc
 
 ---
 status: "published"
@@ -75,7 +75,7 @@ Please clone the templates repository locally and customize them to your liking:
 Now your emails from Supabase Auth will look great and match your brand! 🎉
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\emails\email-configuration.mdoc
+FILE PATH: kits/react-router-supabase-turbo/emails/email-configuration.mdoc
 
 ---
 status: "published"
@@ -160,7 +160,7 @@ EMAIL_SENDER=your-email
 That's it! You're now ready to send emails from your React Router Supabase Starter Kit using the configured mailer provider.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\emails\email-templates.mdoc
+FILE PATH: kits/react-router-supabase-turbo/emails/email-templates.mdoc
 
 ---
 status: "published"
@@ -299,7 +299,7 @@ async function sendEmail() {
 ```
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\emails\inbucket.mdoc
+FILE PATH: kits/react-router-supabase-turbo/emails/inbucket.mdoc
 
 ---
 status: "published"
@@ -395,7 +395,7 @@ InBucket is a valuable tool for local development, allowing you to:
 Remember to switch to a proper email provider when deploying to production!
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\emails\sending-emails.mdoc
+FILE PATH: kits/react-router-supabase-turbo/emails/sending-emails.mdoc
 
 ---
 status: "published"
@@ -464,7 +464,7 @@ async function sendEmail(params: {
 Et voilà! You are now ready to send emails from your React Router Supabase Starter Kit. 🚀
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\emails.mdoc
+FILE PATH: kits/react-router-supabase-turbo/emails.mdoc
 
 ---
 status: "published"
@@ -491,7 +491,7 @@ Whether you're setting up transactional emails, authentication notifications, or
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production\authentication.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production/authentication.mdoc
 
 ---
 status: "published"
@@ -548,7 +548,7 @@ If something is still not working, please open a support ticket with any useful 
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production\checklist.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production/checklist.mdoc
 
 ---
 status: "published"
@@ -627,7 +627,7 @@ Other minor things to consider:
 **Note**: Please note that these steps are essential for setting up Makerkit and ensuring that your SaaS application functions correctly. Omitting any of these steps may result in errors or unexpected behavior in your application.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\going-to-production\cloudflare.mdoc
+FILE PATH: kits/react-router-supabase-turbo/going-to-production/cloudflare.mdoc
 
 ---
 status: "published"

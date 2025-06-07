@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\dev-tools\translations.mdoc
+FILE PATH: kits/next-supabase-turbo/dev-tools/translations.mdoc
 
 ---
 status: "published"
@@ -43,7 +43,7 @@ Every time you update a translation, it will be saved automatically to the same 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\dev-tools.mdoc
+FILE PATH: kits/next-supabase-turbo/dev-tools.mdoc
 
 ---
 status: "published"
@@ -57,7 +57,7 @@ collapsed: true
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\adding-turborepo-app.mdoc
+FILE PATH: kits/next-supabase-turbo/development/adding-turborepo-app.mdoc
 
 ---
 status: "published"
@@ -141,7 +141,7 @@ git subtree pull --prefix=apps/pdf-chat origin web-branch --squash
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\adding-turborepo-package.mdoc
+FILE PATH: kits/next-supabase-turbo/development/adding-turborepo-package.mdoc
 
 ---
 status: "published"
@@ -257,7 +257,7 @@ Et voilà! You have successfully added a new package to your Makerkit applicatio
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\approaching-local-development.mdoc
+FILE PATH: kits/next-supabase-turbo/development/approaching-local-development.mdoc
 
 ---
 status: "published"
@@ -286,7 +286,7 @@ Generally speaking, you will be doing the following:
 In 90% of cases, the above is what you will be doing. The remaining 10% is adding new (very specific) features, which are a bit more complex - and not relevant to Makerkit itself.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\database-functions.mdoc
+FILE PATH: kits/next-supabase-turbo/development/database-functions.mdoc
 
 ---
 status: "published"
@@ -475,7 +475,7 @@ public.is_aal2()
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\database-schema.mdoc
+FILE PATH: kits/next-supabase-turbo/development/database-schema.mdoc
 
 ---
 status: "published"
@@ -717,7 +717,7 @@ You can now use the new types in your application when using the Supabase client
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\database-webhooks.mdoc
+FILE PATH: kits/next-supabase-turbo/development/database-webhooks.mdoc
 
 ---
 status: "published"
@@ -806,7 +806,7 @@ type AccountChange = RecordChange<'accounts'>;
 Now, the `AccountChange` type can be used to type the `change` object in the `handleEvent` function and is typed to the `accounts` table.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\external-marketing-website.mdoc
+FILE PATH: kits/next-supabase-turbo/development/external-marketing-website.mdoc
 
 ---
 status: "published"

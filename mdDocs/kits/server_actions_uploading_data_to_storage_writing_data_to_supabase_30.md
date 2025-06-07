@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-lite\data-fetching\server-actions.mdoc
+FILE PATH: kits/next-supabase-lite/data-fetching/server-actions.mdoc
 
 ---
 status: "published"
@@ -152,7 +152,7 @@ export default TaskForm;
 To learn more about server actions, we have a simple tutorial that you can follow: [Introduction to Next.js Server Actions](/blog/tutorials/nextjs-server-actions)
 
 -----------------
-FILE PATH: kits\next-supabase-lite\data-fetching\uploading-data-to-storage.mdoc
+FILE PATH: kits/next-supabase-lite/data-fetching/uploading-data-to-storage.mdoc
 
 ---
 status: "published"
@@ -224,7 +224,7 @@ const updateProfile = useUpdateProfile();
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-lite\data-fetching\writing-data-to-supabase.mdoc
+FILE PATH: kits/next-supabase-lite/data-fetching/writing-data-to-supabase.mdoc
 
 ---
 status: "published"
@@ -523,7 +523,7 @@ function getDefaultDueDate() {
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\data-fetching.mdoc
+FILE PATH: kits/next-supabase-lite/data-fetching.mdoc
 
 ---
 status: "published"
@@ -536,7 +536,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase-lite\development\code-style.mdoc
+FILE PATH: kits/next-supabase-lite/development/code-style.mdoc
 
 ---
 status: "published"
@@ -574,7 +574,7 @@ npm run format
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\development\commands.mdoc
+FILE PATH: kits/next-supabase-lite/development/commands.mdoc
 
 ---
 status: "published"
@@ -734,7 +734,7 @@ npm run killports
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\development\cors.mdoc
+FILE PATH: kits/next-supabase-lite/development/cors.mdoc
 
 ---
 status: "published"
@@ -807,7 +807,7 @@ export async function GET(request: NextRequest) {
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\development\emails.mdoc
+FILE PATH: kits/next-supabase-lite/development/emails.mdoc
 
 ---
 status: "published"
@@ -969,7 +969,7 @@ If not set, Makerkit will automatically create an account for you on-the-fly and
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\development\encrypting-secrets.mdoc
+FILE PATH: kits/next-supabase-lite/development/encrypting-secrets.mdoc
 
 ---
 status: "published"
@@ -990,7 +990,7 @@ There are two ways to encrypt your data in Supabase:
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\development\logging.mdoc
+FILE PATH: kits/next-supabase-lite/development/logging.mdoc
 
 ---
 status: "published"
@@ -1088,7 +1088,7 @@ Vercel integrations](https://vercel.com/integrations#logging) for adding persist
 
 
 -----------------
-FILE PATH: kits\next-supabase-lite\development\row-level-security.mdoc
+FILE PATH: kits/next-supabase-lite/development/row-level-security.mdoc
 
 ---
 status: "published"

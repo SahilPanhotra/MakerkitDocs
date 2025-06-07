@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\development\writing-data-to-database.mdoc
+FILE PATH: kits/next-supabase-turbo/development/writing-data-to-database.mdoc
 
 ---
 status: "published"
@@ -309,7 +309,7 @@ Let's go back to the home page and add the component right next to the input fil
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\development.mdoc
+FILE PATH: kits/next-supabase-turbo/development.mdoc
 
 ---
 status: "published"
@@ -347,7 +347,7 @@ Your roadmap to building with Makerkit. Here's what you need to know about devel
 Ready to start building? Pick a topic above and dive in! 🚀
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\emails\authentication-emails.mdoc
+FILE PATH: kits/next-supabase-turbo/emails/authentication-emails.mdoc
 
 ---
 status: "published"
@@ -393,7 +393,7 @@ Please clone the templates repository locally and customize them to your liking:
 Now your emails from Supabase Auth will look great and match your brand! 🎉
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\emails\custom-mailer.mdoc
+FILE PATH: kits/next-supabase-turbo/emails/custom-mailer.mdoc
 
 ---
 status: "published"
@@ -537,7 +537,7 @@ mailerRegistry.register('megamailer', async () => {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\emails\email-configuration.mdoc
+FILE PATH: kits/next-supabase-turbo/emails/email-configuration.mdoc
 
 ---
 status: "published"
@@ -643,7 +643,7 @@ EMAIL_SENDER=your-email
 That's it! You're now ready to send emails from your Next.js Supabase Starter Kit using the configured mailer provider.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\emails\email-templates.mdoc
+FILE PATH: kits/next-supabase-turbo/emails/email-templates.mdoc
 
 ---
 status: "published"
@@ -804,7 +804,7 @@ async function sendEmail() {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\emails\inbucket.mdoc
+FILE PATH: kits/next-supabase-turbo/emails/inbucket.mdoc
 
 ---
 status: "published"
@@ -912,7 +912,7 @@ InBucket/Mailpit are valuable tools for local development, allowing you to:
 Remember to switch to a proper email provider when deploying to production!
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\emails\sending-emails.mdoc
+FILE PATH: kits/next-supabase-turbo/emails/sending-emails.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\how-to\setup\environment-variables-setup.mdoc
+FILE PATH: kits/next-fire/how-to/setup/environment-variables-setup.mdoc
 
 ---
 status: "published"
@@ -36,7 +36,7 @@ Yes, Next.js automatically loads your environment variables. You can access them
 Next.js only loads environment variables that start with `NEXT_PUBLIC_` if you are trying to access them from your client-side. If you want to access a variable in your client code, you need to prefix it with `NEXT_PUBLIC_`. **Note**: never add secrets to your client-side code, therefore do not prefix them with `NEXT_PUBLIC_` if it's private data.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\setup\project-configuration.mdoc
+FILE PATH: kits/next-fire/how-to/setup/project-configuration.mdoc
 
 ---
 status: "published"
@@ -220,7 +220,7 @@ Never add secrets to the configuration file, as it is exposed in the client-side
 Please refer to the Next.js official documentation on how to best store your secrets.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\setup\set-up-emails.mdoc
+FILE PATH: kits/next-fire/how-to/setup/set-up-emails.mdoc
 
 ---
 status: "published"
@@ -292,7 +292,7 @@ ETHEREAL_PASSWORD=
 If not set, Makerkit will automatically create an account for you on-the-fly and print the credentials in the console. You can then use these credentials to log in to Ethereal and see your emails.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\setup\updating-favicon.mdoc
+FILE PATH: kits/next-fire/how-to/setup/updating-favicon.mdoc
 
 ---
 status: "published"
@@ -353,7 +353,7 @@ This code is stored in `Layout` component at `src/core/ui/Layout.tsx`. This comp
 Update the code above to match your new favicons.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\setup\updating-fonts.mdoc
+FILE PATH: kits/next-fire/how-to/setup/updating-fonts.mdoc
 
 ---
 status: "published"
@@ -407,7 +407,7 @@ import { Manrope as SansFont } from 'next/font/google';
 You can use two different fonts for the `--font-family-sans` and `--font-family-heading` variables. One is used an the main body font, the other as the heading font.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\setup\updating-logo.mdoc
+FILE PATH: kits/next-fire/how-to/setup/updating-logo.mdoc
 
 ---
 status: "published"
@@ -444,7 +444,7 @@ The optimal sizes for the logs are:
 [Download the Makerkit Figma file from here](/assets/makerkit.fig) and use the logo from there.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\site\adding-marketing-pages.mdoc
+FILE PATH: kits/next-fire/how-to/site/adding-marketing-pages.mdoc
 
 ---
 status: "published"
@@ -516,7 +516,7 @@ export function getStaticProps(ctx: GetStaticPropsContext) {
 ```
 
 -----------------
-FILE PATH: kits\next-fire\how-to\site\updating-navigation-menu.mdoc
+FILE PATH: kits/next-fire/how-to/site/updating-navigation-menu.mdoc
 
 ---
 status: "published"
@@ -586,7 +586,7 @@ Then, add a new `NavigationMenuItem` component to the `NavigationMenu` component
 Et voilà! Your new menu entry is now available in the navigation menu.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\translations\adding-locales.mdoc
+FILE PATH: kits/next-fire/how-to/translations/adding-locales.mdoc
 
 ---
 status: "published"
@@ -609,7 +609,7 @@ For example, to add a new language called `fr` (French), you would create a new 
 That's it! Now you can use the `hello` key in your application and it will be translated to `Bonjour` when the locale is set to `fr`.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\translations\adding-translation.mdoc
+FILE PATH: kits/next-fire/how-to/translations/adding-translation.mdoc
 
 ---
 status: "published"
@@ -663,7 +663,7 @@ const newTranslationString = t('common:new_translation_string');
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\translations\default-language.mdoc
+FILE PATH: kits/next-fire/how-to/translations/default-language.mdoc
 
 ---
 status: "published"
@@ -686,7 +686,7 @@ DEFAULT_LOCALE=es
 ```
 
 -----------------
-FILE PATH: kits\next-fire\how-to\translations\detect-current-locale.mdoc
+FILE PATH: kits/next-fire/how-to/translations/detect-current-locale.mdoc
 
 ---
 status: "published"
@@ -711,7 +711,7 @@ function Component() {
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\translations\language-switcher.mdoc
+FILE PATH: kits/next-fire/how-to/translations/language-switcher.mdoc
 
 ---
 status: "published"
@@ -742,7 +742,7 @@ export const YourComponent = ({ children }) => {
 The language switcher will automatically display the current language and a list of available languages. When a user clicks on a language, the language will be updated in the user's profile and the page will be reloaded.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\ui\dark-theme.mdoc
+FILE PATH: kits/next-fire/how-to/ui/dark-theme.mdoc
 
 ---
 status: "published"
@@ -813,7 +813,7 @@ import { ThemeContext } from '~/core/contexts/theme';
 ```
 
 -----------------
-FILE PATH: kits\next-fire\how-to\ui\theming.mdoc
+FILE PATH: kits/next-fire/how-to/ui/theming.mdoc
 
 ---
 status: "published"
@@ -890,7 +890,7 @@ dark: {
 While ShadCN UI uses `lucide` as their icons library, Makerkit has historically used `heroicons`. We have configured ShadCN UI to use `heroicons` instead of `lucide` in all Makerkit projects, but for new components, you will need to use `lucide` instead if you don't want to make changes. As such, please install `lucide` as a dependency in your project.
 
 -----------------
-FILE PATH: kits\next-fire\how-to.mdoc
+FILE PATH: kits/next-fire/how-to.mdoc
 
 ---
 status: "published"
@@ -919,7 +919,7 @@ The "How to" documentation of Makerkit Next.js Firebase is a collection of tutor
 This documentation is under development and will be updated regularly. If you have any questions, please contact me.
 
 -----------------
-FILE PATH: kits\next-fire\migrations\version-0.11.0.mdoc
+FILE PATH: kits/next-fire/migrations/version-0.11.0.mdoc
 
 ---
 status: "published"

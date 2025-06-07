@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\authentication\auth-setup.mdoc
+FILE PATH: kits/next-supabase/authentication/auth-setup.mdoc
 
 ---
 status: "published"
@@ -55,7 +55,7 @@ This is optional, but recommended if you want to send emails from your own domai
 5. Tweak the `SMTP Settings` settings to your liking according to your provider's documentation.
 
 -----------------
-FILE PATH: kits\next-supabase\authentication.mdoc
+FILE PATH: kits/next-supabase/authentication.mdoc
 
 ---
 status: "published"
@@ -68,7 +68,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\blog-and-docs\blog.mdoc
+FILE PATH: kits/next-supabase/blog-and-docs/blog.mdoc
 
 ---
 status: "published"
@@ -123,7 +123,7 @@ Additionally, we included multiple components that you can use to add content to
 - `TweetEmbed`: Embed a tweet within your blog post
 
 -----------------
-FILE PATH: kits\next-supabase\blog-and-docs\documentation.mdoc
+FILE PATH: kits/next-supabase/blog-and-docs/documentation.mdoc
 
 ---
 status: "published"
@@ -221,7 +221,7 @@ The navigation for the documentation is automatically generated based on the fol
 
 
 -----------------
-FILE PATH: kits\next-supabase\blog-and-docs.mdoc
+FILE PATH: kits/next-supabase/blog-and-docs.mdoc
 
 ---
 status: "published"
@@ -234,7 +234,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\next-supabase\configuration\configuration.mdoc
+FILE PATH: kits/next-supabase/configuration/configuration.mdoc
 
 ---
 status: "published"
@@ -405,7 +405,7 @@ EMAIL_SENDER='MakerKit Team <info@makerkit.dev>'
 If you wish, you can safely add public or non-secret variables to your `.env.production` file for your production environment, such as your production site URL. This is fine.
 
 -----------------
-FILE PATH: kits\next-supabase\configuration\environment-variables.mdoc
+FILE PATH: kits/next-supabase/configuration/environment-variables.mdoc
 
 ---
 status: "published"
@@ -562,7 +562,7 @@ The SMTP password of your email provider. This is used by the email client to co
 The sender of your emails. This is used by the email client to send emails to your users. It is a public variable. Use the format `Sender Name <email@app.com>`.
 
 -----------------
-FILE PATH: kits\next-supabase\configuration\feature-flags.mdoc
+FILE PATH: kits/next-supabase/configuration/feature-flags.mdoc
 
 ---
 status: "published"
@@ -613,7 +613,7 @@ NEXT_PUBLIC_ENABLE_ORGANIZATION_DELETION=true
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\configuration.mdoc
+FILE PATH: kits/next-supabase/configuration.mdoc
 
 ---
 status: "published"
@@ -627,7 +627,7 @@ collapsed: true
 
 
 -----------------
-FILE PATH: kits\next-supabase\data-fetching\api-routes.mdoc
+FILE PATH: kits/next-supabase/data-fetching/api-routes.mdoc
 
 ---
 status: "published"
@@ -754,7 +754,7 @@ function MyComponent() {
 
 
 -----------------
-FILE PATH: kits\next-supabase\data-fetching\fetching-data-supabase.mdoc
+FILE PATH: kits/next-supabase/data-fetching/fetching-data-supabase.mdoc
 
 ---
 status: "published"

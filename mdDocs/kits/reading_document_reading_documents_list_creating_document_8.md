@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\how-to\data-fetching\reading-document.mdoc
+FILE PATH: kits/next-fire/how-to/data-fetching/reading-document.mdoc
 
 ---
 status: "published"
@@ -212,7 +212,7 @@ res.status(200).json(user);
 To learn more about the above, check out both the Firebase and Reactfire respective documentations.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\data-fetching\reading-documents-list.mdoc
+FILE PATH: kits/next-fire/how-to/data-fetching/reading-documents-list.mdoc
 
 ---
 status: "published"
@@ -348,7 +348,7 @@ You can use the function above in an API route or in a `getServerSideProps` func
 To learn more about the above, check out both the Firebase and Reactfire respective documentations.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\data-mutations\creating-document.mdoc
+FILE PATH: kits/next-fire/how-to/data-mutations/creating-document.mdoc
 
 ---
 status: "published"
@@ -444,7 +444,7 @@ async function addTaskFromServer(task: {
 You can now use the function `addTaskFromServer` in your API Route handlers and `getServerSideProps` functions.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\data-mutations\deleting-document.mdoc
+FILE PATH: kits/next-fire/how-to/data-mutations/deleting-document.mdoc
 
 ---
 status: "published"
@@ -531,7 +531,7 @@ async function deleteTaskFromServer(task: {
 You can now use the function `deleteTaskFromServer` in your API Route handlers and `getServerSideProps` functions.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\data-mutations\updating-document.mdoc
+FILE PATH: kits/next-fire/how-to/data-mutations/updating-document.mdoc
 
 ---
 status: "published"
@@ -628,7 +628,7 @@ async function updateTaskFromServer(task: {
 You can now use the function `updateTaskFromServer` in your API Route handlers and `getServerSideProps` functions.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\payments\configuring-plans.mdoc
+FILE PATH: kits/next-fire/how-to/payments/configuring-plans.mdoc
 
 ---
 status: "published"
@@ -759,7 +759,7 @@ You can also configure the following properties on each `plan`:
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\payments\stripe-webhooks-locally.mdoc
+FILE PATH: kits/next-fire/how-to/payments/stripe-webhooks-locally.mdoc
 
 ---
 status: "published"
@@ -799,7 +799,7 @@ You can now test your webhooks locally when testing your Stripe integration with
 
 
 -----------------
-FILE PATH: kits\next-fire\how-to\payments\using-lemon-squeezy.mdoc
+FILE PATH: kits/next-fire/how-to/payments/using-lemon-squeezy.mdoc
 
 ---
 status: "published"
@@ -889,7 +889,7 @@ subscriptions: {
 Please refer to the [complete Lemon Squeezy documentation](/docs/next-fire/lemon-squeezy) for more details.
 
 -----------------
-FILE PATH: kits\next-fire\how-to\setup\branding.mdoc
+FILE PATH: kits/next-fire/how-to/setup/branding.mdoc
 
 ---
 status: "published"

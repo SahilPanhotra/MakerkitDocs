@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\getting-started\introduction.mdoc
+FILE PATH: kits/next-fire/getting-started/introduction.mdoc
 
 ---
 status: "published"
@@ -78,7 +78,7 @@ MakerKit has plenty of resources for using both Next.js and Firebase - and if yo
 
 
 -----------------
-FILE PATH: kits\next-fire\getting-started\running-the-application.mdoc
+FILE PATH: kits/next-fire/getting-started/running-the-application.mdoc
 
 ---
 status: "published"
@@ -180,7 +180,7 @@ Of course, change `./your-directory` to your preferred path.
 
 
 -----------------
-FILE PATH: kits\next-fire\getting-started\technical-details.mdoc
+FILE PATH: kits/next-fire/getting-started/technical-details.mdoc
 
 ---
 status: "published"
@@ -284,7 +284,7 @@ your API routes.
 
 
 -----------------
-FILE PATH: kits\next-fire\getting-started.mdoc
+FILE PATH: kits/next-fire/getting-started.mdoc
 
 ---
 status: "published"
@@ -390,7 +390,7 @@ your API routes.
 
 
 -----------------
-FILE PATH: kits\next-fire\going-to-production\environment-variables.mdoc
+FILE PATH: kits/next-fire/going-to-production/environment-variables.mdoc
 
 ---
 status: "published"
@@ -488,7 +488,7 @@ Careful! Do not add sensitive data here. Instead, add it from your CI or Vercel 
 Please replace `<your-website-domain>` in the variable `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN` with your own website domain. This is fundamental for the kit to work with Safari.
 
 -----------------
-FILE PATH: kits\next-fire\going-to-production\publish-firebase-security-rules.mdoc
+FILE PATH: kits/next-fire/going-to-production/publish-firebase-security-rules.mdoc
 
 ---
 status: "published"
@@ -527,7 +527,7 @@ choosing the content of `firestore.rules`.
 
 
 -----------------
-FILE PATH: kits\next-fire\going-to-production.mdoc
+FILE PATH: kits/next-fire/going-to-production.mdoc
 
 ---
 status: "published"
@@ -625,7 +625,7 @@ The above can be installed with a one-click install in the Vercel dashboard (if 
 Once you have completed all the steps above, you can deploy your application to production. Since a Makerkit application is a simple Next.js application, [the Next.js official deployment guide is the best place to start](https://nextjs.org/docs/deployment).
 
 -----------------
-FILE PATH: kits\next-fire\how-to\api\api-routes.mdoc
+FILE PATH: kits/next-fire/how-to/api/api-routes.mdoc
 
 ---
 status: "published"

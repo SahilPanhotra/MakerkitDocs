@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase-turbo\configuration\team-account-sidebar-configuration.mdoc
+FILE PATH: kits/remix-supabase-turbo/configuration/team-account-sidebar-configuration.mdoc
 
 ---
 status: "published"
@@ -73,7 +73,7 @@ VITE_TEAM_NAVIGATION_STYLE=header
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\configuration.mdoc
+FILE PATH: kits/remix-supabase-turbo/configuration.mdoc
 
 ---
 status: "published"
@@ -138,7 +138,7 @@ When deploying to production, you'll need to ensure all your configuration is pr
 [Learn more about Production Configuration →](going-to-production/checklist)
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\content\cms-api.mdoc
+FILE PATH: kits/remix-supabase-turbo/content/cms-api.mdoc
 
 ---
 status: "published"
@@ -266,7 +266,7 @@ async function TermsAndConditionsPage() {
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\content\cms.mdoc
+FILE PATH: kits/remix-supabase-turbo/content/cms.mdoc
 
 ---
 status: "published"
@@ -291,7 +291,7 @@ Local mode is the easiest way to get started since you need no setup. However, a
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\content\creating-your-own-cms-client.mdoc
+FILE PATH: kits/remix-supabase-turbo/content/creating-your-own-cms-client.mdoc
 
 ---
 status: "published"
@@ -442,7 +442,7 @@ Of course, you can do the same using SDKs of your preferred CMS client, such as 
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\content\keystatic.mdoc
+FILE PATH: kits/remix-supabase-turbo/content/keystatic.mdoc
 
 ---
 status: "published"
@@ -501,7 +501,7 @@ VITE_KEYSTATIC_CONTENT_PATH=data/content
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\content\wordpress.mdoc
+FILE PATH: kits/remix-supabase-turbo/content/wordpress.mdoc
 
 ---
 status: "published"
@@ -576,7 +576,7 @@ Please refer to `wp-content/themes/twentytwentyfour/functions.php` for an exampl
 To make the language filtering work, please add a tag with the language name to the post. For example, if you have a post in English, add the tag `en` to it, and if you have a post in German, add the tag `de` to it.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\content.mdoc
+FILE PATH: kits/remix-supabase-turbo/content.mdoc
 
 ---
 status: "published"
@@ -592,7 +592,7 @@ Content in Remix Supabase Turbo
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\customization\adding-shadcn-ui-components.mdoc
+FILE PATH: kits/remix-supabase-turbo/customization/adding-shadcn-ui-components.mdoc
 
 ---
 status: "published"
@@ -647,7 +647,7 @@ import { Avatar } from '@kit/ui/avatar';
 **NB**: this is an example, you need to adjust the component name based on the component you are exporting.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\customization\fonts.mdoc
+FILE PATH: kits/remix-supabase-turbo/customization/fonts.mdoc
 
 ---
 status: "published"
@@ -676,7 +676,7 @@ The fonts are defined at `apps/web/styles/global.css`:
 Please change them to your preferred fonts.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\customization\layout-style.mdoc
+FILE PATH: kits/remix-supabase-turbo/customization/layout-style.mdoc
 
 ---
 status: "published"
@@ -707,7 +707,7 @@ And here is `header` layout:
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\customization\logo.mdoc
+FILE PATH: kits/remix-supabase-turbo/customization/logo.mdoc
 
 ---
 status: "published"
@@ -726,7 +726,7 @@ You can either use an SVG component, or drop an image. As long as it's rendered 
 The logo image will be used across the application, including the auth page, the site header, the site footer, and the app sidebar (when team accounts are disabled).
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\customization\theme.mdoc
+FILE PATH: kits/remix-supabase-turbo/customization/theme.mdoc
 
 ---
 status: "published"
@@ -743,7 +743,7 @@ You can find the default theme inside the application at `apps/web/styles/global
 If you want to override the default style, either define your own colors or pick a theme from the [Shadcn Themes page](https://ui.shadcn.com/themes), and copy/paste the theme into this file.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\customization.mdoc
+FILE PATH: kits/remix-supabase-turbo/customization.mdoc
 
 ---
 status: "published"
@@ -804,7 +804,7 @@ Remember - you don't need to customize everything at once! Start with the essent
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\data-fetching.mdoc
+FILE PATH: kits/remix-supabase-turbo/data-fetching.mdoc
 
 ---
 status: "published"
@@ -843,7 +843,7 @@ In the section below, you'll find detailed information on each of these patterns
 - [Captcha Protection](data-fetching/captcha-protection)
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\development\adding-turborepo-app.mdoc
+FILE PATH: kits/remix-supabase-turbo/development/adding-turborepo-app.mdoc
 
 ---
 status: "published"

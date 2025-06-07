@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-fire\going-to-production\publish-firebase-security-rules.mdoc
+FILE PATH: kits/remix-fire/going-to-production/publish-firebase-security-rules.mdoc
 
 ---
 status: "published"
@@ -39,7 +39,7 @@ choosing the content of `firestore.rules`.
 
 
 -----------------
-FILE PATH: kits\remix-fire\how-to\introduction.mdoc
+FILE PATH: kits/remix-fire/how-to/introduction.mdoc
 
 ---
 status: "published"
@@ -51,7 +51,7 @@ description: "Here is a brief introduction to the How to section of the Makerkit
 
 
 -----------------
-FILE PATH: kits\remix-fire\organizations\extending-organizations.mdoc
+FILE PATH: kits/remix-fire/organizations/extending-organizations.mdoc
 
 ---
 status: "published"
@@ -88,7 +88,7 @@ interface Organization {
 ```
 
 -----------------
-FILE PATH: kits\remix-fire\organizations\organization-hooks.mdoc
+FILE PATH: kits/remix-fire/organizations/organization-hooks.mdoc
 
 ---
 status: "published"
@@ -127,7 +127,7 @@ The kit has many more hooks that are used internally: they are not meant to be u
 All the hooks are available in the `~/lib/organizations/hooks` directory.
 
 -----------------
-FILE PATH: kits\remix-fire\organizations\organizations-overview.mdoc
+FILE PATH: kits/remix-fire/organizations/organizations-overview.mdoc
 
 ---
 status: "published"
@@ -170,7 +170,7 @@ For example, you may want to call them "Teams", or "Workspaces". In this case, w
 To do so, simply rename all "Organization" instances according to your preferred choice.
 
 -----------------
-FILE PATH: kits\remix-fire\organizations\permissions.mdoc
+FILE PATH: kits/remix-fire/organizations/permissions.mdoc
 
 ---
 status: "published"
@@ -225,7 +225,7 @@ Otherwise, you can use these functions throughout the application on both the cl
 
 
 -----------------
-FILE PATH: kits\remix-fire\organizations\subscription-permissions.mdoc
+FILE PATH: kits/remix-fire/organizations/subscription-permissions.mdoc
 
 ---
 status: "published"
@@ -364,7 +364,7 @@ export default async function action({ request }) {
 
 
 -----------------
-FILE PATH: kits\remix-fire\payments\lemon-squeezy.mdoc
+FILE PATH: kits/remix-fire/payments/lemon-squeezy.mdoc
 
 ---
 status: "published"
@@ -514,7 +514,7 @@ Once you're ready to go to production, you can switch your Lemon Squeezy store t
 Additionally, remember to set up the webhook in production mode as well, pointing to your production URL.
 
 -----------------
-FILE PATH: kits\remix-fire\payments\stripe-configuration.mdoc
+FILE PATH: kits/remix-fire/payments/stripe-configuration.mdoc
 
 ---
 status: "published"
@@ -749,7 +749,7 @@ For a technical deep-dive, we recommend reading our blog post where we [build th
 
 
 -----------------
-FILE PATH: kits\remix-fire\payments\stripe-one-time-payments.mdoc
+FILE PATH: kits/remix-fire/payments/stripe-one-time-payments.mdoc
 
 ---
 status: "published"
@@ -870,7 +870,7 @@ return stripe.checkout.sessions.create({
 
 
 -----------------
-FILE PATH: kits\remix-fire\payments\stripe-webhooks.mdoc
+FILE PATH: kits/remix-fire/payments/stripe-webhooks.mdoc
 
 ---
 status: "published"

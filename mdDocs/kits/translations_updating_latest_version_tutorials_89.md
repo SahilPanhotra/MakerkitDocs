@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\translations.mdoc
+FILE PATH: kits/remix-supabase/tutorials/translations.mdoc
 
 ---
 status: "published"
@@ -60,7 +60,7 @@ DEFAULT_LOCALE=de
 
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\updating-latest-version.mdoc
+FILE PATH: kits/remix-supabase/tutorials/updating-latest-version.mdoc
 
 ---
 status: "published"
@@ -87,7 +87,7 @@ Unfortunately, you may need to resolve eventual conflicts.
 If you have questions, please join our [Discord Community](https://discord.gg/BeJSyQJ6jP), even if you have not purchased any kit. We chat and help each other build products.
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials.mdoc
+FILE PATH: kits/remix-supabase/tutorials.mdoc
 
 ---
 status: "published"
@@ -100,7 +100,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\ui\shadcn.mdoc
+FILE PATH: kits/remix-supabase/ui/shadcn.mdoc
 
 ---
 status: "published"
@@ -179,7 +179,7 @@ While ShadCN UI uses `lucide` as their icons library, Makerkit has historically 
 
 
 -----------------
-FILE PATH: kits\remix-supabase\ui\tailwindcss.mdoc
+FILE PATH: kits/remix-supabase/ui/tailwindcss.mdoc
 
 ---
 status: "published"
@@ -339,7 +339,7 @@ export const PrimaryButton = () => {
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\ui\themes.mdoc
+FILE PATH: kits/remix-supabase/ui/themes.mdoc
 
 ---
 status: "published"
@@ -379,7 +379,7 @@ const configuration = {
 This will prevent the theme toggle from appearing in the application.
 
 -----------------
-FILE PATH: kits\remix-supabase\ui.mdoc
+FILE PATH: kits/remix-supabase/ui.mdoc
 
 ---
 status: "published"
@@ -392,7 +392,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\admin\adding-super-admin.mdoc
+FILE PATH: kits/remix-supabase-turbo/admin/adding-super-admin.mdoc
 
 ---
 status: "published"
@@ -417,7 +417,7 @@ UPDATE auth.users SET raw_app_meta_data = raw_app_meta_data || '{"role": "super-
 Please replace `<user_id>` with the user ID you want to assign as a super admin.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\admin.mdoc
+FILE PATH: kits/remix-supabase-turbo/admin.mdoc
 
 ---
 status: "published"
@@ -478,7 +478,7 @@ As an admin, you can:
 - Monitor subscription status
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\analytics\analytics-and-events.mdoc
+FILE PATH: kits/remix-supabase-turbo/analytics/analytics-and-events.mdoc
 
 ---
 status: "published"
@@ -651,7 +651,7 @@ Other use cases may include:
 By using the Analytics and App Events systems in Makerkit, you can easily track (or react to) user behavior and app-wide occurrences in your SaaS application. The centralized approach to event tracking provides a clean and maintainable solution for tracking analytics, while the flexibility of Custom Events allows you to extend the system to track any event that is important to your application.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\analytics\analytics-api.mdoc
+FILE PATH: kits/remix-supabase-turbo/analytics/analytics-api.mdoc
 
 ---
 status: "published"
@@ -771,7 +771,7 @@ When implementing analytics in your Makerkit project, consider the following bes
 By leveraging Makerkit's Analytics API in conjunction with the App Events system, you can create a robust, maintainable analytics setup that grows with your SaaS application. This approach provides the flexibility to track the data you need while keeping your codebase clean and organized.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\analytics\custom-analytics-provider.mdoc
+FILE PATH: kits/remix-supabase-turbo/analytics/custom-analytics-provider.mdoc
 
 ---
 status: "published"

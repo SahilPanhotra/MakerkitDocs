@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: courses\nextjs-turbo\building-javascript-widget.mdoc
+FILE PATH: courses/nextjs-turbo/building-javascript-widget.mdoc
 
 ---
 title: "Creating a Javascript Widget with Makerkit Next.js Supabase Turbo"

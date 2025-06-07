@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\navigating-codebase.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/navigating-codebase.mdoc
 
 ---
 status: "published"
@@ -39,7 +39,7 @@ The shared code defines:
 All apps can use and reuse the API exported from the `packages` directory. This makes it easy to have one, or many apps in the same codebase, sharing the same code.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\running-project.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/running-project.mdoc
 
 ---
 status: "published"
@@ -132,7 +132,7 @@ This will route webhooks to your local machine.
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\technical-details.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/technical-details.mdoc
 
 ---
 status: "published"
@@ -207,7 +207,7 @@ The configuration is defined in the `apps/web/config` folder. Here you can find 
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation\updating-codebase.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation/updating-codebase.mdoc
 
 ---
 status: "published"
@@ -272,7 +272,7 @@ Now the types will reflect the changes from the `upstream` repository and your p
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\installation.mdoc
+FILE PATH: kits/react-router-supabase-turbo/installation.mdoc
 
 ---
 status: "published"
@@ -299,7 +299,7 @@ In this section, we will cover:
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\monitoring\baselime.mdoc
+FILE PATH: kits/react-router-supabase-turbo/monitoring/baselime.mdoc
 
 ---
 status: "published"
@@ -320,7 +320,7 @@ VITE_MONITORING_PROVIDER=baselime
 ```
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\monitoring\overview.mdoc
+FILE PATH: kits/react-router-supabase-turbo/monitoring/overview.mdoc
 
 ---
 title: "Setting Monitoring in Makerkit"
@@ -364,7 +364,7 @@ Performance monitoring uses React Router's experimental instrumentation for repo
 NB: Performance monitoring is only enabled for Node.js runtimes. This means you won't see performance metrics in the edge runtime or Cloudflare.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\monitoring.mdoc
+FILE PATH: kits/react-router-supabase-turbo/monitoring.mdoc
 
 ---
 status: "published"
@@ -415,7 +415,7 @@ NB: Performance monitoring is only enabled for Node.js runtimes.
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\notifications\notifications-configuration.mdoc
+FILE PATH: kits/react-router-supabase-turbo/notifications/notifications-configuration.mdoc
 
 ---
 status: "published"
@@ -451,7 +451,7 @@ If you want to enable real-time notifications, you need to set the `VITE_REALTIM
 This may be your preference for a more cost-effective solution, as it will reduce the number of requests to the server.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\notifications\sending-notifications.mdoc
+FILE PATH: kits/react-router-supabase-turbo/notifications/sending-notifications.mdoc
 
 ---
 status: "published"
@@ -591,7 +591,7 @@ The example above sends a notification to the user after they create a task. The
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\notifications.mdoc
+FILE PATH: kits/react-router-supabase-turbo/notifications.mdoc
 
 ---
 status: "published"
@@ -611,7 +611,7 @@ Add notifications to your application:
    Learn how to send notifications to your users.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\plugins.mdoc
+FILE PATH: kits/react-router-supabase-turbo/plugins.mdoc
 
 ---
 status: "published"
@@ -637,7 +637,7 @@ Extend your application's functionality with our plugin system:
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\translations\adding-translations.mdoc
+FILE PATH: kits/react-router-supabase-turbo/translations/adding-translations.mdoc
 
 ---
 status: "published"
@@ -696,7 +696,7 @@ export const defaultI18nNamespaces = [
 In the example above, the `chatbots` namespace is added to the `defaultI18nNamespaces` array. And that's it! You can now start adding translations to your new namespace.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\translations\language-selector.mdoc
+FILE PATH: kits/react-router-supabase-turbo/translations/language-selector.mdoc
 
 ---
 status: "published"
@@ -720,7 +720,7 @@ It is already part of the Account settings when more than one language is define
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\translations\using-translations.mdoc
+FILE PATH: kits/react-router-supabase-turbo/translations/using-translations.mdoc
 
 ---
 status: "published"

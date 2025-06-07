@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-fire\admin\adding-admin-users.mdoc
+FILE PATH: kits/next-fire/admin/adding-admin-users.mdoc
 
 ---
 status: "published"
@@ -111,7 +111,7 @@ After running the script, you user is a super admin. You may now need to sign ou
 You can now navigate to the Admin at the path `/admin` of your application!
 
 -----------------
-FILE PATH: kits\next-fire\admin\admin-overview.mdoc
+FILE PATH: kits/next-fire/admin/admin-overview.mdoc
 
 ---
 status: "published"
@@ -171,7 +171,7 @@ The View Members page allows you to view all the members of an organization. You
 {% img src="/assets/images/posts/admin-organization-members-page.webp" width="2868" height="1960" alt="Super Admin Organization Members Page" /%}
 
 -----------------
-FILE PATH: kits\next-fire\admin.mdoc
+FILE PATH: kits/next-fire/admin.mdoc
 
 ---
 status: "published"
@@ -210,7 +210,7 @@ As an admin, you can:
 - Monitor subscription status
 
 -----------------
-FILE PATH: kits\next-fire\api\reactfire.mdoc
+FILE PATH: kits/next-fire/api/reactfire.mdoc
 
 ---
 status: "published"
@@ -231,7 +231,7 @@ These include:
 To use the Next.js Firebase effectively, it's extremely important to understand how Reactfire works, so please do familiarise yourself with the [ReactFire documentation](https://github.com/firebaseextended/reactfire).
 
 -----------------
-FILE PATH: kits\next-fire\api\useCurrentOrganization.mdoc
+FILE PATH: kits/next-fire/api/useCurrentOrganization.mdoc
 
 ---
 status: "published"
@@ -263,7 +263,7 @@ In the example provided, the `useCurrentOrganization` hook is used to retrieve t
 Finally, it's worth noting that there are many other hooks available in the `~/lib/organizations/hooks` folder that allow you to retrieve other data related to the current user organization, such as the organization ID or the list of users belonging to the organization. These hooks can be used in a similar way to the `useCurrentOrganization` hook, by importing them and using them in your code.
 
 -----------------
-FILE PATH: kits\next-fire\api\useCurrentUserRole.mdoc
+FILE PATH: kits/next-fire/api/useCurrentUserRole.mdoc
 
 ---
 status: "published"
@@ -297,7 +297,7 @@ n this example, the useCurrentUserRole hook is used to retrieve the current user
 Overall, the `useCurrentUserRole` hook is a convenient and easy-to-use way to retrieve the role of the current user within their current organization in your Next.js app.
 
 -----------------
-FILE PATH: kits\next-fire\api\useIsSubscriptionActive.mdoc
+FILE PATH: kits/next-fire/api/useIsSubscriptionActive.mdoc
 
 ---
 status: "published"
@@ -360,7 +360,7 @@ In this example, the `useIsSubscriptionActive` hook is used to determine whether
 It's worth noting that the `useIsSubscriptionActive` hook can be customized to fit your needs. For example, you could modify the `ACTIVE_STATUSES` constant to include additional subscription statuses, or you could use a different method to retrieve the subscription status.
 
 -----------------
-FILE PATH: kits\next-fire\api\useUserSession.mdoc
+FILE PATH: kits/next-fire/api/useUserSession.mdoc
 
 ---
 status: "published"
@@ -405,7 +405,7 @@ function MyComponent() {
 In this example, the useUserSession hook is used to retrieve the current user session data. The resulting userSession object is then used to extract the user ID, which is displayed to the user.
 
 -----------------
-FILE PATH: kits\next-fire\api\withAppProps.mdoc
+FILE PATH: kits/next-fire/api/withAppProps.mdoc
 
 ---
 status: "published"
@@ -446,7 +446,35 @@ The data returned to the page includes:
 2. the organization (that can be accessed using the hook `useCurrentOrganization`)
 
 -----------------
-FILE PATH: kits\next-fire\api\withAuthedUser.mdoc
+FILE PATH: kits/next-fire/api/withAuthProps.mdoc
+
+---
+status: "published"
+
+title: withAuthProps
+label: withAuthProps
+order: 7
+description: 'The "withAuthProps" is a function that is used to populate the props of the auth pages. It is used in the "getServerSideProps" function of the pages you want to gate.'
+---
+
+The `withAuthProps` function is used to populate the props of the authentication pages. You may never need to use it unless you introduce new authentication pages.
+
+This function is used in the `getServerSideProps` function of the authentication pages.
+
+```tsx
+import { withAuthProps } from "~/lib/props/with-auth-props";
+import { GetServerSidePropsContext } from "next";
+
+export async function getServerSideProps(ctx: GetServerSidePropsContext) {
+  return await withAuthProps(ctx);
+}
+```
+
+This function ensures **authenticated users won't be able to access the authentication pages**.
+
+
+-----------------
+FILE PATH: kits/next-fire/api/withAuthedUser.mdoc
 
 ---
 status: "published"
@@ -481,35 +509,7 @@ export default function helloWorld(
 ```
 
 -----------------
-FILE PATH: kits\next-fire\api\withAuthProps.mdoc
-
----
-status: "published"
-
-title: withAuthProps
-label: withAuthProps
-order: 7
-description: 'The "withAuthProps" is a function that is used to populate the props of the auth pages. It is used in the "getServerSideProps" function of the pages you want to gate.'
----
-
-The `withAuthProps` function is used to populate the props of the authentication pages. You may never need to use it unless you introduce new authentication pages.
-
-This function is used in the `getServerSideProps` function of the authentication pages.
-
-```tsx
-import { withAuthProps } from "~/lib/props/with-auth-props";
-import { GetServerSidePropsContext } from "next";
-
-export async function getServerSideProps(ctx: GetServerSidePropsContext) {
-  return await withAuthProps(ctx);
-}
-```
-
-This function ensures **authenticated users won't be able to access the authentication pages**.
-
-
------------------
-FILE PATH: kits\next-fire\api\withCsrf.mdoc
+FILE PATH: kits/next-fire/api/withCsrf.mdoc
 
 ---
 status: "published"
@@ -544,7 +544,7 @@ export default function owner(req: NextApiRequest, res: NextApiResponse) {
 ```
 
 -----------------
-FILE PATH: kits\next-fire\api\withExceptionFilter.mdoc
+FILE PATH: kits/next-fire/api/withExceptionFilter.mdoc
 
 ---
 status: "published"
@@ -581,7 +581,7 @@ export default function helloWorld(
 
 
 -----------------
-FILE PATH: kits\next-fire\api\withMethodsGuard.mdoc
+FILE PATH: kits/next-fire/api/withMethodsGuard.mdoc
 
 ---
 status: "published"
@@ -619,7 +619,7 @@ export default function helloWorld(
 ```
 
 -----------------
-FILE PATH: kits\next-fire\api\withPipe.mdoc
+FILE PATH: kits/next-fire/api/withPipe.mdoc
 
 ---
 status: "published"
@@ -663,7 +663,7 @@ export default function helloWorld(
 This helps you write the utility functions we will see next in a more readable way.
 
 -----------------
-FILE PATH: kits\next-fire\api\withTranslationsProps.mdoc
+FILE PATH: kits/next-fire/api/withTranslationsProps.mdoc
 
 ---
 status: "published"
@@ -694,7 +694,7 @@ export async function getStaticProps(
 ```
 
 -----------------
-FILE PATH: kits\next-fire\api.mdoc
+FILE PATH: kits/next-fire/api.mdoc
 
 ---
 status: "published"
@@ -724,7 +724,7 @@ Makerkit provides a set of APIs that you can use in your project. These APIs are
 
 
 -----------------
-FILE PATH: kits\next-fire\architecture\application-structure.mdoc
+FILE PATH: kits/next-fire/architecture/application-structure.mdoc
 
 ---
 status: "published"
@@ -897,7 +897,7 @@ export function getServerSideProps(ctx: GetServerSidePropsContext) {
 🎉 That's it! We have now built a nicely structured "events" domain.
 
 -----------------
-FILE PATH: kits\next-fire\architecture\data-model.mdoc
+FILE PATH: kits/next-fire/architecture/data-model.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase\how-to\api\api-routes-vs-server-actions.mdoc
+FILE PATH: kits/next-supabase/how-to/api/api-routes-vs-server-actions.mdoc
 
 ---
 status: "published"
@@ -32,7 +32,7 @@ They are particularly useful when you want to perform actions/mutations on the s
 Thanks to utilities such as `revalidatePath` and `revalidateTag`, you can also use Server Actions to invalidate the cache of a specific page or tag (used with `fetch`).
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\api\api-routes.mdoc
+FILE PATH: kits/next-supabase/how-to/api/api-routes.mdoc
 
 ---
 status: "published"
@@ -93,7 +93,7 @@ To add a CSRF token to your request, you can use the `useCsrfToken` React hook. 
 POST requests without a CSRF token will return a `403` error. This can be disabled in the middleware `src/middleware.ts`.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\api\call-api-routes-from-client.mdoc
+FILE PATH: kits/next-supabase/how-to/api/call-api-routes-from-client.mdoc
 
 ---
 status: "published"
@@ -287,7 +287,7 @@ function TaskForm() {
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\app\adding-app-pages.mdoc
+FILE PATH: kits/next-supabase/how-to/app/adding-app-pages.mdoc
 
 ---
 status: "published"
@@ -420,7 +420,7 @@ The `organization` parameter is the organization UID of the organization the use
 If you need to build a page that is not related to a specific organization, you can create it in the `src/app/dashboard` directory.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\app\guarding-pages.mdoc
+FILE PATH: kits/next-supabase/how-to/app/guarding-pages.mdoc
 
 ---
 status: "published"
@@ -492,7 +492,7 @@ function isSubscriptionActive(status: string | undefined) {
 ```
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\app\updating-sidebar-menu.mdoc
+FILE PATH: kits/next-supabase/how-to/app/updating-sidebar-menu.mdoc
 
 ---
 status: "published"
@@ -619,7 +619,7 @@ const NAVIGATION_CONFIG = {
 As you can see, we added a new menu entry to the `NAVIGATION_CONFIG.items` array. The change will be automatically reflected in the sidebar of your application.
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\authentication\change-auth-strategy.mdoc
+FILE PATH: kits/next-supabase/how-to/authentication/change-auth-strategy.mdoc
 
 ---
 status: "published"
@@ -733,7 +733,7 @@ With that said, the UI is not designed to support multiple authentication strate
 
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\authentication\setup-oauth.mdoc
+FILE PATH: kits/next-supabase/how-to/authentication/setup-oauth.mdoc
 
 ---
 status: "published"
@@ -792,7 +792,7 @@ Most of the setup is done in two places:
 To know more about how to setup an oAuth provider, please read the [Supabase documentation](https://supabase.io/docs/guides/auth#third-party-logins).
 
 -----------------
-FILE PATH: kits\next-supabase\how-to\contextual-data\organization.mdoc
+FILE PATH: kits/next-supabase/how-to/contextual-data/organization.mdoc
 
 ---
 status: "published"

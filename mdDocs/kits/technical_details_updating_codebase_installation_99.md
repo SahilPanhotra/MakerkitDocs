@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\technical-details.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/technical-details.mdoc
 
 ---
 status: "published"
@@ -74,7 +74,7 @@ The configuration is defined in the `apps/web/config` folder. Here you can find 
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation\updating-codebase.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation/updating-codebase.mdoc
 
 ---
 status: "published"
@@ -139,7 +139,7 @@ Now the types will reflect the changes from the `upstream` repository and your p
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\installation.mdoc
+FILE PATH: kits/remix-supabase-turbo/installation.mdoc
 
 ---
 status: "published"
@@ -166,7 +166,7 @@ In this section, we will cover:
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\monitoring\baselime.mdoc
+FILE PATH: kits/remix-supabase-turbo/monitoring/baselime.mdoc
 
 ---
 status: "published"
@@ -187,7 +187,7 @@ VITE_MONITORING_PROVIDER=baselime
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\monitoring\overview.mdoc
+FILE PATH: kits/remix-supabase-turbo/monitoring/overview.mdoc
 
 ---
 title: "Setting Monitoring in Makerkit"
@@ -231,7 +231,7 @@ Performance monitoring uses Remix's experimental instrumentation for reporting p
 NB: Performance monitoring is only enabled for Node.js runtimes. This means you won't see performance metrics in the edge runtime or Cloudflare.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\monitoring\sentry.mdoc
+FILE PATH: kits/remix-supabase-turbo/monitoring/sentry.mdoc
 
 ---
 status: "published"
@@ -270,7 +270,7 @@ export default withSentry(App);
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\monitoring.mdoc
+FILE PATH: kits/remix-supabase-turbo/monitoring.mdoc
 
 ---
 status: "published"
@@ -321,7 +321,7 @@ NB: Performance monitoring is only enabled for Node.js runtimes.
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\notifications\notifications-configuration.mdoc
+FILE PATH: kits/remix-supabase-turbo/notifications/notifications-configuration.mdoc
 
 ---
 status: "published"
@@ -359,7 +359,7 @@ If you want to enable real-time notifications, you need to set the `VITE_REALTIM
 This may be your preference for a more cost-effective solution, as it will reduce the number of requests to the server.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\notifications\sending-notifications.mdoc
+FILE PATH: kits/remix-supabase-turbo/notifications/sending-notifications.mdoc
 
 ---
 status: "published"
@@ -499,7 +499,7 @@ The example above sends a notification to the user after they create a task. The
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\notifications.mdoc
+FILE PATH: kits/remix-supabase-turbo/notifications.mdoc
 
 ---
 status: "published"
@@ -519,7 +519,7 @@ Add notifications to your application:
    Learn how to send notifications to your users.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\plugins\chatbot-plugin.mdoc
+FILE PATH: kits/remix-supabase-turbo/plugins/chatbot-plugin.mdoc
 
 ---
 status: "published"
@@ -709,7 +709,7 @@ LLM_API_KEY=
 The model needs to be compatible with the OpenAI API.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\plugins\feedback-plugin.mdoc
+FILE PATH: kits/remix-supabase-turbo/plugins/feedback-plugin.mdoc
 
 ---
 status: "published"
@@ -875,7 +875,7 @@ Add the sidebar item to `apps/web/app/routes/admin/_components/admin-sidebar.tsx
 
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\plugins\installing-plugins.mdoc
+FILE PATH: kits/remix-supabase-turbo/plugins/installing-plugins.mdoc
 
 ---
 status: "published"
@@ -908,7 +908,7 @@ Plugins use `git subtree` to pull in the plugin repository into the `plugins` di
 If you don't want to use git subtree, you can also manually clone a copy of the plugin repository, and then manually moving the folder from `packages/plugins` into your own repository.
 
 -----------------
-FILE PATH: kits\remix-supabase-turbo\plugins\testimonials-plugin.mdoc
+FILE PATH: kits/remix-supabase-turbo/plugins/testimonials-plugin.mdoc
 
 ---
 status: "published"

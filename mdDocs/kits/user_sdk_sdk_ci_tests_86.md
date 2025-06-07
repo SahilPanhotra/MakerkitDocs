@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-supabase\sdk\user-sdk.mdoc
+FILE PATH: kits/remix-supabase/sdk/user-sdk.mdoc
 
 ---
 status: "published"
@@ -105,7 +105,7 @@ interface UserData {
 It's very likely that you'll be adding more fields, so this interface may change.
 
 -----------------
-FILE PATH: kits\remix-supabase\sdk.mdoc
+FILE PATH: kits/remix-supabase/sdk.mdoc
 
 ---
 status: "published"
@@ -118,7 +118,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\testing\ci-tests.mdoc
+FILE PATH: kits/remix-supabase/testing/ci-tests.mdoc
 
 ---
 status: "published"
@@ -182,7 +182,7 @@ npm run supabase:reset
 ```
 
 -----------------
-FILE PATH: kits\remix-supabase\testing\running-tests.mdoc
+FILE PATH: kits/remix-supabase/testing/running-tests.mdoc
 
 ---
 status: "published"
@@ -286,7 +286,7 @@ it's worth it.
 
 
 -----------------
-FILE PATH: kits\remix-supabase\testing.mdoc
+FILE PATH: kits/remix-supabase/testing.mdoc
 
 ---
 status: "published"
@@ -299,7 +299,7 @@ collapsed: true
 ---
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\api-routes-validation.mdoc
+FILE PATH: kits/remix-supabase/tutorials/api-routes-validation.mdoc
 
 ---
 status: "published"
@@ -366,7 +366,7 @@ export const action: ActionFunction = async ({ request }) => {
 I encourage you to never skip the validation step when writing your API endpoints.
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\api-routes.mdoc
+FILE PATH: kits/remix-supabase/tutorials/api-routes.mdoc
 
 ---
 status: "published"
@@ -580,7 +580,7 @@ It's always important to add context to your logs: as you can see, we use the fi
 
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\application-pages.mdoc
+FILE PATH: kits/remix-supabase/tutorials/application-pages.mdoc
 
 ---
 status: "published"
@@ -690,7 +690,7 @@ export async function loader(args: LoaderArgs) {
 
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\authentication.mdoc
+FILE PATH: kits/remix-supabase/tutorials/authentication.mdoc
 
 ---
 status: "published"
@@ -794,7 +794,7 @@ Supabase spins up an [InBucket](http://localhost:54324/) instance where all the 
 To access the InBucket instance, you can go to the following URL: [http://localhost:54324/](http://localhost:54324/). Save this URL, you will use it very often.
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\database-schema.mdoc
+FILE PATH: kits/remix-supabase/tutorials/database-schema.mdoc
 
 ---
 status: "published"
@@ -923,7 +923,7 @@ type Client = SupabaseClient<Database>;
 
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\deploying-production.mdoc
+FILE PATH: kits/remix-supabase/tutorials/deploying-production.mdoc
 
 ---
 status: "published"
@@ -950,7 +950,7 @@ Before deploying to production or any remote server, you need to [follow all the
 
 
 -----------------
-FILE PATH: kits\remix-supabase\tutorials\environment-variables.mdoc
+FILE PATH: kits/remix-supabase/tutorials/environment-variables.mdoc
 
 ---
 status: "published"

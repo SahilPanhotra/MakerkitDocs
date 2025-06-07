@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation\updating-codebase.mdoc
+FILE PATH: kits/next-supabase-turbo/installation/updating-codebase.mdoc
 
 ---
 status: "published"
@@ -131,7 +131,7 @@ Once the changes are pushed, you can create a pull request to merge the changes 
 Your project is now up to date with the latest changes from the `upstream` repository. 🎉
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\installation.mdoc
+FILE PATH: kits/next-supabase-turbo/installation.mdoc
 
 ---
 status: "published"
@@ -158,7 +158,7 @@ In this section, we will cover:
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\monitoring\baselime.mdoc
+FILE PATH: kits/next-supabase-turbo/monitoring/baselime.mdoc
 
 ---
 status: "published"
@@ -189,7 +189,7 @@ INSTRUMENTATION_SERVICE_NAME=your_service_name
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\monitoring\overview.mdoc
+FILE PATH: kits/next-supabase-turbo/monitoring/overview.mdoc
 
 ---
 title: "Setting Monitoring in Makerkit | Next.js SaaS Boilerplate"
@@ -246,7 +246,7 @@ Makerkit will set up a few things for you out of the box:
 Additionally, it provides you with the tools to manually capturing exceptions, should you want to.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\monitoring\sentry.mdoc
+FILE PATH: kits/next-supabase-turbo/monitoring/sentry.mdoc
 
 ---
 status: "published"
@@ -325,7 +325,7 @@ SENTRY_AUTH_TOKEN=your_auth_token
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\monitoring.mdoc
+FILE PATH: kits/next-supabase-turbo/monitoring.mdoc
 
 ---
 status: "published"
@@ -376,7 +376,7 @@ NB: Performance monitoring is only enabled for Node.js runtimes.
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\notifications\notifications-configuration.mdoc
+FILE PATH: kits/next-supabase-turbo/notifications/notifications-configuration.mdoc
 
 ---
 status: "published"
@@ -431,7 +431,7 @@ If you are not using notifications in your application, you can disable them to 
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\notifications\sending-notifications.mdoc
+FILE PATH: kits/next-supabase-turbo/notifications/sending-notifications.mdoc
 
 ---
 status: "published"
@@ -583,7 +583,7 @@ The example above sends a notification to the user after they create a task. The
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\notifications.mdoc
+FILE PATH: kits/next-supabase-turbo/notifications.mdoc
 
 ---
 status: "published"
@@ -603,7 +603,7 @@ Add notifications to your application:
    Learn how to send notifications to your users.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\plugins\chatbot-plugin.mdoc
+FILE PATH: kits/next-supabase-turbo/plugins/chatbot-plugin.mdoc
 
 ---
 status: "published"
@@ -836,7 +836,7 @@ In that case, these values would be the same ones you're using for your app's Su
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\plugins\feedback-plugin.mdoc
+FILE PATH: kits/next-supabase-turbo/plugins/feedback-plugin.mdoc
 
 ---
 status: "published"

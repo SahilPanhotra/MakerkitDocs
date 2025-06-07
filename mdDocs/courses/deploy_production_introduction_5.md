@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: courses\nextjs-turbo\deploy-production.mdoc
+FILE PATH: courses/nextjs-turbo/deploy-production.mdoc
 
 ---
 title: "Going to Production with Makerkit Next.js Supabase Turbo"
@@ -430,7 +430,7 @@ Thank you for taking this course, and I wish you all the best with your project!
 
 
 -----------------
-FILE PATH: courses\nextjs-turbo\introduction.mdoc
+FILE PATH: courses/nextjs-turbo/introduction.mdoc
 
 ---
 title: "Introduction to Makerkit Turbo - the leading Next.js Supabase SaaS Starter Kit"

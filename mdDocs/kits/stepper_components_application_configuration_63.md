@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components\stepper.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components/stepper.mdoc
 
 ---
 status: "published"
@@ -112,7 +112,7 @@ This will render a numbered stepper with three steps, where "Personal Info" is t
 The Stepper component provides a flexible and visually appealing way to guide users through multi-step processes in your application. Its support for different variants and easy customization makes it adaptable to various design requirements.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\components.mdoc
+FILE PATH: kits/react-router-supabase-turbo/components.mdoc
 
 ---
 status: "published"
@@ -128,7 +128,7 @@ Components in React Router Supabase Turbo
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\configuration\application-configuration.mdoc
+FILE PATH: kits/react-router-supabase-turbo/configuration/application-configuration.mdoc
 
 ---
 status: "published"
@@ -166,7 +166,7 @@ VITE_PRODUCT_NAME="My wonderful AI App"
 ```
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\configuration\authentication-configuration.mdoc
+FILE PATH: kits/react-router-supabase-turbo/configuration/authentication-configuration.mdoc
 
 ---
 status: "published"
@@ -229,7 +229,7 @@ The above will enforce the following rules:
 To enforce MFA for RLS (Row Level Security) you need to customize the RLS policies as per [the Supabase documentation](https://supabase.com/blog/mfa-auth-via-rls).
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\configuration\environment-variables.mdoc
+FILE PATH: kits/react-router-supabase-turbo/configuration/environment-variables.mdoc
 
 ---
 status: "published"
@@ -433,7 +433,7 @@ This email will receive the submissions from the contact form.
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\configuration\feature-flags-configuration.mdoc
+FILE PATH: kits/react-router-supabase-turbo/configuration/feature-flags-configuration.mdoc
 
 ---
 status: "published"
@@ -516,7 +516,7 @@ VITE_LANGUAGE_PRIORITY=
 It is unlikely that both `VITE_ENABLE_PERSONAL_ACCOUNT_BILLING` and `VITE_ENABLE_TEAM_ACCOUNTS_BILLING` would both be enabled at once. In most cases, you want to enable it for users or team accounts.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\configuration\paths-configuration.mdoc
+FILE PATH: kits/react-router-supabase-turbo/configuration/paths-configuration.mdoc
 
 ---
 status: "published"
@@ -586,7 +586,7 @@ export default pathsConfig;
 ```
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\configuration\personal-account-sidebar-configuration.mdoc
+FILE PATH: kits/react-router-supabase-turbo/configuration/personal-account-sidebar-configuration.mdoc
 
 ---
 status: "published"
@@ -646,7 +646,7 @@ VITE_TEAM_NAVIGATION_STYLE=header
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\configuration\team-account-sidebar-configuration.mdoc
+FILE PATH: kits/react-router-supabase-turbo/configuration/team-account-sidebar-configuration.mdoc
 
 ---
 status: "published"
@@ -720,7 +720,7 @@ VITE_TEAM_NAVIGATION_STYLE=header
 ```
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\configuration.mdoc
+FILE PATH: kits/react-router-supabase-turbo/configuration.mdoc
 
 ---
 status: "published"
@@ -785,7 +785,7 @@ When deploying to production, you'll need to ensure all your configuration is pr
 [Learn more about Production Configuration →](going-to-production/checklist)
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\content\cms-api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/content/cms-api.mdoc
 
 ---
 status: "published"
@@ -913,7 +913,7 @@ async function TermsAndConditionsPage() {
 ```
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\content\cms.mdoc
+FILE PATH: kits/react-router-supabase-turbo/content/cms.mdoc
 
 ---
 status: "published"
@@ -938,7 +938,7 @@ Local mode is the easiest way to get started since you need no setup. However, a
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\content\creating-your-own-cms-client.mdoc
+FILE PATH: kits/react-router-supabase-turbo/content/creating-your-own-cms-client.mdoc
 
 ---
 status: "published"

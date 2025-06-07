@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\remix-fire\testing\ci-tests.mdoc
+FILE PATH: kits/remix-fire/testing/ci-tests.mdoc
 
 ---
 status: "published"
@@ -73,7 +73,7 @@ When finished, the emulators will exit.
 
 
 -----------------
-FILE PATH: kits\remix-fire\testing\running-tests.mdoc
+FILE PATH: kits/remix-fire/testing/running-tests.mdoc
 
 ---
 status: "published"
@@ -177,7 +177,7 @@ it's worth it.
 
 
 -----------------
-FILE PATH: kits\remix-fire\testing\testing-limitations.mdoc
+FILE PATH: kits/remix-fire/testing/testing-limitations.mdoc
 
 ---
 status: "published"
@@ -202,7 +202,7 @@ Of course, some of the tests will work just fine, but not the ones related to ac
 This would be solved if we could reset the Firebase Firestore data programmatically between test runs, but as far as we know this is not yet possible.
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\api-routes-validation.mdoc
+FILE PATH: kits/remix-fire/tutorials/api-routes-validation.mdoc
 
 ---
 status: "published"
@@ -269,7 +269,7 @@ export const action: ActionFunction = async ({ request }) => {
 I encourage you to never skip the validation step when writing your API endpoints.
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\api-routes.mdoc
+FILE PATH: kits/remix-fire/tutorials/api-routes.mdoc
 
 ---
 status: "published"
@@ -501,7 +501,7 @@ It's always important to add context to your logs: as you can see, we use the fi
 
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\application-pages.mdoc
+FILE PATH: kits/remix-fire/tutorials/application-pages.mdoc
 
 ---
 status: "published"
@@ -544,7 +544,7 @@ function DashboardPage() {
 
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\authentication.mdoc
+FILE PATH: kits/remix-fire/tutorials/authentication.mdoc
 
 ---
 status: "published"
@@ -684,7 +684,7 @@ NEXT_PUBLIC_REQUIRE_EMAIL_VERIFICATION=true
 ```
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\deploying-production.mdoc
+FILE PATH: kits/remix-fire/tutorials/deploying-production.mdoc
 
 ---
 status: "published"
@@ -712,7 +712,7 @@ Generally, you will need to:
 8. **Deployment**: Finally, deploy your application to your hosting provider (Vercel, Firebase, Netlify, etc.): please follow the instructions provided by your hosting provider to deploy a Remix application.
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\development-getting-started.mdoc
+FILE PATH: kits/remix-fire/tutorials/development-getting-started.mdoc
 
 ---
 status: "published"
@@ -886,7 +886,7 @@ The result will be similar to the images below:
 {% img src="/assets/images/posts/sidebar-layout-link.webp" width="1280" height="984" /%}
 
 -----------------
-FILE PATH: kits\remix-fire\tutorials\environment-variables.mdoc
+FILE PATH: kits/remix-fire/tutorials/environment-variables.mdoc
 
 ---
 status: "published"

@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\recipes\team-accounts-only.mdoc
+FILE PATH: kits/next-supabase-turbo/recipes/team-accounts-only.mdoc
 
 ---
 status: "published"
@@ -331,7 +331,7 @@ This can help you create a more focused and collaborative environment for your u
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\recipes.mdoc
+FILE PATH: kits/next-supabase-turbo/recipes.mdoc
 
 ---
 status: "published"
@@ -358,7 +358,7 @@ Recipes are common patterns and solutions for your SaaS application:
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\security\csp.mdoc
+FILE PATH: kits/next-supabase-turbo/security/csp.mdoc
 
 ---
 label: "Content Security Policy (CSP)"
@@ -445,7 +445,7 @@ crossOriginEmbedderPolicy: CROSS_ORIGIN_EMBEDDER_POLICY,
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\security\data-validation.mdoc
+FILE PATH: kits/next-supabase-turbo/security/data-validation.mdoc
 
 ---
 label: "Data Validation"
@@ -612,7 +612,7 @@ async function Page({ searchParams }: PageProps) {
 Going forward, remember to validate all data that you receive from the client, and never trust anything the client provides you with. Always have a default value ready to handle invalid data, which can prevent potential security issues or bugs in your application.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\security\nextjs-best-practices.mdoc
+FILE PATH: kits/next-supabase-turbo/security/nextjs-best-practices.mdoc
 
 ---
 label: "Next.js Best Practices"
@@ -807,7 +807,7 @@ As a general rule, **never add sensitive data to the `.env` file or any other co
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\security\row-level-security.mdoc
+FILE PATH: kits/next-supabase-turbo/security/row-level-security.mdoc
 
 ---
 label: "Row Level Security"

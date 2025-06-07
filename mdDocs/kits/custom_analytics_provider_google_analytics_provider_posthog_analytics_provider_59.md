@@ -1,5 +1,5 @@
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\analytics\custom-analytics-provider.mdoc
+FILE PATH: kits/react-router-supabase-turbo/analytics/custom-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -95,7 +95,7 @@ void analytics.trackEvent('Button Clicked', { buttonName: 'Submit' });
 That's it! You've successfully created a custom analytics provider in Makerkit. You can now integrate with any analytics service of your choice.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\analytics\google-analytics-provider.mdoc
+FILE PATH: kits/react-router-supabase-turbo/analytics/google-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -159,7 +159,7 @@ VITE_GA_DISABLE_LOCALHOST_TRACKING=true
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\analytics\posthog-analytics-provider.mdoc
+FILE PATH: kits/react-router-supabase-turbo/analytics/posthog-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -220,7 +220,7 @@ VITE_POSTHOG_INGESTION_URL=your-ingestion-url
 Please make sure to proxy the `/ingest` endpoint to the PostHog server. React Router doesn't have a built-in proxying mechanism, so you will need to add it.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\analytics\umami-analytics-provider.mdoc
+FILE PATH: kits/react-router-supabase-turbo/analytics/umami-analytics-provider.mdoc
 
 ---
 status: "published"
@@ -279,7 +279,7 @@ The `VITE_UMAMI_HOST` is the URL of your Umami instance. Since Umami can be self
 The `VITE_UMAMI_WEBSITE_ID` is the ID of your website in your Umami instance. This is a required field to track events in your website.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\analytics.mdoc
+FILE PATH: kits/react-router-supabase-turbo/analytics.mdoc
 
 ---
 status: "published"
@@ -400,7 +400,7 @@ By leveraging Makerkit's Analytics API in conjunction with the App Events system
 
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\api\account-api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/api/account-api.mdoc
 
 ---
 status: "published"
@@ -493,7 +493,7 @@ const customerId = await api.getCustomerId(accountId);
 ```
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\api\account-workspace-api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/api/account-workspace-api.mdoc
 
 ---
 status: "published"
@@ -524,7 +524,7 @@ export default function Layout() {
 This data is only available in the `/home/[account]` layout.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\api\authentication-api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/api/authentication-api.mdoc
 
 ---
 status: "published"
@@ -564,7 +564,7 @@ export async function loader(args: LoaderFunctionArgs) {
 If the user needs MFA and is not yet verified, the `redirect` function will redirect the user to the MFA verification page. This is why it is important to check the `redirectTo` property in the response.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\api\otp-api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/api/otp-api.mdoc
 
 ---
 status: "published"
@@ -842,7 +842,7 @@ When you need to assign a specific data to a token, you can modify the
 purpose with a unique identifier, such as `email-verification-12345`.
 
 -----------------
-FILE PATH: kits\react-router-supabase-turbo\api\team-account-api.mdoc
+FILE PATH: kits/react-router-supabase-turbo/api/team-account-api.mdoc
 
 ---
 status: "published"
