@@ -845,7 +845,19 @@ order: 0
 
 The Super Admin panel allows you to manage users and accounts.
 
-To access the super admin panel at `/admin`, you will need to assign a user as a super admin.
+{% sequence title="Steps to add a Super Admin" description="Learn how to add a Super Admin to your Next.js Supabase application." %}
+
+[How to access the Super Admin panel](#how-to-access-the-super-admin-panel)
+
+[Testing the Super Admin locally](#testing-the-super-admin-locally)
+
+[Assigning a Super Admin role to a user](#assigning-a-super-admin-role-to-a-user)
+
+{% /sequence %}
+
+## How to access the Super Admin panel
+
+To access the super admin panel at `/admin`, you will need to assign a user as a super admin. In addition, you will need to enable MFA for the user from the normal user profile settings.
 
 ## Testing the Super Admin locally
 
@@ -881,7 +893,7 @@ settings of the user
 
 To assign a user as a super admin, run the following SQL query from your Supabase SQL Query editor:
 
-```sql {% title="apps/web/supabase/migrations/20230815034829_super-admin.sql" %}
+```sql
 UPDATE auth.users SET raw_app_meta_data = raw_app_meta_data || '{"role": "super-admin"}' WHERE id='<user_id>';
 ```
 
@@ -891,7 +903,7 @@ Please replace `<user_id>` with the user ID you want to assign as a super admin.
 
 Starting from version `2.5.0`, the Super Admin user will be required to use Multi-Factor Authentication (MFA) to access the Super Admin panel.
 
-Please navigate to the `/settings` page and enable MFA for the Super Admin user.
+Please navigate to the `/home/settings` page and enable MFA for the Super Admin user.
 
 -----------------
 FILE PATH: kits\next-supabase-turbo\admin.mdoc
@@ -932,7 +944,9 @@ Replace `<user_id>` with the ID of the user you want to make a Super Admin. Once
 
 ### User Management
 
-Browse through all accounts in your system, whether they're individual users or team accounts. You can:
+Browse through all accounts in your system, whether they're individual users or team accounts. 
+
+You can:
 - View account details
 - Check subscription status
 - Ban problematic users
@@ -965,6 +979,28 @@ description: 'Learn how to use the Analytics and App Events systems in Makerkit 
 order: 0
 ---
 
+{% sequence title="How to use the Analytics and App Events systems in Makerkit" description="Learn how to use the Analytics and App Events systems in Makerkit to track user behavior and app-wide occurrences." %}
+
+[Analytics and App Events](#analytics-and-app-events)
+
+[Analytics Providers](#analytics-providers)
+
+[Understanding the Relationship Between Analytics and App Events](#understanding-the-relationship-between-analytics-and-app-events)
+
+[Recommended Approach: Centralized Analytics](#recommended-approach:-centralized-analytics)
+
+[Using App Events with Analytics](#using-app-events-with-analytics)
+
+[Extending with Custom Events](#extending-with-custom-events)
+
+[Default Event Types](#default-event-types)
+
+[When to use Custom Events](#when-to-use-custom-events)
+
+{% /sequence %}
+
+
+## Analytics and App Events
 Makerkit provides two powerful, interconnected systems for tracking user behavior and app-wide occurrences: **Analytics** and **App Events**.
 
 While these systems are separate, they are designed to work seamlessly together, providing a flexible and maintainable approach to event tracking and analysis in your SaaS application.
@@ -975,7 +1011,14 @@ One doesn't need the other to function, but they are designed to work together. 
 
 The Analytics system is implemented in the `@kit/analytics` package, and is abstracted to allow for easy integration with various analytics services, and not lock you into a specific provider.
 
-The implementations are made possible using Makerkit Plugins, which means you can install them using the normal plugins system. By default, Makerkit provides three analytics providers: Google Analytics, Umami, and PostHog.
+The implementations are made possible using Makerkit Plugins, which means you can install them using the normal plugins system. 
+
+By default, Makerkit provides three analytics providers: 
+1. Google Analytics
+2. Umami
+3. PostHog
+
+These are provided as plugins.
 
 However, should you prefer different providers than the ones provided by default, you can easily create your own custom analytics provider.
 

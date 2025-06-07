@@ -1,23 +1,15 @@
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics\custom-analytics-provider.mdoc
+FILE PATH: kits\react-router-supabase-turbo\analytics\custom-analytics-provider.mdoc
 
 ---
 status: "published"
+
 title: 'Creating a Custom Analytics Provider in Makerkit'
 label: 'Custom Analytics Provider'
 description: 'Learn how to create a custom analytics provider in Makerkit to integrate with your preferred analytics service.'
 order: 5
 ---
 
-{% sequence title="How to create a custom analytics provider in Makerkit" description="Learn how to create a custom analytics provider in Makerkit to integrate with your preferred analytics service." %}
-
-[Create your custom analytics service](#create-your-custom-analytics-service)
-
-[Register your custom provider](#register-your-custom-provider)
-
-[Using the Custom Analytics Provider](#using-the-custom-analytics-provider)
-
-{% /sequence %}
 
 The Analytics package in Makerkit is meant to be flexible and extensible. You can easily create custom analytics providers to integrate with your preferred analytics service.
 
@@ -103,26 +95,19 @@ void analytics.trackEvent('Button Clicked', { buttonName: 'Submit' });
 That's it! You've successfully created a custom analytics provider in Makerkit. You can now integrate with any analytics service of your choice.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics\google-analytics-provider.mdoc
+FILE PATH: kits\react-router-supabase-turbo\analytics\google-analytics-provider.mdoc
 
 ---
 status: "published"
-title: 'Using the Google Analytics Provider in Next.js Supabase Turbo'
+
+title: 'Using the Google Analytics Provider in React Router Supabase Turbo'
 label: 'Google Analytics'
-description: 'Learn how to use the Google Analytics provider in Next.js Supabase Turbo'
+description: 'Learn how to use the Google Analytics provider in React Router Supabase Turbo'
 order: 2
 ---
 
-The [Google Analytics](https://marketingplatform.google.com/about/analytics/) provider in Next.js Supabase Turbo is a simple way to integrate Google Analytics into your Next.js application using the Makerkit's Analytics package.
 
-{% sequence title="How to use the Google Analytics provider in Next.js Supabase Turbo" description="Learn how to use the Google Analytics provider in Next.js Supabase Turbo" %}
-
-[Installation](#installation)
-
-[Configuration](#configuration)
-
-{% /sequence %}
-
+The [Google Analytics](https://marketingplatform.google.com/about/analytics/) provider in React Router Supabase Turbo is a simple way to integrate Google Analytics into your React Router application using the Makerkit's Analytics package.
 
 ## Installation
 
@@ -160,7 +145,7 @@ export const analytics: AnalyticsManager = createAnalyticsManager({
 Please add the following environment variables to your `.env` file:
 
 ```bash
-NEXT_PUBLIC_GA_MEASUREMENT_ID=your-measurement-id
+VITE_GA_MEASUREMENT_ID=your-measurement-id
 ```
 
 This is the Measurement ID of your Google Analytics property. You can find it in the Google Analytics dashboard.
@@ -168,31 +153,23 @@ This is the Measurement ID of your Google Analytics property. You can find it in
 Additionally, you can add the following environment variable to your `.env` file:
 
 ```bash
-NEXT_PUBLIC_GA_DISABLE_PAGE_VIEWS_TRACKING=true
-NEXT_PUBLIC_GA_DISABLE_LOCALHOST_TRACKING=true
+VITE_GA_DISABLE_PAGE_VIEWS_TRACKING=true
+VITE_GA_DISABLE_LOCALHOST_TRACKING=true
 ```
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics\posthog-analytics-provider.mdoc
+FILE PATH: kits\react-router-supabase-turbo\analytics\posthog-analytics-provider.mdoc
 
 ---
 status: "published"
-title: 'Using the PostHog Analytics Provider in Next.js Supabase Turbo'
+title: 'Using the PostHog Analytics Provider in React Router Supabase Turbo'
 label: 'PostHog'
-description: 'Learn how to use the PostHog Analytics provider in Next.js Supabase Turbo'
+description: 'Learn how to use the PostHog Analytics provider in React Router Supabase Turbo'
 order: 3
 ---
 
-The [Posthog](https://posthog.com) provider in Next.js Supabase Turbo is a simple way to integrate PostHog Analytics into your Next.js application using the Makerkit's Analytics package.
-
-{% sequence title="How to use the PostHog Analytics provider in Next.js Supabase Turbo" description="Learn how to use the PostHog Analytics provider in Next.js Supabase Turbo" %}
-
-[Installation](#installation)
-
-[Configuration](#configuration)
-
-{% /sequence %}
+The [Posthog](https://posthog.com) provider in React Router Supabase Turbo is a simple way to integrate PostHog Analytics into your Next.js application using the Makerkit's Analytics package.
 
 ## Installation
 
@@ -230,68 +207,34 @@ export const analytics: AnalyticsManager = createAnalyticsManager({
 Please add the following environment variables to your `.env` file:
 
 ```bash
-NEXT_PUBLIC_POSTHOG_KEY=phc_your_key_here
-NEXT_PUBLIC_POSTHOG_HOST=https://eu.posthog.com
-NEXT_PUBLIC_POSTHOG_INGESTION_URL=http://localhost:3000/ingest
+VITE_POSTHOG_KEY=your-project-key
+VITE_POSTHOG_HOST=your-host
 ```
 
-### Ingestion Rewrites
+If you have set up a Proxy to avoid Ad Blockers, please add the following environment variable to your `.env` file:
 
-In your apps/web/next.config.mjs file, add the following config:
-
- ```js {% title="apps/web/next.config.mjs" %}
-/** @type {import('next').NextConfig} */
-const config = {
-  // ...other config
-  // This is required to support PostHog trailing slash API requests
-  skipTrailingSlashRedirect: true,
-  async rewrites() {
-    // NOTE: change `eu` to `us` if applicable
-    return [
-      {
-        source: '/ingest/static/:path*',
-        destination: 'https://eu-assets.i.posthog.com/static/:path*'
-      },
-      {
-        source: '/ingest/:path*',
-        destination: 'https://eu.i.posthog.com/:path*'
-      }
-    ];
-  }
-}
+```bash
+VITE_POSTHOG_INGESTION_URL=your-ingestion-url
 ```
 
-### CSRF Exclusion
-
-In your `apps/web/middleware.ts` file, exclude the PostHog ingestion URL from CSRF protection:
-
- ```ts {% title="apps/web/middleware.ts" %}
-export const config = {
-  matcher: ['/((?!_next/static|_next/image|images|locales|assets|ingest/*|api/*).*)'],
-};
-```
-
+Please make sure to proxy the `/ingest` endpoint to the PostHog server. React Router doesn't have a built-in proxying mechanism, so you will need to add it.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics\umami-analytics-provider.mdoc
+FILE PATH: kits\react-router-supabase-turbo\analytics\umami-analytics-provider.mdoc
 
 ---
 status: "published"
-title: 'Using the Umami Analytics Provider in Next.js Supabase Turbo'
+
+title: 'Using the Umami Analytics Provider in React Router Supabase Turbo'
 label: 'Umami'
-description: 'Learn how to use the Umami Analytics provider in Next.js Supabase Turbo'
+description: 'Learn how to use the Umami Analytics provider in React Router Supabase Turbo'
 order: 4
 ---
 
-The [Umami](https://umami.is/) analytics provider in Next.js Supabase Turbo is a simple way to integrate Umami Analytics into your Next.js application using the Makerkit's Analytics package.
 
-{% sequence title="How to use the Umami Analytics provider in Next.js Supabase Turbo" description="Learn how to use the Umami Analytics provider in Next.js Supabase Turbo" %}
+The [Umami](https://umami.is/) analytics provider in React Router Supabase Turbo is a simple way to integrate Umami Analytics into your React Router application using the Makerkit's Analytics package.
 
-[Installation](#installation)
-
-[Configuration](#configuration)
-
-{% /sequence %}
+## Installation
 
 First, you need to pull the `@kit/analytics` package into your project using the CLI
 
@@ -327,30 +270,21 @@ export const analytics: AnalyticsManager = createAnalyticsManager({
 Please add the following environment variables to your `.env` file:
 
 ```bash
-NEXT_PUBLIC_UMAMI_HOST=your-umami-host
-NEXT_PUBLIC_UMAMI_WEBSITE_ID=your-umami-website-id
+VITE_UMAMI_HOST=your-umami-host
+VITE_UMAMI_WEBSITE_ID=your-umami-website-id
 ```
 
-The `NEXT_PUBLIC_UMAMI_HOST` is the URL of your Umami instance's script. Since Umami can be self-hosted, this can be any valid URL - or can be Umami's cloud service. For example, `https://umami.is/umami.js`. Please replace with the correct path to your Umami instance's JS script.
+The `VITE_UMAMI_HOST` is the URL of your Umami instance. Since Umami can be self-hosted, this can be any valid URL - or can be Umami's cloud service.
 
-The `NEXT_PUBLIC_UMAMI_WEBSITE_ID` is the ID of your website in your Umami instance. This is a required field to track events in your website.
-
-NB: by default, Umami doesn't track events on localhost. You can use the `NEXT_PUBLIC_UMAMI_DISABLE_LOCALHOST_TRACKING` environment variable to enable tracking on localhost.
-
-```
-NEXT_PUBLIC_UMAMI_DISABLE_LOCALHOST_TRACKING=false
-```
-
-This is useful for testing your analytics setup locally.
-
+The `VITE_UMAMI_WEBSITE_ID` is the ID of your website in your Umami instance. This is a required field to track events in your website.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\analytics.mdoc
+FILE PATH: kits\react-router-supabase-turbo\analytics.mdoc
 
 ---
 status: "published"
 title: 'Using the Analytics API in your Makerkit project'
-label: 'Analytics'
+label: 'Analytics API'
 order: 13
 description: 'Learn how to use the Analytics API in your Makerkit project to track user behavior and app usage.'
 collapsible: true
@@ -406,7 +340,7 @@ Use the `trackPageView` method to record when users view specific pages:
 void analytics.trackPageView('Sign Up');
 ```
 
-NB: The `trackPageView` method is automatically called when the route changes in a Next.js application.
+NB: The `trackPageView` method is automatically called when the route changes in a React Router application.
 
 ### Integration with App Events
 
@@ -466,33 +400,19 @@ By leveraging Makerkit's Analytics API in conjunction with the App Events system
 
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\account-api.mdoc
+FILE PATH: kits\react-router-supabase-turbo\api\account-api.mdoc
 
 ---
 status: "published"
 label: "Account API"
 order: 0
-title: "Account API | Next.js Supabase SaaS Kit"
+title: "Account API | React Router Supabase SaaS Kit"
 description: "A quick introduction to the Account API in Makerkit"
 ---
 
 You can use the Account API for retrieving information about the personal user account.
 
-{% sequence title="How to use the Account API" description="Learn how to use the Account API in Makerkit" %}
-
-[Using the Account API](#using-the-account-api)
-
-[Get the account workspace data](#get-the-account-workspace-data)
-
-[Load the user accounts](#load-the-user-accounts)
-
-[Get the subscription data](#get-the-subscription-data)
-
-[Get the billing customer ID](#get-the-billing-customer-id)
-
-{% /sequence %}
-
-## Using the Account API
+## Usage
 
 To use the Account API, you need to import the `createAccountsApi` function from `@kit/account/api`. We need to pass a valid `SupabaseClient` to the function - so we can interact with the database from the server.
 
@@ -500,24 +420,22 @@ To use the Account API, you need to import the `createAccountsApi` function from
 import { createAccountsApi } from '@kit/accounts/api';
 import { getSupabaseServerClient } from '@kit/supabase/server-client';
 
-async function ServerComponent() {
-  const client = getSupabaseServerClient();
+export async function loader(args: LoaderFunctionArgs) {
+  const client = getSupabaseServerClient(args.request);
   const api = createAccountsApi(client);
 
   // use api
 }
 ```
 
-If you're in a Server Action context, you'd use:
+If you're in a React Router Action context, you'd use:
 
 ```tsx
-'use server';
-
 import { createAccountsApi } from '@kit/accounts/api';
 import { getSupabaseServerClient } from '@kit/supabase/server-client';
 
-export async function myServerAction() {
-  const client = getSupabaseServerClient();
+export async function action(args: ActionFunctionArgs) {
+  const client = getSupabaseServerClient(args.request);
   const api = createAccountsApi(client);
   
   // use api
@@ -575,232 +493,88 @@ const customerId = await api.getCustomerId(accountId);
 ```
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\account-workspace-api.mdoc
+FILE PATH: kits\react-router-supabase-turbo\api\account-workspace-api.mdoc
 
 ---
 status: "published"
 label: "Account Workspace API"
 order: 4
-title: "Account Workspace API"
+title: "Account Workspace API | React Router Supabase Turbo"
 description: "The account workspace API allows you to retrieve all the data related to the current account."
 ---
-
-{% sequence title="How to use the Account Workspace API" description="The account workspace API allows you to retrieve all the data related to the current account." %}
-
-[Accessing the Team Account Workspace Data in Server Components](#accessing-the-team-account-workspace-data-in-server-components)
-
-[Accessing the Account Workspace Data in Client Components](#accessing-the-account-workspace-data-in-client-components)
-
-{% /sequence %}
 
 When within the layout `/home/[account]` - you have access to data fetched from the account workspace API.
 
 The data in this layout has most of the information you need around the currently selected account and the user.
 
-## Accessing the Team Account Workspace Data in Server Components
-
-To access the data, you can use the `loadTeamWorkspace` loader function. This function is cached per-request, so you can call it multiple times without worrying about performance.
-
-While multiple calls to this function are deduped within a single request, bear in mind that this request will be called when navigating to the page. If you only require a small subset of data, it would be best to make more granular requests.
+To access this data, you can use the `useRouterLoaderData` hook.
 
 ```tsx
-import { loadTeamWorkspace } from '~/home/[account]/_lib/server/team-account-workspace.loader';
+import { useRouteLoaderData } from 'react-router';
+import type { Route as AccountWorkspaceRoute } from '~/types/app/routes/home/account/+types/layout';
 
-export default async function SomeAccountPage() {
-  const data = await loadTeamWorkspace();
-
-  // use data
+export default function Layout() {
+  const { workspace } = useRouteLoaderData(
+    'routes/home/account/layout',
+  ) as AccountWorkspaceRoute.ComponentProps['loaderData'];
+  
+  // use workspace
 }
-```
 
-The data returned from the `loadTeamWorkspace` function is an object with the following properties:
-
-- `account`: The account object
-- `user`: The user object coming from Supabase Auth
-- `accounts`: An array of all accounts the user is a member of
-
-Here is an example of the data structure:
-
-```tsx
-import type { User } from '@supabase/supabase-js';
-
-{
-  account: {
-    id: string;
-    name: string;
-    picture_url: string;
-    slug: string;
-    role: string;
-    role_hierarchy_level: number;
-    primary_owner_user_id: string;
-    subscription_status: string;
-    permissions: string[];
-  };
-
-  user: User;
-
-  accounts: Array<{
-   id: string | null;
-    name: string | null;
-    picture_url: string | null;
-    role: string | null;
-    slug: string | null;
-  }>;
-}
-```
-
-The `account` object contains the following properties:
-1. `id`: The account ID
-2. `name`: The account name
-3. `picture_url`: The account picture URL
-4. `slug`: The account slug
-5. `role`: The user's role in the account
-6. `role_hierarchy_level`: The user's role hierarchy level
-7. `primary_owner_user_id`: The primary owner user ID
-8. `subscription_status`: The subscription status of the account. This can be 'active' | 'trialing' | 'past_due' | 'canceled' | 'unpaid' | 'incomplete' | 'incomplete_expired' | 'paused'.
-9. `permissions`: An array of permissions the user has in the account
-
-## Accessing the Account Workspace Data in Client Components
-
-The data fetched from the account workspace API is available in the context. You can access this data using the `useAccountWorkspace` hook.
-
-```tsx
-'use client';
-
-import { useTeamAccountWorkspace } from '@kit/team-accounts/hooks/use-team-account-workspace';
-
-export default function SomeComponent() {
-  const { account, user, accounts } = useTeamAccountWorkspace();
-
-  // use account, user, and accounts
-}
-```
-
-The `useTeamAccountWorkspace` hook returns the same data structure as the `loadTeamWorkspace` function.
-
-NB: the hooks **is not to be used** is Server Components, only in Client Components. Additionally, this is only available in the pages under `/home/[account]` layout.
+This data is only available in the `/home/[account]` layout.
 
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\authentication-api.mdoc
+FILE PATH: kits\react-router-supabase-turbo\api\authentication-api.mdoc
 
 ---
 status: "published"
 label: "Authentication API"
 order: 2
-title: "Authentication API | Next.js Supabase SaaS Kit"
+title: "Authentication API | React Router Supabase SaaS Kit"
 description: "A quick introduction to the Authentication API in Makerkit"
 ---
 
-{% sequence title="How to use the Authentication API" description="Learn how to use the Authentication API in Makerkit" %}
-
-[Checking if a user is signed in](#checking-if-a-user-is-signed-in)
-
-[Using the Authentication API in Server Actions](#using-the-authentication-api-in-server-actions)
-
-[Using the Authentication API in Client Components](#using-the-authentication-api-in-client-components)
-
-{% /sequence %}
-
-## Checking if a user is signed in
-
-To check if users are authed, or to retrieve information about the currently signed-in user, use the `requireUser` function:
+The Authentication API is a set of functions that help you authenticate users in your application. It is built on top of the Supabase authentication system and provides a simple way to authenticate users in your application.
 
 ```tsx
-import { redirect } from 'next/navigation';
+import { redirect } from 'react-router';
+import { LoaderFunctionArgs } from 'react-router';
 import { requireUser } from '@kit/supabase/require-user';
-
 import { getSupabaseServerClient } from '@kit/supabase/server-client';
 
-async function ServerComponent() {
-  const client = getSupabaseServerClient();
+export async function loader(args: LoaderFunctionArgs) {
+  const client = getSupabaseServerClient(args.request);
   const auth = await requireUser(client);
 
   // check if the user needs redirect
   if (auth.error) {
-    redirect(auth.redirectTo);
+    return redirect(auth.redirectTo);
   }
 
   // user is authed!
   const user = auth.data;
-}
-```
 
-## Using the Authentication API in Server Actions
-
-To use the Authentication API in server actions, you can use the `requireUser` function. This function will return the user data if the user is signed in, or redirect the user to the login page if they are not signed in.
-
-```tsx
-'use server';
-
-import { redirect } from 'next/navigation';
-import { requireUser } from '@kit/supabase/require-user';
-import { getSupabaseServerClient } from '@kit/supabase/server-client';
-
-export async function myServerAction() {
-  const client = getSupabaseServerClient();
-  const auth = await requireUser(client);
-
-  // check if the user needs redirect
-  if (auth.error) {
-    redirect(auth.redirectTo);
-  }
-
-  // user is authed!
-  const user = auth.data;
+  // return your data
+  return {
+    data: {} // your data here,
+  };
 }
 ```
 
 If the user needs MFA and is not yet verified, the `redirect` function will redirect the user to the MFA verification page. This is why it is important to check the `redirectTo` property in the response.
 
-## Using the Authentication API in Client Components
-
-To use the Authentication API in client components, you can use the `useUser` hook. This hook will return the user data if the user is signed in, or redirect the user to the login page if they are not signed in.
-
-```tsx
-import { useUser } from '@kit/supabase/hooks/use-user';
-
-function MyComponent() {
-  const user = useUser();
-
-  // ...
-}
-```
-
-
 -----------------
-FILE PATH: kits\next-supabase-turbo\api\otp-api.mdoc
+FILE PATH: kits\react-router-supabase-turbo\api\otp-api.mdoc
 
 ---
 status: "published"
 label: "OTP API"
-order: 5
+order: 4
 title: "OTP API | Next.js Supabase SaaS Kit"
 description: "The OTP API is a simple interface for working with one-time passwords (OTPs) in your application."
 ---
 
 This package provides a complete solution for generating, sending, and verifying one-time passwords or tokens in your application. It integrates with Supabase for secure token storage and verification.
-
-{% sequence title="How to use the OTP API" description="Learn how to use the OTP API in Makerkit" %}
-
-[OTP API - What is it for?](#otp-api---what-is-it-for)
-
-[Installation](#installation)
-
-[Basic Usage](#basic-usage)
-
-[Server Actions](#server-actions)
-
-[Verification UI Component](#verification-ui-component)
-
-[API Reference](#api-reference)
-
-[Database Schema](#database-schema)
-
-[Best Practices](#best-practices)
-
-[Example Use Cases](#example-use-cases)
-
-{% /sequence %}
 
 It is used for various destructive actions in the SaaS Kit, such as deleting
 accounts, deleting teams, and deleting users. However, you can use it for a
@@ -810,7 +584,7 @@ variety of other purposes as well, such as:
 - oAuth account connections
 - etc.
 
-## OTP API - What is it for?
+## Overview
 
 The OTP package offers:
 
@@ -1066,4 +840,139 @@ always need to match the one used when creating the token.
 
 When you need to assign a specific data to a token, you can modify the
 purpose with a unique identifier, such as `email-verification-12345`.
+
+-----------------
+FILE PATH: kits\react-router-supabase-turbo\api\team-account-api.mdoc
+
+---
+status: "published"
+label: "Team Account API"
+order: 1
+title: "Team Account API | React Router Supabase SaaS Kit Turbo"
+description: "A quick introduction to the Team Account API in the React Router Supabase SaaS Kit"
+---
+
+You can use the Team Account API for retrieving information about the team account.
+
+## Usage
+
+To use the Team Account API, you need to import the `createTeamAccountsApi` function from `@kit/team-account/api`. We need to pass a valid `SupabaseClient` to the function - so we can interact with the database from the server.
+
+```tsx
+import { createTeamAccountsApi } from '@kit/team-accounts/api';
+import { getSupabaseServerClient } from '@kit/supabase/server-client';
+
+export async function loader() {
+  const client = getSupabaseServerClient();
+  const api = createTeamAccountsApi(client);
+
+  // use api
+}
+```
+
+If you're in a Server Action context, you'd use:
+
+```tsx
+'use server';
+
+import { createTeamAccountsApi } from '@kit/team-accounts/api';
+import { getSupabaseServerClient } from '@kit/supabase/server-client';
+
+export async function myServerAction() {
+  const client = getSupabaseServerClient();
+  const api = createTeamAccountsApi(client);
+  
+  // use api
+}
+```
+
+## Methods
+
+The Account API provides the following methods:
+
+### Get the team account by ID
+
+Retrieves the team account by ID using the `getTeamAccountById` method.
+
+You can also use this method to check if the user is already in the account.
+
+```tsx
+const api = createTeamAccountsApi(client);
+const account = await api.getTeamAccountById('account-id');
+```
+
+### Get the team account subscription
+
+Get the subscription data for the account using the `getSubscription` method.
+
+```tsx
+const api = createTeamAccountsApi(client);
+const subscription = await api.getSubscription('account-id');
+```
+
+### Get the team account order
+
+Get the orders data for the given account using the `getOrder` method.
+
+```tsx
+const api = createTeamAccountsApi(client);
+const order = await api.getOrder('account-id');
+```
+
+### Get the account workspace data
+
+Get the account workspace data.
+
+```tsx
+const api = createTeamAccountsApi(client);
+const workspace = await api.getAccountWorkspace('account-slug');
+```
+
+This method is already called in the account layout and is unlikely to be used in other contexts. This is used to hydrate the workspace data in the context.
+
+Since it's already loaded, you can use the data from the context.
+
+### Checking a user's permission within an account
+
+Check if the user has permission to perform a specific action within the account using the `hasPermission` method.
+
+```tsx
+const api = createTeamAccountsApi(client);
+
+const hasPermission = await api.hasPermission({
+  accountId: 'account-id',
+  userId: 'user-id',
+  permission: 'billing.manage',
+});
+```
+
+### Getting the members count in the account
+
+Get the number of members in the account using the `getMembersCount` method.
+
+```tsx
+const api = createTeamAccountsApi(client);
+const membersCount = await api.getMembersCount('account-id');
+```
+
+### Get the billing customer ID
+
+Get the billing customer ID for the given account using the `getCustomerId` method.
+
+```tsx
+const api = createTeamAccountsApi(client);
+const customerId = await api.getCustomerId('account-id');
+```
+
+### Retrieve an invitation
+
+Get the invitation data from the invite token.
+
+```tsx
+const api = createTeamAccountsApi(client);
+const invitation = await api.getInvitation(adminClient, 'invite-token');
+```
+
+This method is used to get the invitation data from the invite token. It's used when the user is not yet part of the account and needs to be invited. The `adminClient` is used to read the pending membership. The method returns the invitation data if it exists, otherwise `null`.
+
 
