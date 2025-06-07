@@ -35,11 +35,22 @@ jobs:
           if [ -d "dist" ] && [ "$(ls -A dist)" ]; then
             echo "Moving course files from dist/ to mdDocs/courses/"
             mv dist/* mdDocs/courses/
+            if [ $? -eq 0 ]; then
+              echo "Successfully moved course files to mdDocs/courses/."
+              echo "Sample of moved files in mdDocs/courses/:"
+              ls -A mdDocs/courses/ | head -n 5
+            else
+              echo "ERROR: Failed to move course files." >&2
+              exit 1
+            fi
           else
             echo "dist/ directory is empty or does not exist after course generation. No files to move."
           fi
           # Optional: Clean up dist directory if it's confirmed to be temporary for each run
+          if [ -d "dist" ]; then
+            echo "Cleaning up dist/ directory after course file move."
             rm -rf dist
+          fi
 
       - name: Generate Markdown for Kits
         run: node index.mjs kits 4000
@@ -52,11 +63,22 @@ jobs:
           if [ -d "dist" ] && [ "$(ls -A dist)" ]; then
             echo "Moving kit files from dist/ to mdDocs/kits/"
             mv dist/* mdDocs/kits/
+            if [ $? -eq 0 ]; then
+              echo "Successfully moved kit files to mdDocs/kits/."
+              echo "Sample of moved files in mdDocs/kits/:"
+              ls -A mdDocs/kits/ | head -n 5
+            else
+              echo "ERROR: Failed to move kit files." >&2
+              exit 1
+            fi
           else
             echo "dist/ directory is empty or does not exist after kit generation. No files to move."
           fi
           # Optional: Clean up dist directory if it's confirmed to be temporary for each run
+          if [ -d "dist" ]; then
+            echo "Cleaning up dist/ directory after kit file move."
             rm -rf dist
+          fi
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
